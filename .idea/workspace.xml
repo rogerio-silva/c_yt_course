@@ -19,40 +19,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cc5b092-0025-4866-9340-38bfebf0d9e3" name="Changes" comment="Tipos, Constantes e Variáveis">
-      <change afterPath="$PROJECT_DIR$/vars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/.cmake/api/v1/reply/cache-v2-b0221acff3ce7c676509.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-161c136d6347017bdc66.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-45188e0b5a0fc2377344.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/.cmake/api/v1/reply/index-2024-04-16T02-46-02-0800.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/.cmake/api/v1/reply/target-vars_escopo-Debug-9cd2b3d7c9d17ed4ab77.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-ab6bc179ddbddbdb0d31.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/CMakeFiles/3.28.1/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/CMakeFiles/3.28.1/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/vars_escopo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/hello.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/variaveis.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/vars.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bee_1045_triangulos" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/condic" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estrut_controle/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estrut_controle/basico.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estrut_controle/bee_1045_triangulos.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estrut_controle/condic.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estrut_controle/estruturas.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vars_consts/hello.c" beforeDir="false" afterPath="$PROJECT_DIR$/vars_consts/hello.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vars_consts/vars.c" beforeDir="false" afterPath="$PROJECT_DIR$/vars_consts/vars.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,11 +40,21 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Merge.Settings">
     <option name="BRANCH" value="origin/main" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
@@ -90,27 +77,45 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "C/C++ File.basico.c.executor": "Run",
+    "C/C++ File.bee_1045_triangulos.c.executor": "Run",
+    "C/C++ File.condic.c.executor": "Run",
     "C/C++ File.vars.c.executor": "Run",
     "CMake Application.c_yt_course.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/rogerio/CLionProjects/c_yt_course",
+    "last_opened_file_path": "/home/rogerio/git/c_yt_course",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+  <component name="RunManager" selected="C/C++ File.bee_1045_triangulos.c">
+    <configuration name="basico.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="basico.c" CONFIG_NAME="basico.c">
+      <option name="sourceFile" value="estrut_controle/basico.c" />
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bee_1045_triangulos.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="bee_1045_triangulos.c" CONFIG_NAME="bee_1045_triangulos.c">
+      <option name="sourceFile" value="estrut_controle/bee_1045_triangulos.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="condic.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="condic.c" CONFIG_NAME="condic.c">
+      <option name="sourceFile" value="estrut_controle/condic.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="vars.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="vars.c" CONFIG_NAME="vars.c">
@@ -121,6 +126,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.bee_1045_triangulos.c" />
+        <item itemvalue="C/C++ File.condic.c" />
+        <item itemvalue="C/C++ File.basico.c" />
         <item itemvalue="C/C++ File.vars.c" />
       </list>
     </recent_temporary>
@@ -136,6 +144,8 @@
       <workItem from="1713241294100" duration="1314000" />
       <workItem from="1713271624361" duration="21000" />
       <workItem from="1713302129963" duration="1561000" />
+      <workItem from="1713361503776" duration="360000" />
+      <workItem from="1713361872261" duration="4527000" />
     </task>
     <task id="LOCAL-00001" summary="Tipos, Constantes e Variáveis">
       <option name="closed" value="true" />

@@ -1,3 +1,9 @@
+/**
+    Exemplo de variáveis, declarações e tipos de dados em linguagem C
+    Autor: Prof. Rogério Sousa e Silva
+    Curso: Programação em Linguagem C/C++
+*/
+
 #include <limits.h>
 #include "stdio.h"
 
