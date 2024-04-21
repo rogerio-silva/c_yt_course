@@ -19,40 +19,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cc5b092-0025-4866-9340-38bfebf0d9e3" name="Changes" comment="Tipos, Constantes e Variáveis">
-      <change afterPath="$PROJECT_DIR$/vars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/.cmake/api/v1/reply/cache-v2-b0221acff3ce7c676509.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-161c136d6347017bdc66.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-45188e0b5a0fc2377344.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/.cmake/api/v1/reply/index-2024-04-16T02-46-02-0800.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/.cmake/api/v1/reply/target-vars_escopo-Debug-9cd2b3d7c9d17ed4ab77.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-ab6bc179ddbddbdb0d31.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/CMakeFiles/3.28.1/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/CMakeFiles/3.28.1/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/cmake-build-debug/vars_escopo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/hello.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/variaveis.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/vars.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/complex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vars_consts/complex.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vars" beforeDir="false" afterPath="$PROJECT_DIR$/vars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vars_consts/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vars_consts/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vars_consts/hello.c" beforeDir="false" afterPath="$PROJECT_DIR$/vars_consts/hello.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vars_consts/variaveis.md" beforeDir="false" afterPath="$PROJECT_DIR$/vars_consts/variaveis.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +64,9 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "C/C++ File.vars.c.executor": "Run",
+    "C/C++ File.complex.c.executor": "Run",
+    "C/C++ File.hello.c.executor": "Run",
+    "C/C++ File.vars.c.executor": "Debug",
     "CMake Application.c_yt_course.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
@@ -107,10 +83,17 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+  <component name="RunManager" selected="C/C++ File.vars.c">
+    <configuration name="complex.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="complex.c" CONFIG_NAME="complex.c">
+      <option name="sourceFile" value="vars_consts/complex.c" />
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hello.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="hello.c" CONFIG_NAME="hello.c">
+      <option name="sourceFile" value="vars_consts/hello.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="vars.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="vars.c" CONFIG_NAME="vars.c">
@@ -122,6 +105,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="C/C++ File.vars.c" />
+        <item itemvalue="C/C++ File.complex.c" />
+        <item itemvalue="C/C++ File.hello.c" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +120,9 @@
       <updated>1713241293118</updated>
       <workItem from="1713241294100" duration="1314000" />
       <workItem from="1713271624361" duration="21000" />
-      <workItem from="1713302129963" duration="1561000" />
+      <workItem from="1713302129963" duration="4890000" />
+      <workItem from="1713315656209" duration="4000" />
+      <workItem from="1713560188693" duration="467000" />
     </task>
     <task id="LOCAL-00001" summary="Tipos, Constantes e Variáveis">
       <option name="closed" value="true" />
@@ -145,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713241530698</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Tipos, Constantes e Variáveis">
+      <option name="closed" value="true" />
+      <created>1713304389687</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713304389687</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,5 +193,26 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Tipos, Constantes e Variáveis" />
     <option name="LAST_COMMIT_MESSAGE" value="Tipos, Constantes e Variáveis" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/vars_consts/vars.c</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/vars_consts/vars.c</url>
+          <line>33</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/vars_consts/vars.c</url>
+          <line>39</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

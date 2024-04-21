@@ -45,6 +45,7 @@ Por exemplo, considere que um tipo hipotético possa armazenar 4 bits de dados.,
 | 5 | 0101 | 13 | 1101 |
 | 6 | 0110 | 14 | 1110 |
 | 7 | 0111 | 15 | 1111 |
+
 Dessa forma, o tipo de dados hipotético com 4 bits poderia armazenar valores de 0 a 15, ou seja 2^4 = 16 possíveis valores.
 
 Mas considerando que o tipo de dados é com sinal, o primeiro bit é utilizado para representar o sinal do número, sendo 0 para positivo e 1 para negativo.
@@ -76,9 +77,9 @@ Note que ’5’ é um caracter, e não o inteiro 5.
 Os tipos de dados reais representam o conjunto de números reais .
 Na linguagem C, os números reais são armazenados em duas partes: a mantissa e o expoente. Os números reais são armazenados de uma forma semelhante à notação exponencial.
 
-Por exemplo, o número 6.023 × 10e23 é escrito como 6.023e23. Neste caso, a mantissa é 6.023 e o expoente 23.
+Por exemplo, o número ``6.023 × 10e23`` é escrito como ``6.023e23``. Neste caso, a mantissa é ``6.023`` e o expoente ``23``.
 Estes números são armazenados de uma forma padrão, tal que a mantissa tem apenas um dígito para
-a esquerda do ponto decimal. Desta forma, 3634.1 é escrito como 3.6341e3, e 0.0000341 é escrito 3.41e5. Note também que a precisão é limitada pela mantissa. Somente os 6 dígitos mais significativos são
+a esquerda do ponto decimal. Desta forma, ``3634.1`` é escrito como ``3.6341e3``, e ``0.0000341`` é escrito ``3.41e-5``. Note também que a precisão é limitada pela mantissa. Somente os 6 dígitos mais significativos são
 armazenados
 
 Os reais são representados pelos tipos de dados `float` e suas variações.
@@ -91,6 +92,54 @@ Os reais são representados pelos tipos de dados `float` e suas variações.
 + `float _Imaginary` - 4 bytes
 + `double _Imaginary` - 8 bytes
 + `long double _Imaginary` - 16 bytes
+
+#### Números Complexos
+Os números complexos são representados em linguagem C pelos tipos de dados `float _Complex`, `double _Complex` e `long double _Complex`. 
+Os números complexos são representados por dois números reais, onde o primeiro número representa a parte real e o segundo número representa a parte imaginária.
+Exemplo: 
+
+```C
+#include <complex.h>
+#include <stdio.h>
+
+int main() {
+    // Declaração de números complexos
+    float _Complex z1 = 1.0 + 3.0 * I;
+    double _Complex z2 = 1.0 + 3.0 * I;
+    long double _Complex z3 = 1.0 + 3.0 * I;
+    
+    // Impressão dos números complexos
+    printf("Z1 = %.2f %+.2fi\n", creal(z1), cimag(z1));
+    printf("Z2 = %.2f %+.2fi\n", creal(z2), cimag(z2));
+    printf("Z3 = %.2f %+.2fi\n", creal(z3), cimag(z3));
+    
+    // Tamanho dos números complexos
+    printf("Tamanho de Z1 = %lu bytes\n", sizeof(z1));
+    printf("Tamanho de Z2 = %lu bytes\n", sizeof(z2));
+    printf("Tamanho de Z3 = %lu bytes\n", sizeof(z3));
+}
+```
+##### Número Complexo Conjugado
+Dado um número complexo $z = a + bi$ (em que $a, b ∈ \real$), chama-se 
+conjugado de $z$ ao número complexo $\overline{z}$ tal que  $\overline{z} = a - bi$. 
+Assim, $z$ e $\overline{z}$ são complexos conjugados se têm partes reais iguais e 
+partes imaginárias simétricas.
+Em C, o conjugado de um número complexo é representado pela função `conj()`.
+```C
+#include <complex.h>
+#include <stdio.h>
+
+int main() {
+
+    double complex z1 = 1.0 + 3.0 * I;
+    double complex conjugado = conj(z1);
+    printf("O conjugado de Z1 = %.2f %+.2fi\n", creal(conjugado), cimag(conjugado));
+
+    return 0;
+}
+```
+
+
 
 # Definição de variáveis em linguagem C
 As variáveis são os elementos fundamentais de um programa em C. As variáveis são utilizadas para armazenar valores que podem ser utilizados em operações matemáticas, comparações, atribuições, etc.
