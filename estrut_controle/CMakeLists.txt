@@ -3,4 +3,4 @@ project(vars_escopo C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(estrut_controle, condic, basico, bee_1045_triangulos)
+add_executable(condic.c basico.c bee_1045_triangulos.c)

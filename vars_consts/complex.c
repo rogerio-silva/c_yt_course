@@ -1,3 +1,10 @@
+/**
+    Exemplo básico de programa em linguagem C
+    Autor: Prof. Rogério Sousa e Silva
+    Curso: Programação em Linguagem C/C++
+*/
+
+
 #include <stdio.h>      /* Biblioteca padrão para entrada e saída */
 #include <complex.h>    /* Biblioteca padrão para números complexos */
 
