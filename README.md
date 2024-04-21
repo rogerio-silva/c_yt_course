@@ -1,2 +1,4 @@
-# c_yt_course
-Material de apoio para o curso de C/C++.
+
+![Banner do plano de curso](img/c-c++_Banner_plano.png)
+
+
