@@ -8,7 +8,7 @@
 #include "stdio.h"
 
 int main(void) {
-
+    /* VARIÁVEIS INTEIRAS */
     int var_int;
     float var_float;
     char var_char;

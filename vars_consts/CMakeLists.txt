@@ -3,6 +3,7 @@ project(vars_escopo C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(
-        vars.c complex.c
-        hello.c)
+add_executable(vars_complexas.c
+        hello.c
+        vars_reais.c
+        vars_inteiras.c)

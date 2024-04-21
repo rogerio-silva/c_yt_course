@@ -9,7 +9,7 @@
 #include <complex.h>    /* Biblioteca padrão para números complexos */
 
 int main() {
-
+    /* VARIÁVEIS COMPLEXAS */
     double complex z1 = 1.0 + 3.0 * I;
     double complex z2 = 1.0 - 4.0 * I;
 
