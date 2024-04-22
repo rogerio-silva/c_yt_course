@@ -11,6 +11,7 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
+      <config projectName="vars_escopo" targetName="basico.c" />
       <config projectName="vars_escopo" targetName="vars_complexas.c" />
     </generated>
   </component>
@@ -20,15 +21,15 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cc5b092-0025-4866-9340-38bfebf0d9e3" name="Changes" comment="Configuração CMake">
-      <change afterPath="$PROJECT_DIR$/vars_complexas" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/vars_reais.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_reais" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/c_yt_course.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/c_yt_course.iml" afterDir="false" />
+    <list default="true" id="4cc5b092-0025-4866-9340-38bfebf0d9e3" name="Changes" comment="Variáveis e tipos">
+      <change afterPath="$PROJECT_DIR$/var_logica" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vars_consts/var_logica.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vars_inteiras" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estrut_controle/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/estrut_controle/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estrut_controle/bee_1045_triangulos.c" beforeDir="false" afterPath="$PROJECT_DIR$/estrut_controle/bee_1045_triangulos.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vars_consts/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vars_consts/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars_consts/complex.c" beforeDir="false" afterPath="$PROJECT_DIR$/vars_consts/vars_complexas.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars_consts/vars.c" beforeDir="false" afterPath="$PROJECT_DIR$/vars_consts/vars_inteiras.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vars_consts/variaveis.md" beforeDir="false" afterPath="$PROJECT_DIR$/vars_consts/variaveis.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +81,12 @@
     &quot;C/C++ File.basico.c.executor&quot;: &quot;Run&quot;,
     &quot;C/C++ File.bee_1045_triangulos.c.executor&quot;: &quot;Run&quot;,
     &quot;C/C++ File.condic.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.var_logica.c.executor&quot;: &quot;Run&quot;,
     &quot;C/C++ File.vars.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.vars_complexas.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.vars_inteiras.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.vars_reais.c.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.basico.c.executor&quot;: &quot;Run&quot;,
     &quot;CMake Application.c_yt_course.executor&quot;: &quot;Run&quot;,
     &quot;CMake Application.vars.c.executor&quot;: &quot;Run&quot;,
     &quot;CMake Application.vars_complexas.c.executor&quot;: &quot;Run&quot;,
@@ -92,7 +98,7 @@
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/rogerio/git/c_yt_course&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/rogerio/CLionProjects/c_yt_course/estrut_controle/condic.c&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -103,31 +109,44 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/estrut_controle" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/img" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.vars_complexas.c">
+  <component name="RunManager" selected="C/C++ File.var_logica.c">
+    <configuration name="vars_escopo" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory">
+      <method v="2" />
+    </configuration>
     <configuration name="basico.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="basico.c" CONFIG_NAME="basico.c">
       <option name="sourceFile" value="estrut_controle/basico.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bee_1045_triangulos.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="bee_1045_triangulos.c" CONFIG_NAME="bee_1045_triangulos.c">
-      <option name="sourceFile" value="estrut_controle/bee_1045_triangulos.c" />
+    <configuration name="condic.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="vars_escopo" TARGET_NAME="condic.c - Default" CONFIG_NAME="condic.c">
+      <option name="sourceFile" value="$PROJECT_DIR$/estrut_controle/condic.c" />
+      <option name="toolchainName" value="Default" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="condic.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="condic.c" CONFIG_NAME="condic.c">
-      <option name="sourceFile" value="estrut_controle/condic.c" />
+    <configuration name="var_logica.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="vars_escopo" TARGET_NAME="var_logica.c" CONFIG_NAME="var_logica.c">
+      <option name="sourceFile" value="vars_consts/var_logica.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="vars_complexas.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="vars_escopo" TARGET_NAME="vars_complexas.c" CONFIG_NAME="vars_complexas.c">
       <option name="sourceFile" value="vars_consts/vars_complexas.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="vars_inteiras.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="vars_escopo" TARGET_NAME="vars_inteiras.c" CONFIG_NAME="vars_inteiras.c">
+      <option name="sourceFile" value="vars_consts/vars_inteiras.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -139,19 +158,21 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="C/C++ File.condic.c" />
+      <item itemvalue="C/C++ File.var_logica.c" />
+      <item itemvalue="C/C++ File.vars_inteiras.c" />
       <item itemvalue="C/C++ File.vars_complexas.c" />
       <item itemvalue="C/C++ File.vars_reais.c" />
       <item itemvalue="C/C++ File.basico.c" />
-      <item itemvalue="C/C++ File.bee_1045_triangulos.c" />
-      <item itemvalue="C/C++ File.condic.c" />
+      <item itemvalue="CMake Debug.vars_escopo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.var_logica.c" />
+        <item itemvalue="C/C++ File.basico.c" />
         <item itemvalue="C/C++ File.vars_complexas.c" />
         <item itemvalue="C/C++ File.vars_reais.c" />
-        <item itemvalue="C/C++ File.basico.c" />
-        <item itemvalue="C/C++ File.bee_1045_triangulos.c" />
-        <item itemvalue="C/C++ File.condic.c" />
+        <item itemvalue="C/C++ File.vars_inteiras.c" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +191,9 @@
       <workItem from="1713361872261" duration="4527000" />
       <workItem from="1713381089432" duration="855000" />
       <workItem from="1713732955121" duration="718000" />
-      <workItem from="1713734831248" duration="2000" />
+      <workItem from="1713734831248" duration="3273000" />
+      <workItem from="1713743330384" duration="2228000" />
+      <workItem from="1713791475414" duration="531000" />
     </task>
     <task id="LOCAL-00001" summary="Tipos, Constantes e Variáveis">
       <option name="closed" value="true" />
@@ -196,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713731186651</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Variáveis e tipos">
+      <option name="closed" value="true" />
+      <created>1713734854950</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713734854950</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +280,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Tipos, Constantes e Variáveis" />
     <MESSAGE value="Configuração CMake" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configuração CMake" />
+    <MESSAGE value="Variáveis e tipos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Variáveis e tipos" />
   </component>
 </project>

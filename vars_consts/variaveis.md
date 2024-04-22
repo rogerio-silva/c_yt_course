@@ -24,7 +24,7 @@ Além dos tipos básicos, a linguagem C possui modificadores de tipo que alteram
 Os tipos escalares são os tipos de dados que representam um único valor. Os tipos escalares são divididos em dois grupos: tipos aritméticos e tipos ponteiros.
 ### Tipos aritméticos
 Os tipos aritméticos são os tipos de dados que representam números. Os tipos aritméticos são divididos em três grupos: inteiros, reais e complexos.
-#### Inteiros
+#### Números Inteiros
 Os inteiros representam o conjunto dos números inteiros. Na linguagem C, os inteiros são divididos em dois grupos: inteiros com sinal e inteiros sem sinal. O tipo base dos inteiros é o `int`
 + int - 4 bytes
 O tipo inteiro de base ocupa 4 bytes de memória para ser armazenados, o que significa que ele pode armazenar valores inteiros de -2.147.483.648 a 2.147.483.647.
@@ -64,7 +64,7 @@ Os modificadores do tipo inteiro são os modificadores que alteram o tamanho do 
 + `unsigned short int` - 2 bytes
 + `unsigned long int` - 8 bytes
 
-#### O tipo especial `char`
+### O tipo especial `char`
 O tipo char é usado para armazenar caracteres. Um caracter é um símbolo (uma letra do alfabeto,
 um dígito, um símbolo de pontuação, etc). Um char é armazenado em 1 byte de memória. Cada caracter é
 associado com um valor entre 0 e 255. 
@@ -73,7 +73,7 @@ O compilador C faz a tradução para você, portanto você não precisa saber es
 Note que ’5’ é um caracter, e não o inteiro 5.
 
 
-#### Reais
+### Números Reais
 Os tipos de dados reais representam o conjunto de números reais .
 Na linguagem C, os números reais são armazenados em duas partes: a mantissa e o expoente. Os números reais são armazenados de uma forma semelhante à notação exponencial.
 
@@ -94,7 +94,7 @@ Os reais são representados pelos tipos de dados `float` e suas variações.
 + `long double _Imaginary` - 16 bytes
 
 #### Números Complexos
-Os números complexos são representados em linguagem C pelos tipos de dados `float _Complex`, `double _Complex` e `long double _Complex`. 
+Os números complexos complementam os tipos reais e são representados em linguagem C pelos tipos de dados `float _Complex`, `double _Complex` e `long double _Complex`. 
 Os números complexos são representados por dois números reais, onde o primeiro número representa a parte real e o segundo número representa a parte imaginária.
 Exemplo: 
 
@@ -138,10 +138,42 @@ int main() {
     return 0;
 }
 ```
+### Tipo de dados lógico
+O tipo de dados lógico é um tipo de dados que representa os valores lógicos verdadeiro e falso.
+O tipo de dados lógico é representado na linguagem C através do tipo de dados inteiro.
+O valor 0 representa o valor lógico falso e qualquer outro valor inteiro representa o valor lógico verdadeiro.
+    
+```C
+#include <stdio.h>
+int main(){
+    int opcao1 = 10;
+    int opcao2 = 0;
+    int opcao3 = -10;
+    if (opcao1) {
+        printf("Valor de opção 1 é Verdadeiro\n");
+    } else {
+        printf("Valor de opção 1 é Falso\n");
+    }
+    if (opcao2) {
+        printf("Valor de opção 2 é Verdadeiro\n");
+    } else {
+        printf("Valor de opção 2 é Falso\n");
+    }
+    if (opcao3) {
+        printf("Valor de opção 3 é Verdadeiro\n");
+    } else {
+        printf("Valor de opção 3 é Falso\n");
+    }
+    return 0;
+}
+```
+** Obs.:
+* O tipo de dados `bool` é um tipo de dados exclusivo do C++ e não é suportado pela linguagem C.
+* A linguagem C na versão 'C99' introduziu o tipo de dados 'bool' na biblioteca 'stdbool.h'.
 
+---
 
-
-# Definição de variáveis em linguagem C
+# Definição de _VARIÁVEIS_ em linguagem C
 As variáveis são os elementos fundamentais de um programa em C. As variáveis são utilizadas para armazenar valores que podem ser utilizados em operações matemáticas, comparações, atribuições, etc.
 
 Para declarar uma variável em C, é necessário especificar o tipo de dado que será armazenado na variável, o nome da variável e opcionalmete o valor inicial da variável.
@@ -165,7 +197,9 @@ O nome da variável deve seguir as seguintes regras:
 + O nome da variável não pode conter espaços em branco.
 + O nome da variável não pode ser uma palavra reservada da linguagem C.
 
-# Constantes em linguagem C
+---
+
+# Definição de _CONSTANTES_ em linguagem C
 As constantes são valores que não podem ser alterados durante a execução do programa. As constantes são utilizadas para armazenar valores que são conhecidos durante a compilação do programa.
 
 A definição de uma constante declarada em C é feita utilizando a diretiva `#define` ou a palavra-chave `const`.

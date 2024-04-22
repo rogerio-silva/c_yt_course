@@ -6,4 +6,6 @@ set(CMAKE_C_STANDARD 11)
 add_executable(vars_complexas.c
         hello.c
         vars_reais.c
-        vars_inteiras.c)
+        vars_inteiras.c
+        vars_logicas.c
+)
