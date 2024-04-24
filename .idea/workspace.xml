@@ -21,15 +21,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cc5b092-0025-4866-9340-38bfebf0d9e3" name="Changes" comment="Variáveis e tipos">
-      <change afterPath="$PROJECT_DIR$/var_logica" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_consts/var_logica.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars_inteiras" afterDir="false" />
+    <list default="true" id="4cc5b092-0025-4866-9340-38bfebf0d9e3" name="Changes" comment="Adição do tipo de dados lógico">
+      <change afterPath="$PROJECT_DIR$/vars_logicas" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/estrut_controle/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/estrut_controle/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/estrut_controle/bee_1045_triangulos.c" beforeDir="false" afterPath="$PROJECT_DIR$/estrut_controle/bee_1045_triangulos.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars_consts/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vars_consts/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars_consts/variaveis.md" beforeDir="false" afterPath="$PROJECT_DIR$/vars_consts/variaveis.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vars_consts/vars_logicas.c" beforeDir="false" afterPath="$PROJECT_DIR$/vars_consts/vars_logicas.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +76,7 @@
     &quot;C/C++ File.basico.c.executor&quot;: &quot;Run&quot;,
     &quot;C/C++ File.bee_1045_triangulos.c.executor&quot;: &quot;Run&quot;,
     &quot;C/C++ File.condic.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.var_logica.c (1).executor&quot;: &quot;Run&quot;,
     &quot;C/C++ File.var_logica.c.executor&quot;: &quot;Run&quot;,
     &quot;C/C++ File.vars.c.executor&quot;: &quot;Run&quot;,
     &quot;C/C++ File.vars_complexas.c.executor&quot;: &quot;Run&quot;,
@@ -116,7 +112,7 @@
       <recent name="$PROJECT_DIR$/img" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.var_logica.c">
+  <component name="RunManager" selected="C/C++ File.var_logica.c (1)">
     <configuration name="vars_escopo" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory">
       <method v="2" />
     </configuration>
@@ -133,6 +129,12 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="var_logica.c (1)" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="vars_escopo" TARGET_NAME="var_logica.c">
+      <option name="sourceFile" value="vars_consts/vars_logicas.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="var_logica.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="vars_escopo" TARGET_NAME="var_logica.c" CONFIG_NAME="var_logica.c">
       <option name="sourceFile" value="vars_consts/var_logica.c" />
       <method v="2">
@@ -145,12 +147,6 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="vars_inteiras.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="vars_escopo" TARGET_NAME="vars_inteiras.c" CONFIG_NAME="vars_inteiras.c">
-      <option name="sourceFile" value="vars_consts/vars_inteiras.c" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="vars_reais.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="vars_escopo" TARGET_NAME="vars_reais.c" CONFIG_NAME="vars_reais.c">
       <option name="sourceFile" value="vars_consts/vars_reais.c" />
       <method v="2">
@@ -158,21 +154,21 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="CMake Debug.vars_escopo" />
+      <item itemvalue="C/C++ File.basico.c" />
       <item itemvalue="C/C++ File.condic.c" />
+      <item itemvalue="C/C++ File.var_logica.c (1)" />
       <item itemvalue="C/C++ File.var_logica.c" />
-      <item itemvalue="C/C++ File.vars_inteiras.c" />
       <item itemvalue="C/C++ File.vars_complexas.c" />
       <item itemvalue="C/C++ File.vars_reais.c" />
-      <item itemvalue="C/C++ File.basico.c" />
-      <item itemvalue="CMake Debug.vars_escopo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.var_logica.c (1)" />
         <item itemvalue="C/C++ File.var_logica.c" />
         <item itemvalue="C/C++ File.basico.c" />
         <item itemvalue="C/C++ File.vars_complexas.c" />
         <item itemvalue="C/C++ File.vars_reais.c" />
-        <item itemvalue="C/C++ File.vars_inteiras.c" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +189,10 @@
       <workItem from="1713732955121" duration="718000" />
       <workItem from="1713734831248" duration="3273000" />
       <workItem from="1713743330384" duration="2228000" />
-      <workItem from="1713791475414" duration="531000" />
+      <workItem from="1713791475414" duration="1373000" />
+      <workItem from="1713804741031" duration="56000" />
+      <workItem from="1713987602565" duration="52000" />
+      <workItem from="1713987657792" duration="1000" />
     </task>
     <task id="LOCAL-00001" summary="Tipos, Constantes e Variáveis">
       <option name="closed" value="true" />
@@ -227,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713734854950</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adição do tipo de dados lógico">
+      <option name="closed" value="true" />
+      <created>1713792383063</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713792383063</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,6 +288,18 @@
     <MESSAGE value="Tipos, Constantes e Variáveis" />
     <MESSAGE value="Configuração CMake" />
     <MESSAGE value="Variáveis e tipos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Variáveis e tipos" />
+    <MESSAGE value="Adição do tipo de dados lógico" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adição do tipo de dados lógico" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/vars_consts/vars_logicas.c</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

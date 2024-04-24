@@ -7,6 +7,7 @@
 #include <stdio.h>
 
 int main(){
+    /* Variáveis LÓGICAS em C*/
     int opcao1 = 10;
     int opcao2 = 0;
     int opcao3 = -10;
