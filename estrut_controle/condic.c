@@ -1,7 +1,10 @@
 /**
-    Exemplo de uso de condicionais em linguagem C
-    Autor: Prof. Rogério Sousa e Silva
-    Curso: Programação em Linguagem C/C++
+ *  Exemplo básico de programa em linguagem C
+ *  Autor: Prof. Rogério Silva
+ *  Curso: Programação em Linguagem C/C++
+ *
+ * @file condic.c
+ * @brief Exemplo de comandos condicionais em C
 */
 
 #include <stdio.h>

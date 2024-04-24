@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: vars_escopo
+# Project: c_yt_course
 # Configurations: Debug
 # =============================================================================
 
@@ -49,14 +49,32 @@ cmake_ninja_workdir = /home/rogerio/CLionProjects/c_yt_course/estrut_controle/cm
 
 build cmake_object_order_depends_target_basico.c: phony || CMakeFiles/basico.c.dir
 
+build CMakeFiles/basico.c.dir/condic.c.o: C_COMPILER__basico.2ec_unscanned_Debug /home/rogerio/CLionProjects/c_yt_course/estrut_controle/condic.c || cmake_object_order_depends_target_basico.c
+  DEP_FILE = CMakeFiles/basico.c.dir/condic.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/basico.c.dir
+  OBJECT_FILE_DIR = CMakeFiles/basico.c.dir
+
+build CMakeFiles/basico.c.dir/selecao.c.o: C_COMPILER__basico.2ec_unscanned_Debug /home/rogerio/CLionProjects/c_yt_course/estrut_controle/selecao.c || cmake_object_order_depends_target_basico.c
+  DEP_FILE = CMakeFiles/basico.c.dir/selecao.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/basico.c.dir
+  OBJECT_FILE_DIR = CMakeFiles/basico.c.dir
+
 build CMakeFiles/basico.c.dir/bee_1045_triangulos.c.o: C_COMPILER__basico.2ec_unscanned_Debug /home/rogerio/CLionProjects/c_yt_course/estrut_controle/bee_1045_triangulos.c || cmake_object_order_depends_target_basico.c
   DEP_FILE = CMakeFiles/basico.c.dir/bee_1045_triangulos.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/basico.c.dir
   OBJECT_FILE_DIR = CMakeFiles/basico.c.dir
 
-build CMakeFiles/basico.c.dir/condic.c.o: C_COMPILER__basico.2ec_unscanned_Debug /home/rogerio/CLionProjects/c_yt_course/estrut_controle/condic.c || cmake_object_order_depends_target_basico.c
-  DEP_FILE = CMakeFiles/basico.c.dir/condic.c.o.d
+build CMakeFiles/basico.c.dir/ex_resolvido_if.c.o: C_COMPILER__basico.2ec_unscanned_Debug /home/rogerio/CLionProjects/c_yt_course/estrut_controle/ex_resolvido_if.c || cmake_object_order_depends_target_basico.c
+  DEP_FILE = CMakeFiles/basico.c.dir/ex_resolvido_if.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/basico.c.dir
+  OBJECT_FILE_DIR = CMakeFiles/basico.c.dir
+
+build CMakeFiles/basico.c.dir/ex_resolvido_switch.c.o: C_COMPILER__basico.2ec_unscanned_Debug /home/rogerio/CLionProjects/c_yt_course/estrut_controle/ex_resolvido_switch.c || cmake_object_order_depends_target_basico.c
+  DEP_FILE = CMakeFiles/basico.c.dir/ex_resolvido_switch.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/basico.c.dir
   OBJECT_FILE_DIR = CMakeFiles/basico.c.dir
@@ -69,7 +87,7 @@ build CMakeFiles/basico.c.dir/condic.c.o: C_COMPILER__basico.2ec_unscanned_Debug
 #############################################
 # Link the executable basico.c
 
-build basico.c: C_EXECUTABLE_LINKER__basico.2ec_Debug CMakeFiles/basico.c.dir/bee_1045_triangulos.c.o CMakeFiles/basico.c.dir/condic.c.o
+build basico.c: C_EXECUTABLE_LINKER__basico.2ec_Debug CMakeFiles/basico.c.dir/condic.c.o CMakeFiles/basico.c.dir/selecao.c.o CMakeFiles/basico.c.dir/bee_1045_triangulos.c.o CMakeFiles/basico.c.dir/ex_resolvido_if.c.o CMakeFiles/basico.c.dir/ex_resolvido_switch.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/basico.c.dir
   POST_BUILD = :

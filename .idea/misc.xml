@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$/vars_consts">
+  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$/estrut_controle">
     <contentRoot DIR="$PROJECT_DIR$" />
   </component>
 </project>

@@ -223,3 +223,17 @@ c = 'A';
 printf("Olá mundo!");
 ```
 Para enfatizar o óbvio, as constantes são valores que não podem ser alterados durante a execução do programa, no exemplo os valores de a, b e c podem mudar, porém os valores 33, 3.14159 e 'A' não podem ser alterados durante a execução do programa.
+
+## Exercícios de Fixação
+### Analise os códigos [#1](./vars_inteiras.c), [#2](./vars_logicas.c), [#3](./vars_reais.c) e [#4](vars_complexas.c) e responda as questões abaixo:
+> 1. Qual a função da diretiva `#include <stdio.h>`?
+
+> 2. Qual a função do comando `printf()`? e do scanf()?
+
+> 3. Qual a função do comando `return 0;`?
+
+> 4. Qual a função do comando `sizeof()`?
+
+> 5. Qual a função do comando `creal()` e `cimag()`?
+
+> Aproveite para dar uma lida no capítulo 2 do livro do Herbert Schildt [C Completo e Total](../books/pt-br/herbert-schildt-c-completo-e-total-3ª-edição-1997.pdf) 

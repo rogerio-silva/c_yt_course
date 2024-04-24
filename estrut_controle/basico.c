@@ -1,7 +1,11 @@
 /**
-    Exemplo básico de programa em linguagem C
-    Autor: Prof. Rogério Sousa e Silva
-    Curso: Programação em Linguagem C/C++
+/**
+ *  Exemplo básico de programa em linguagem C
+ *  Autor: Prof. Rogério Silva
+ *  Curso: Programação em Linguagem C/C++
+ *
+ *  @file basico.c
+ *  @brief Exemplo de programa básico em C
 */
 
 // Cláusulas de inclusão de bibliotecas

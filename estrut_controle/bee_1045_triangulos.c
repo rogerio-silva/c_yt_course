@@ -1,9 +1,12 @@
 /**
-    Exemplo de uso de condicionais em linguagem C
-    ##### Exercício do Beecrowd - 1045 #####
-    Link: https://www.urionlinejudge.com.br/judge/pt/problems/view/1045
-    Autor: Prof. Rogério Sousa e Silva
-    Curso: Programação em Linguagem C/C++
+ * Exemplo de uso de condicionais em linguagem C
+ * #### Exercício do Beecrowd - 1045 ####
+ * Link: https://www.urionlinejudge.com.br/judge/pt/problems/view/1045
+ * Autor: Prof. Rogério Silva
+ * Curso: Programação em Linguagem C/C++
+ *
+ * @file bee_1045_triangulos.c
+ * @brief Exemplo de uso de condicionais em C - Solução BEECROWD 1045
 */
 
 #include <stdio.h>

@@ -10,7 +10,7 @@
 int main(void) {
     /* VARIÁVEIS INTEIRAS */
     int var_int;
-    float var_float;
+
     char var_char;
     unsigned char var_uchar;
 

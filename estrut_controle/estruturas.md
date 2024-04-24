@@ -106,3 +106,18 @@ Neste exemplo, a expressão é avaliada e comparada com os valores de cada caso.
 
 Caso se deseje aninhar um caso para obrigatóriamente após a execução do seu anterior, basta não colocar o `break` no final do bloco de código.
 
+## Exercícios de fixação
+
+### Compare os algoritmos [algoritmo 1](./ex_resolvido_if.c) e  [algoritmo 2](./ex_resolvido_switch.c) e responda:
+
+> Qual a diferença entre os dois algoritmos?
+
+> Porque o mesmo problema pode ser resolvido de duas formas diferentes?
+
+> Você consegue elaborar outra solução para o problema?
+
+### Analise o exercício resolvido [aqui](./ex_resolvido_switch.c) e responda:
+
+> Porque a condição do switch-case usa uma variável char ao inves de inteiro (como havia sido falado na aula)?
+
+> RESPOSTA: Veja na página 58 do livro: [Linguagem C Completa e Descomplicada](../books/pt-br/andré-backes-linguagem-c-completa-e-descomplicada-2022.pdf)
