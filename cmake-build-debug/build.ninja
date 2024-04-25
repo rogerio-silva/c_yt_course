@@ -82,8 +82,12 @@ build estrut_controle/CMakeFiles/basico.dir/basico.c.o: C_COMPILER__basico_unsca
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   OBJECT_DIR = estrut_controle/CMakeFiles/basico.dir
   OBJECT_FILE_DIR = estrut_controle/CMakeFiles/basico.dir
-  TARGET_COMPILE_PDB = estrut_controle/CMakeFiles/basico.dir/
-  TARGET_PDB = estrut_controle/basico.pdb
+
+build estrut_controle/CMakeFiles/basico.dir/__/temp/teste.c.o: C_COMPILER__basico_unscanned_Debug /home/rogerio/CLionProjects/c_yt_course/temp/teste.c || cmake_object_order_depends_target_basico
+  DEP_FILE = estrut_controle/CMakeFiles/basico.dir/__/temp/teste.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = estrut_controle/CMakeFiles/basico.dir
+  OBJECT_FILE_DIR = estrut_controle/CMakeFiles/basico.dir/__/temp
 
 
 # =============================================================================
@@ -93,14 +97,13 @@ build estrut_controle/CMakeFiles/basico.dir/basico.c.o: C_COMPILER__basico_unsca
 #############################################
 # Link the executable estrut_controle/basico
 
-build estrut_controle/basico: C_EXECUTABLE_LINKER__basico_Debug estrut_controle/CMakeFiles/basico.dir/basico.c.o
+build estrut_controle/basico: C_EXECUTABLE_LINKER__basico_Debug estrut_controle/CMakeFiles/basico.dir/basico.c.o estrut_controle/CMakeFiles/basico.dir/__/temp/teste.c.o
   FLAGS = -g
   OBJECT_DIR = estrut_controle/CMakeFiles/basico.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = estrut_controle/CMakeFiles/basico.dir/
   TARGET_FILE = estrut_controle/basico
-  TARGET_PDB = estrut_controle/basico.pdb
+  TARGET_PDB = basico.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target condic
@@ -116,8 +119,6 @@ build estrut_controle/CMakeFiles/condic.dir/condic.c.o: C_COMPILER__condic_unsca
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   OBJECT_DIR = estrut_controle/CMakeFiles/condic.dir
   OBJECT_FILE_DIR = estrut_controle/CMakeFiles/condic.dir
-  TARGET_COMPILE_PDB = estrut_controle/CMakeFiles/condic.dir/
-  TARGET_PDB = estrut_controle/condic.pdb
 
 
 # =============================================================================
@@ -132,9 +133,8 @@ build estrut_controle/condic: C_EXECUTABLE_LINKER__condic_Debug estrut_controle/
   OBJECT_DIR = estrut_controle/CMakeFiles/condic.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = estrut_controle/CMakeFiles/condic.dir/
   TARGET_FILE = estrut_controle/condic
-  TARGET_PDB = estrut_controle/condic.pdb
+  TARGET_PDB = condic.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target selecao
@@ -150,8 +150,6 @@ build estrut_controle/CMakeFiles/selecao.dir/selecao.c.o: C_COMPILER__selecao_un
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   OBJECT_DIR = estrut_controle/CMakeFiles/selecao.dir
   OBJECT_FILE_DIR = estrut_controle/CMakeFiles/selecao.dir
-  TARGET_COMPILE_PDB = estrut_controle/CMakeFiles/selecao.dir/
-  TARGET_PDB = estrut_controle/selecao.pdb
 
 
 # =============================================================================
@@ -166,9 +164,8 @@ build estrut_controle/selecao: C_EXECUTABLE_LINKER__selecao_Debug estrut_control
   OBJECT_DIR = estrut_controle/CMakeFiles/selecao.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = estrut_controle/CMakeFiles/selecao.dir/
   TARGET_FILE = estrut_controle/selecao
-  TARGET_PDB = estrut_controle/selecao.pdb
+  TARGET_PDB = selecao.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target ex_resolvido_if
@@ -184,8 +181,6 @@ build estrut_controle/CMakeFiles/ex_resolvido_if.dir/ex_resolvido_if.c.o: C_COMP
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   OBJECT_DIR = estrut_controle/CMakeFiles/ex_resolvido_if.dir
   OBJECT_FILE_DIR = estrut_controle/CMakeFiles/ex_resolvido_if.dir
-  TARGET_COMPILE_PDB = estrut_controle/CMakeFiles/ex_resolvido_if.dir/
-  TARGET_PDB = estrut_controle/ex_resolvido_if.pdb
 
 
 # =============================================================================
@@ -200,9 +195,8 @@ build estrut_controle/ex_resolvido_if: C_EXECUTABLE_LINKER__ex_resolvido_if_Debu
   OBJECT_DIR = estrut_controle/CMakeFiles/ex_resolvido_if.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = estrut_controle/CMakeFiles/ex_resolvido_if.dir/
   TARGET_FILE = estrut_controle/ex_resolvido_if
-  TARGET_PDB = estrut_controle/ex_resolvido_if.pdb
+  TARGET_PDB = ex_resolvido_if.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target bee_1045_triangulos_if
@@ -218,8 +212,6 @@ build estrut_controle/CMakeFiles/bee_1045_triangulos_if.dir/bee_1045_triangulos_
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   OBJECT_DIR = estrut_controle/CMakeFiles/bee_1045_triangulos_if.dir
   OBJECT_FILE_DIR = estrut_controle/CMakeFiles/bee_1045_triangulos_if.dir
-  TARGET_COMPILE_PDB = estrut_controle/CMakeFiles/bee_1045_triangulos_if.dir/
-  TARGET_PDB = estrut_controle/bee_1045_triangulos_if.pdb
 
 
 # =============================================================================
@@ -234,9 +226,8 @@ build estrut_controle/bee_1045_triangulos_if: C_EXECUTABLE_LINKER__bee_1045_tria
   OBJECT_DIR = estrut_controle/CMakeFiles/bee_1045_triangulos_if.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = estrut_controle/CMakeFiles/bee_1045_triangulos_if.dir/
   TARGET_FILE = estrut_controle/bee_1045_triangulos_if
-  TARGET_PDB = estrut_controle/bee_1045_triangulos_if.pdb
+  TARGET_PDB = bee_1045_triangulos_if.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target ex_resolvido_switch
@@ -252,8 +243,6 @@ build estrut_controle/CMakeFiles/ex_resolvido_switch.dir/ex_resolvido_switch.c.o
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   OBJECT_DIR = estrut_controle/CMakeFiles/ex_resolvido_switch.dir
   OBJECT_FILE_DIR = estrut_controle/CMakeFiles/ex_resolvido_switch.dir
-  TARGET_COMPILE_PDB = estrut_controle/CMakeFiles/ex_resolvido_switch.dir/
-  TARGET_PDB = estrut_controle/ex_resolvido_switch.pdb
 
 
 # =============================================================================
@@ -268,9 +257,8 @@ build estrut_controle/ex_resolvido_switch: C_EXECUTABLE_LINKER__ex_resolvido_swi
   OBJECT_DIR = estrut_controle/CMakeFiles/ex_resolvido_switch.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = estrut_controle/CMakeFiles/ex_resolvido_switch.dir/
   TARGET_FILE = estrut_controle/ex_resolvido_switch
-  TARGET_PDB = estrut_controle/ex_resolvido_switch.pdb
+  TARGET_PDB = ex_resolvido_switch.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target bee_1906_romanos_seq
@@ -286,8 +274,6 @@ build estrut_controle/CMakeFiles/bee_1906_romanos_seq.dir/bee_1906_romanos_seq.c
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   OBJECT_DIR = estrut_controle/CMakeFiles/bee_1906_romanos_seq.dir
   OBJECT_FILE_DIR = estrut_controle/CMakeFiles/bee_1906_romanos_seq.dir
-  TARGET_COMPILE_PDB = estrut_controle/CMakeFiles/bee_1906_romanos_seq.dir/
-  TARGET_PDB = estrut_controle/bee_1906_romanos_seq.pdb
 
 
 # =============================================================================
@@ -302,9 +288,8 @@ build estrut_controle/bee_1906_romanos_seq: C_EXECUTABLE_LINKER__bee_1906_romano
   OBJECT_DIR = estrut_controle/CMakeFiles/bee_1906_romanos_seq.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = estrut_controle/CMakeFiles/bee_1906_romanos_seq.dir/
   TARGET_FILE = estrut_controle/bee_1906_romanos_seq
-  TARGET_PDB = estrut_controle/bee_1906_romanos_seq.pdb
+  TARGET_PDB = bee_1906_romanos_seq.dbg
 
 
 #############################################
@@ -348,8 +333,6 @@ build tipos_vars_consts/CMakeFiles/vars_complexas.dir/vars_complexas.c.o: C_COMP
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   OBJECT_DIR = tipos_vars_consts/CMakeFiles/vars_complexas.dir
   OBJECT_FILE_DIR = tipos_vars_consts/CMakeFiles/vars_complexas.dir
-  TARGET_COMPILE_PDB = tipos_vars_consts/CMakeFiles/vars_complexas.dir/
-  TARGET_PDB = tipos_vars_consts/vars_complexas.pdb
 
 
 # =============================================================================
@@ -364,9 +347,8 @@ build tipos_vars_consts/vars_complexas: C_EXECUTABLE_LINKER__vars_complexas_Debu
   OBJECT_DIR = tipos_vars_consts/CMakeFiles/vars_complexas.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = tipos_vars_consts/CMakeFiles/vars_complexas.dir/
   TARGET_FILE = tipos_vars_consts/vars_complexas
-  TARGET_PDB = tipos_vars_consts/vars_complexas.pdb
+  TARGET_PDB = vars_complexas.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target vars_reais
@@ -382,8 +364,6 @@ build tipos_vars_consts/CMakeFiles/vars_reais.dir/vars_reais.c.o: C_COMPILER__va
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   OBJECT_DIR = tipos_vars_consts/CMakeFiles/vars_reais.dir
   OBJECT_FILE_DIR = tipos_vars_consts/CMakeFiles/vars_reais.dir
-  TARGET_COMPILE_PDB = tipos_vars_consts/CMakeFiles/vars_reais.dir/
-  TARGET_PDB = tipos_vars_consts/vars_reais.pdb
 
 
 # =============================================================================
@@ -398,9 +378,8 @@ build tipos_vars_consts/vars_reais: C_EXECUTABLE_LINKER__vars_reais_Debug tipos_
   OBJECT_DIR = tipos_vars_consts/CMakeFiles/vars_reais.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = tipos_vars_consts/CMakeFiles/vars_reais.dir/
   TARGET_FILE = tipos_vars_consts/vars_reais
-  TARGET_PDB = tipos_vars_consts/vars_reais.pdb
+  TARGET_PDB = vars_reais.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target vars_inteiras
@@ -416,8 +395,6 @@ build tipos_vars_consts/CMakeFiles/vars_inteiras.dir/vars_inteiras.c.o: C_COMPIL
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   OBJECT_DIR = tipos_vars_consts/CMakeFiles/vars_inteiras.dir
   OBJECT_FILE_DIR = tipos_vars_consts/CMakeFiles/vars_inteiras.dir
-  TARGET_COMPILE_PDB = tipos_vars_consts/CMakeFiles/vars_inteiras.dir/
-  TARGET_PDB = tipos_vars_consts/vars_inteiras.pdb
 
 
 # =============================================================================
@@ -432,9 +409,8 @@ build tipos_vars_consts/vars_inteiras: C_EXECUTABLE_LINKER__vars_inteiras_Debug 
   OBJECT_DIR = tipos_vars_consts/CMakeFiles/vars_inteiras.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = tipos_vars_consts/CMakeFiles/vars_inteiras.dir/
   TARGET_FILE = tipos_vars_consts/vars_inteiras
-  TARGET_PDB = tipos_vars_consts/vars_inteiras.pdb
+  TARGET_PDB = vars_inteiras.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target vars_logicas
@@ -450,8 +426,6 @@ build tipos_vars_consts/CMakeFiles/vars_logicas.dir/vars_logicas.c.o: C_COMPILER
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   OBJECT_DIR = tipos_vars_consts/CMakeFiles/vars_logicas.dir
   OBJECT_FILE_DIR = tipos_vars_consts/CMakeFiles/vars_logicas.dir
-  TARGET_COMPILE_PDB = tipos_vars_consts/CMakeFiles/vars_logicas.dir/
-  TARGET_PDB = tipos_vars_consts/vars_logicas.pdb
 
 
 # =============================================================================
@@ -466,9 +440,8 @@ build tipos_vars_consts/vars_logicas: C_EXECUTABLE_LINKER__vars_logicas_Debug ti
   OBJECT_DIR = tipos_vars_consts/CMakeFiles/vars_logicas.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = tipos_vars_consts/CMakeFiles/vars_logicas.dir/
   TARGET_FILE = tipos_vars_consts/vars_logicas
-  TARGET_PDB = tipos_vars_consts/vars_logicas.pdb
+  TARGET_PDB = vars_logicas.dbg
 
 
 #############################################
@@ -512,8 +485,6 @@ build estrut_repeticao/CMakeFiles/repeticao_for.dir/repeticao_for.c.o: C_COMPILE
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   OBJECT_DIR = estrut_repeticao/CMakeFiles/repeticao_for.dir
   OBJECT_FILE_DIR = estrut_repeticao/CMakeFiles/repeticao_for.dir
-  TARGET_COMPILE_PDB = estrut_repeticao/CMakeFiles/repeticao_for.dir/
-  TARGET_PDB = estrut_repeticao/repeticao_for.pdb
 
 
 # =============================================================================
@@ -528,9 +499,8 @@ build estrut_repeticao/repeticao_for: C_EXECUTABLE_LINKER__repeticao_for_Debug e
   OBJECT_DIR = estrut_repeticao/CMakeFiles/repeticao_for.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = estrut_repeticao/CMakeFiles/repeticao_for.dir/
   TARGET_FILE = estrut_repeticao/repeticao_for
-  TARGET_PDB = estrut_repeticao/repeticao_for.pdb
+  TARGET_PDB = repeticao_for.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target repeticao_while
@@ -546,8 +516,6 @@ build estrut_repeticao/CMakeFiles/repeticao_while.dir/repeticao_while.c.o: C_COM
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   OBJECT_DIR = estrut_repeticao/CMakeFiles/repeticao_while.dir
   OBJECT_FILE_DIR = estrut_repeticao/CMakeFiles/repeticao_while.dir
-  TARGET_COMPILE_PDB = estrut_repeticao/CMakeFiles/repeticao_while.dir/
-  TARGET_PDB = estrut_repeticao/repeticao_while.pdb
 
 
 # =============================================================================
@@ -562,9 +530,8 @@ build estrut_repeticao/repeticao_while: C_EXECUTABLE_LINKER__repeticao_while_Deb
   OBJECT_DIR = estrut_repeticao/CMakeFiles/repeticao_while.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = estrut_repeticao/CMakeFiles/repeticao_while.dir/
   TARGET_FILE = estrut_repeticao/repeticao_while
-  TARGET_PDB = estrut_repeticao/repeticao_while.pdb
+  TARGET_PDB = repeticao_while.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target repeticao_do.c
@@ -580,8 +547,6 @@ build estrut_repeticao/CMakeFiles/repeticao_do.c.dir/repeticao_do.c.o: C_COMPILE
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   OBJECT_DIR = estrut_repeticao/CMakeFiles/repeticao_do.c.dir
   OBJECT_FILE_DIR = estrut_repeticao/CMakeFiles/repeticao_do.c.dir
-  TARGET_COMPILE_PDB = estrut_repeticao/CMakeFiles/repeticao_do.c.dir/
-  TARGET_PDB = estrut_repeticao/repeticao_do.c.pdb
 
 
 # =============================================================================
@@ -596,9 +561,8 @@ build estrut_repeticao/repeticao_do.c: C_EXECUTABLE_LINKER__repeticao_do.2ec_Deb
   OBJECT_DIR = estrut_repeticao/CMakeFiles/repeticao_do.c.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = estrut_repeticao/CMakeFiles/repeticao_do.c.dir/
   TARGET_FILE = estrut_repeticao/repeticao_do.c
-  TARGET_PDB = estrut_repeticao/repeticao_do.c.pdb
+  TARGET_PDB = repeticao_do.c.dbg
 
 
 #############################################
@@ -642,8 +606,6 @@ build operadores_expressoes/CMakeFiles/expressoes.dir/expressoes.c.o: C_COMPILER
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   OBJECT_DIR = operadores_expressoes/CMakeFiles/expressoes.dir
   OBJECT_FILE_DIR = operadores_expressoes/CMakeFiles/expressoes.dir
-  TARGET_COMPILE_PDB = operadores_expressoes/CMakeFiles/expressoes.dir/
-  TARGET_PDB = operadores_expressoes/expressoes.pdb
 
 
 # =============================================================================
@@ -658,9 +620,8 @@ build operadores_expressoes/expressoes: C_EXECUTABLE_LINKER__expressoes_Debug op
   OBJECT_DIR = operadores_expressoes/CMakeFiles/expressoes.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = operadores_expressoes/CMakeFiles/expressoes.dir/
   TARGET_FILE = operadores_expressoes/expressoes
-  TARGET_PDB = operadores_expressoes/expressoes.pdb
+  TARGET_PDB = expressoes.dbg
 
 
 #############################################
@@ -763,14 +724,14 @@ build tipos_vars_consts/all: phony tipos_vars_consts/vars_complexas tipos_vars_c
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/rogerio/CLionProjects/c_yt_course/CMakeLists.txt /home/rogerio/CLionProjects/c_yt_course/estrut_controle/CMakeLists.txt /home/rogerio/CLionProjects/c_yt_course/estrut_repeticao/CMakeLists.txt /home/rogerio/CLionProjects/c_yt_course/operadores_expressoes/CMakeLists.txt /home/rogerio/CLionProjects/c_yt_course/tipos_vars_consts/CMakeLists.txt /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCCompiler.cmake.in /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeParseImplicitIncludeInfo.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeParseLibraryArchitecture.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystem.cmake.in /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/CrayClang-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-C-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-FindBinUtils.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/HP-C-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/Intel-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/LCC-C-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/MSVC-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/NVHPC-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/OrangeC-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/PathScale-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/SCO-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/XL-C-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/zOS-C-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU-C.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/rogerio/CLionProjects/c_yt_course/CMakeLists.txt /home/rogerio/CLionProjects/c_yt_course/estrut_controle/CMakeLists.txt /home/rogerio/CLionProjects/c_yt_course/estrut_repeticao/CMakeLists.txt /home/rogerio/CLionProjects/c_yt_course/operadores_expressoes/CMakeLists.txt /home/rogerio/CLionProjects/c_yt_course/tipos_vars_consts/CMakeLists.txt /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU-C.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/rogerio/CLionProjects/c_yt_course/CMakeLists.txt /home/rogerio/CLionProjects/c_yt_course/estrut_controle/CMakeLists.txt /home/rogerio/CLionProjects/c_yt_course/estrut_repeticao/CMakeLists.txt /home/rogerio/CLionProjects/c_yt_course/operadores_expressoes/CMakeLists.txt /home/rogerio/CLionProjects/c_yt_course/tipos_vars_consts/CMakeLists.txt /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCCompiler.cmake.in /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeParseImplicitIncludeInfo.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeParseLibraryArchitecture.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystem.cmake.in /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/CrayClang-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-C-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-FindBinUtils.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/HP-C-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/Intel-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/LCC-C-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/MSVC-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/NVHPC-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/OrangeC-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/PathScale-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/SCO-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/XL-C-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/zOS-C-DetermineCompiler.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU-C.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
+build /home/rogerio/CLionProjects/c_yt_course/CMakeLists.txt /home/rogerio/CLionProjects/c_yt_course/estrut_controle/CMakeLists.txt /home/rogerio/CLionProjects/c_yt_course/estrut_repeticao/CMakeLists.txt /home/rogerio/CLionProjects/c_yt_course/operadores_expressoes/CMakeLists.txt /home/rogerio/CLionProjects/c_yt_course/tipos_vars_consts/CMakeLists.txt /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU-C.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux.cmake /snap/clion/275/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
 
 
 #############################################
