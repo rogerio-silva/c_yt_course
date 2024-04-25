@@ -22,7 +22,6 @@ int main(void) {
         if (num % i == 0) {
             cont++;
             printf("%d é divisível por %d\n", num, i);
-
         }
         i++;
     }

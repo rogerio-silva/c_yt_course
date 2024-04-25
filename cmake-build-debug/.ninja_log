@@ -1,0 +1,9 @@
+# ninja log v5
+1	16	1714067594361213355	estrut_repeticao/CMakeFiles/repeticao_for.dir/repeticao_for.c.o	7f1e5e88be9a36d1
+18	32	1714068167208216842	estrut_repeticao/repeticao_do.c	e6f297c912478724
+1	22	1714065267235414320	operadores_expressoes/CMakeFiles/expressoes.dir/expressoes.c.o	a8f19009c094c458
+16	30	1714067594373213817	estrut_repeticao/repeticao_for	1bf8d59afe3de0c4
+22	36	1714065267247414785	operadores_expressoes/expressoes	1cb840efcad394d
+1	18	1714068167192216316	estrut_repeticao/CMakeFiles/repeticao_do.c.dir/repeticao_do.c.o	b202568ec4a3799
+16	29	1714067374980788486	estrut_repeticao/repeticao_while	164f88e88d4348a2
+1	16	1714067374968788024	estrut_repeticao/CMakeFiles/repeticao_while.dir/repeticao_while.c.o	d16f352493023713

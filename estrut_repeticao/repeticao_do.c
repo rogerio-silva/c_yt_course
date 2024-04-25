@@ -64,7 +64,10 @@ int main(void) {
             case 5:
                 votos_branco++;
                 break;
+            case 6:
+                break;
             default:
+                printf("Voto inválido\n");
                 break;
         }
         total_votos++;
@@ -75,7 +78,7 @@ int main(void) {
     printf("Candidato Rinoceronte Cacareco: %d votos\n", votos_rinoceronte_cacareco);
     printf("Candidato Bode Ioiô: %d votos\n", votos_bode_ioio);
     printf("A porcentagem de votos nulos: %.2f%%\n", ((float) votos_nulo / total_votos) * 100);
-    printf("A porcentagem de votos brancos: %.2f%%\n", (votos_branco / (float) total_votos) * 100);
+    printf("A porcentagem de votos brancos: %.2f%%\n", (votos_branco / total_votos) * 100);
     // Verificação do candidato vencedor
     if (votos_macaco_tiao > votos_rinoceronte_cacareco && votos_macaco_tiao > votos_bode_ioio) {
         printf("O candidato vencedor é o Macaco Tião\n");

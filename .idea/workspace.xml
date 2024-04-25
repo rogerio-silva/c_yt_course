@@ -38,32 +38,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cc5b092-0025-4866-9340-38bfebf0d9e3" name="Changes" comment="Adição de operadores, expressões, repetições">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bee_1045_triangulos" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bee_1906_romanos" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/condic" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/estrut_controle/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/estrut_controle/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/estrut_controle/basico.c" beforeDir="false" afterPath="$PROJECT_DIR$/estrut_controle/basico.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/estrut_repeticao/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/estrut_repeticao/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/estrut_repeticao/repeticao_do.c" beforeDir="false" afterPath="$PROJECT_DIR$/estrut_repeticao/repeticao_do.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicio_resolvido_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/expressoes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/repeticao_do" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/repeticao_for" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/repeticao_while" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/selecao" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tipos_vars_consts/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tipos_vars_consts/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var_logica" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars_complexas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars_inteiras" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars_logicas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars_reais" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estrut_repeticao/repeticao_while.c" beforeDir="false" afterPath="$PROJECT_DIR$/estrut_repeticao/repeticao_while.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +110,11 @@
     &quot;CMake Application.basico.executor&quot;: &quot;Run&quot;,
     &quot;CMake Application.bee_1906_romanos_seq.executor&quot;: &quot;Run&quot;,
     &quot;CMake Application.c_yt_course.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.expressoes.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.repeticao_do.c.executor&quot;: &quot;Run&quot;,
     &quot;CMake Application.repeticao_for.c.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.repeticao_for.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.repeticao_while.executor&quot;: &quot;Debug&quot;,
     &quot;CMake Application.vars.c.executor&quot;: &quot;Run&quot;,
     &quot;CMake Application.vars_complexas.c.executor&quot;: &quot;Run&quot;,
     &quot;CMake Debug.c_yt_course.executor&quot;: &quot;Debug&quot;,
@@ -167,9 +148,14 @@
       <recent name="$PROJECT_DIR$/img" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.bee_1906_romanos_seq.c">
+  <component name="RunManager" selected="CMake Application.repeticao_do.c">
     <configuration name="c_yt_course" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory">
       <method v="2" />
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
     </configuration>
     <configuration name="basico" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="basico" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c_yt_course" RUN_TARGET_NAME="basico">
       <method v="2">
@@ -279,34 +265,34 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Debug.c_yt_course" />
+      <item itemvalue="C/C++ File.condic.c" />
+      <item itemvalue="C/C++ File.bee_1906_romanos_seq.c" />
+      <item itemvalue="C/C++ File.basico.c" />
+      <item itemvalue="C/C++ File.vars_inteiras.c" />
+      <item itemvalue="C/C++ File.expressoes.c" />
+      <item itemvalue="C/C++ File.repeticao_do.c" />
       <item itemvalue="CMake Application.basico" />
       <item itemvalue="CMake Application.bee_1045_triangulos_if" />
       <item itemvalue="CMake Application.condic" />
       <item itemvalue="CMake Application.ex_resolvido_if" />
       <item itemvalue="CMake Application.ex_resolvido_switch" />
-      <item itemvalue="CMake Application.expressoes" />
+      <item itemvalue="CMake Application.selecao" />
       <item itemvalue="CMake Application.repeticao_do.c" />
       <item itemvalue="CMake Application.repeticao_for" />
       <item itemvalue="CMake Application.repeticao_while" />
-      <item itemvalue="CMake Application.selecao" />
+      <item itemvalue="CMake Application.expressoes" />
       <item itemvalue="CMake Application.vars_complexas" />
       <item itemvalue="CMake Application.vars_inteiras" />
       <item itemvalue="CMake Application.vars_logicas" />
       <item itemvalue="CMake Application.vars_reais" />
-      <item itemvalue="C/C++ File.basico.c" />
-      <item itemvalue="C/C++ File.bee_1906_romanos_seq.c" />
-      <item itemvalue="C/C++ File.condic.c" />
-      <item itemvalue="C/C++ File.expressoes.c" />
-      <item itemvalue="C/C++ File.repeticao_do.c" />
-      <item itemvalue="C/C++ File.vars_inteiras.c" />
+      <item itemvalue="CMake Debug.c_yt_course" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="C/C++ File.bee_1906_romanos_seq.c" />
-        <item itemvalue="C/C++ File.basico.c" />
-        <item itemvalue="C/C++ File.repeticao_do.c" />
         <item itemvalue="C/C++ File.vars_inteiras.c" />
+        <item itemvalue="C/C++ File.basico.c" />
+        <item itemvalue="C/C++ File.bee_1906_romanos_seq.c" />
+        <item itemvalue="C/C++ File.repeticao_do.c" />
         <item itemvalue="C/C++ File.expressoes.c" />
       </list>
     </recent_temporary>
@@ -334,7 +320,9 @@
       <workItem from="1713987657792" duration="47000" />
       <workItem from="1713987755238" duration="12368000" />
       <workItem from="1714003672987" duration="6239000" />
-      <workItem from="1714009925397" duration="2000" />
+      <workItem from="1714009925397" duration="188000" />
+      <workItem from="1714062412923" duration="3952000" />
+      <workItem from="1714085116893" duration="1000" />
     </task>
     <task id="LOCAL-00001" summary="Tipos, Constantes e Variáveis">
       <option name="closed" value="true" />
@@ -400,7 +388,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714006279676</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Adição de operadores, expressões, repetições">
+      <option name="closed" value="true" />
+      <created>1714010061340</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714010061340</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -437,7 +433,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -466,6 +462,11 @@
           <url>file://$PROJECT_DIR$/tipos_vars_consts/vars_logicas.c</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/estrut_repeticao/repeticao_for.c</url>
+          <line>16</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
