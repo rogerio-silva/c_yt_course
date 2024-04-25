@@ -12,7 +12,9 @@
   <component name="CMakeRunConfigurationManager">
     <generated>
       <config projectName="c_yt_course" targetName="vars_complexas.c" />
+      <config projectName="c_yt_course" targetName="expressoes" />
       <config projectName="c_yt_course" targetName="basico.c" />
+      <config projectName="c_yt_course" targetName="repeticao_for.c" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -21,45 +23,89 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cc5b092-0025-4866-9340-38bfebf0d9e3" name="Changes" comment="Adição do tipo de dados lógico">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/en/brian-w-kernighan-dennis-m-ritchie-the-c-programming.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/en/peter-van-der-linden-expert-c-programming-deep-c.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/en/rajiv-chopra-phd-c-programming-a-self-teaching.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/en/robert-c-seacord-effective-c-an-introduction-to.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/en/simon-long-an-introduction-to-c-gui-programming-2019.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/en/slobodan-dmitrović-modern-c-for-absolute-beginners-a.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/pt-br/andré-backes-linguagem-c-completa-e-descomplicada-2022.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/pt-br/brian-w-kernighan-dennis-m-ritchie-c-a-linguagem-de.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/pt-br/herbert-schildt-c-completo-e-total-3ª-edição-1997.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/pt-br/luis-damas-linguagem-c-10nd-2007.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/pt-br/paul-deitel-harvey-deitel-c-como-programar-6th-edition.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/pt-br/scott-meyers-c-eficaz-55-maneiras-de-aprimorar-seus.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/pt-br/victorine-viviane-mizrahi-treinamento-em-linguagem-c.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estrut_controle/ex_resolvido_if.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estrut_controle/ex_resolvido_switch.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estrut_controle/selecao.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercicio_resolvido_1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selecao" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+    <list default="true" id="4cc5b092-0025-4866-9340-38bfebf0d9e3" name="Changes" comment="Adição de conteúdo e exercícios resolvidos">
+      <change afterPath="$PROJECT_DIR$/bee_1906_romanos" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estrut_controle/bee_1906_romanos_seq.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repeticao_do" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/en/brian-w-kernighan-dennis-m-ritchie-the-c-programming.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_books/en/brian-w-kernighan-dennis-m-ritchie-the-c-programming.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/en/peter-van-der-linden-expert-c-programming-deep-c.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_books/en/peter-van-der-linden-expert-c-programming-deep-c.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/en/rajiv-chopra-phd-c-programming-a-self-teaching.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_books/en/rajiv-chopra-phd-c-programming-a-self-teaching.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/en/robert-c-seacord-effective-c-an-introduction-to.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_books/en/robert-c-seacord-effective-c-an-introduction-to.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/en/simon-long-an-introduction-to-c-gui-programming-2019.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_books/en/simon-long-an-introduction-to-c-gui-programming-2019.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/en/slobodan-dmitrović-modern-c-for-absolute-beginners-a.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_books/en/slobodan-dmitrović-modern-c-for-absolute-beginners-a.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/pt-br/andré-backes-linguagem-c-completa-e-descomplicada-2022.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_books/pt-br/andré-backes-linguagem-c-completa-e-descomplicada-2022.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/pt-br/brian-w-kernighan-dennis-m-ritchie-c-a-linguagem-de.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_books/pt-br/brian-w-kernighan-dennis-m-ritchie-c-a-linguagem-de.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/pt-br/herbert-schildt-c-completo-e-total-3ª-edição-1997.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_books/pt-br/herbert-schildt-c-completo-e-total-3ª-edição-1997.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/pt-br/luis-damas-linguagem-c-10nd-2007.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_books/pt-br/luis-damas-linguagem-c-10nd-2007.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/pt-br/paul-deitel-harvey-deitel-c-como-programar-6th-edition.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_books/pt-br/paul-deitel-harvey-deitel-c-como-programar-6th-edition.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/pt-br/scott-meyers-c-eficaz-55-maneiras-de-aprimorar-seus.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_books/pt-br/scott-meyers-c-eficaz-55-maneiras-de-aprimorar-seus.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/pt-br/victorine-viviane-mizrahi-treinamento-em-linguagem-c.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_books/pt-br/victorine-viviane-mizrahi-treinamento-em-linguagem-c.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" afterPath="$PROJECT_DIR$/estrut_repeticao/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" afterPath="$PROJECT_DIR$/estrut_repeticao/repeticao_do.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" afterPath="$PROJECT_DIR$/estrut_repeticao/repeticao_for.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" afterPath="$PROJECT_DIR$/estrut_repeticao/repeticao_while.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-15d371a2156b0764813d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-cc901384eb7052e32508.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-1bae8d80d904d8a64d5a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-vars_consts-Debug-d277fc44898ff81c6b7d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-04-21T22-23-30-0488.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-condic.c-Debug-2a4c7f75c95f94e385cb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-ab6bc179ddbddbdb0d31.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/repeticao_for" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/repeticao_while" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vars_consts/cmake_install.cmake" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/estrut_controle/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/estrut_controle/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/estrut_controle/basico.c" beforeDir="false" afterPath="$PROJECT_DIR$/estrut_controle/basico.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/estrut_controle/bee_1045_triangulos.c" beforeDir="false" afterPath="$PROJECT_DIR$/estrut_controle/bee_1045_triangulos.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/estrut_controle/cmake-build-debug/.cmake/api/v1/reply/cache-v2-87e3d2381faf45a96e35.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/estrut_controle/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-783fc178a427aa79267c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/estrut_controle/cmake-build-debug/.cmake/api/v1/reply/index-2024-04-22T00-09-34-0994.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/estrut_controle/cmake-build-debug/.cmake/api/v1/reply/target-basico.c-Debug-7c614171135f587bcdff.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/estrut_controle/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/estrut_controle/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/estrut_controle/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/estrut_controle/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/estrut_controle/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/estrut_controle/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/estrut_controle/condic.c" beforeDir="false" afterPath="$PROJECT_DIR$/estrut_controle/condic.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estrut_controle/bee_1045_triangulos.c" beforeDir="false" afterPath="$PROJECT_DIR$/estrut_controle/bee_1045_triangulos_if.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estrut_controle/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" afterPath="$PROJECT_DIR$/estrut_repeticao/repeticoes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estrut_controle/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" afterPath="$PROJECT_DIR$/operadores_expressoes/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estrut_controle/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" afterPath="$PROJECT_DIR$/operadores_expressoes/expressoes.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estrut_controle/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" afterPath="$PROJECT_DIR$/operadores_expressoes/operadores_expressoes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estrut_controle/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-28690163b5aa8b26d506.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estrut_controle/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estrut_controle/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-ab6bc179ddbddbdb0d31.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estrut_controle/cmake-build-debug/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estrut_controle/cmake-build-debug/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estrut_controle/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estrut_controle/cmake-build-debug/CMakeFiles/3.28.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estrut_controle/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/expressoes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estrut_controle/cmake-build-debug/CMakeFiles/3.28.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estrut_controle/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estrut_controle/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estrut_controle/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estrut_controle/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estrut_controle/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estrut_controle/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estrut_controle/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estrut_controle/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estrut_controle/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/estrut_controle/estruturas.md" beforeDir="false" afterPath="$PROJECT_DIR$/estrut_controle/estruturas.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars_consts/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vars_consts/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars_consts/hello.c" beforeDir="false" afterPath="$PROJECT_DIR$/hello.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars_consts/variaveis.md" beforeDir="false" afterPath="$PROJECT_DIR$/vars_consts/variaveis.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars_consts/vars_inteiras.c" beforeDir="false" afterPath="$PROJECT_DIR$/vars_consts/vars_inteiras.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/c-c++_Banner_plano.png" beforeDir="false" afterPath="$PROJECT_DIR$/_img/c-c++_Banner_plano.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vars_consts/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tipos_vars_consts/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vars_consts/variaveis.md" beforeDir="false" afterPath="$PROJECT_DIR$/tipos_vars_consts/tipos_vars_conts.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vars_consts/vars_complexas.c" beforeDir="false" afterPath="$PROJECT_DIR$/tipos_vars_consts/vars_complexas.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vars_consts/vars_inteiras.c" beforeDir="false" afterPath="$PROJECT_DIR$/tipos_vars_consts/vars_inteiras.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vars_consts/vars_logicas.c" beforeDir="false" afterPath="$PROJECT_DIR$/tipos_vars_consts/vars_logicas.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vars_consts/vars_reais.c" beforeDir="false" afterPath="$PROJECT_DIR$/tipos_vars_consts/vars_reais.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,8 +156,13 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "C/C++ File.basico.c.executor": "Run",
     "C/C++ File.bee_1045_triangulos.c.executor": "Run",
+    "C/C++ File.bee_1906_romanos.c.executor": "Run",
     "C/C++ File.condic.c.executor": "Run",
     "C/C++ File.exercicio_resolvido_1.c.executor": "Run",
+    "C/C++ File.expressoes.c.executor": "Run",
+    "C/C++ File.repeticao_do.c.executor": "Run",
+    "C/C++ File.repeticao_for.c.executor": "Run",
+    "C/C++ File.repeticao_while.c.executor": "Run",
     "C/C++ File.selecao.c.executor": "Run",
     "C/C++ File.var_logica.c (1).executor": "Run",
     "C/C++ File.var_logica.c.executor": "Run",
@@ -123,6 +174,7 @@
     "CMake Application.c_yt_course.executor": "Run",
     "CMake Application.vars.c.executor": "Run",
     "CMake Application.vars_complexas.c.executor": "Run",
+    "CMake Debug.c_yt_course.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
@@ -137,7 +189,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "Errors",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -152,68 +204,80 @@
       <recent name="$PROJECT_DIR$/img" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.exercicio_resolvido_1.c">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="vars_escopo" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory">
+  <component name="RunManager" selected="C/C++ File.expressoes.c">
+    <configuration name="c_yt_course" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory">
       <method v="2" />
     </configuration>
-    <configuration name="basico.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="basico.c" CONFIG_NAME="basico.c">
-      <option name="sourceFile" value="estrut_controle/basico.c" />
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="expressoes" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="expressoes" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c_yt_course" RUN_TARGET_NAME="expressoes">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="repeticao_for.c" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="repeticao_for.c" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c_yt_course" RUN_TARGET_NAME="repeticao_for.c">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bee_1906_romanos.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="bee_1906_romanos.c" CONFIG_NAME="bee_1906_romanos.c">
+      <option name="sourceFile" value="estrut_controle/bee_1906_romanos.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="condic.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="vars_escopo" TARGET_NAME="condic.c - Default" CONFIG_NAME="condic.c">
+    <configuration name="condic.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="condic.c - Default" CONFIG_NAME="condic.c">
       <option name="sourceFile" value="$PROJECT_DIR$/estrut_controle/condic.c" />
       <option name="toolchainName" value="Default" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="exercicio_resolvido_1.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="exercicio_resolvido_1.c" CONFIG_NAME="exercicio_resolvido_1.c">
-      <option name="sourceFile" value="estrut_controle/exercicio_resolvido_1.c" />
+    <configuration name="expressoes.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="expressoes.c" CONFIG_NAME="expressoes.c">
+      <option name="sourceFile" value="operadores_expressoes/expressoes.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="selecao.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="selecao.c" CONFIG_NAME="selecao.c">
-      <option name="sourceFile" value="estrut_controle/selecao.c" />
+    <configuration name="repeticao_do.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="repeticao_do.c" CONFIG_NAME="repeticao_do.c">
+      <option name="sourceFile" value="estrut_repeticao/repeticao_do.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="var_logica.c (1)" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="vars_escopo" TARGET_NAME="var_logica.c">
-      <option name="sourceFile" value="vars_consts/vars_logicas.c" />
+    <configuration name="repeticao_for.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="repeticao_for.c" CONFIG_NAME="repeticao_for.c">
+      <option name="sourceFile" value="estrut_repeticao/repeticao_for.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="var_logica.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="vars_escopo" TARGET_NAME="var_logica.c" CONFIG_NAME="var_logica.c">
-      <option name="sourceFile" value="vars_consts/var_logica.c" />
+    <configuration name="repeticao_while.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="repeticao_while.c" CONFIG_NAME="repeticao_while.c">
+      <option name="sourceFile" value="estrut_repeticao/repeticao_while.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="C/C++ File.condic.c" />
-      <item itemvalue="C/C++ File.exercicio_resolvido_1.c" />
-      <item itemvalue="C/C++ File.selecao.c" />
-      <item itemvalue="C/C++ File.var_logica.c (1)" />
-      <item itemvalue="C/C++ File.var_logica.c" />
-      <item itemvalue="C/C++ File.basico.c" />
-      <item itemvalue="CMake Debug.vars_escopo" />
+      <item itemvalue="C/C++ File.expressoes.c" />
+      <item itemvalue="C/C++ File.repeticao_do.c" />
+      <item itemvalue="C/C++ File.repeticao_for.c" />
+      <item itemvalue="C/C++ File.repeticao_while.c" />
+      <item itemvalue="C/C++ File.bee_1906_romanos.c" />
+      <item itemvalue="CMake Application.repeticao_for.c" />
+      <item itemvalue="CMake Application.expressoes" />
+      <item itemvalue="CMake Debug.c_yt_course" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="C/C++ File.exercicio_resolvido_1.c" />
-        <item itemvalue="C/C++ File.selecao.c" />
-        <item itemvalue="C/C++ File.var_logica.c (1)" />
-        <item itemvalue="C/C++ File.var_logica.c" />
-        <item itemvalue="C/C++ File.basico.c" />
+        <item itemvalue="C/C++ File.expressoes.c" />
+        <item itemvalue="C/C++ File.repeticao_while.c" />
+        <item itemvalue="C/C++ File.repeticao_for.c" />
+        <item itemvalue="C/C++ File.repeticao_do.c" />
+        <item itemvalue="C/C++ File.bee_1906_romanos.c" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +302,8 @@
       <workItem from="1713804741031" duration="56000" />
       <workItem from="1713987602565" duration="52000" />
       <workItem from="1713987657792" duration="47000" />
-      <workItem from="1713987755238" duration="5270000" />
+      <workItem from="1713987755238" duration="12368000" />
+      <workItem from="1714003672987" duration="2526000" />
     </task>
     <task id="LOCAL-00001" summary="Tipos, Constantes e Variáveis">
       <option name="closed" value="true" />
@@ -288,7 +353,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713987688704</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Adição de conteúdo e exercícios resolvidos">
+      <option name="closed" value="true" />
+      <created>1713993528047</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713993528047</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,17 +416,22 @@
     <MESSAGE value="Configuração CMake" />
     <MESSAGE value="Variáveis e tipos" />
     <MESSAGE value="Adição do tipo de dados lógico" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adição do tipo de dados lógico" />
+    <MESSAGE value="Adição de conteúdo e exercícios resolvidos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adição de conteúdo e exercícios resolvidos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/vars_consts/vars_logicas.c</url>
+          <url>file://$PROJECT_DIR$/tipos_vars_consts/vars_logicas.c</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

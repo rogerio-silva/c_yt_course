@@ -1,5 +1,0 @@
-/home/rogerio/CLionProjects/c_yt_course/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/rogerio/CLionProjects/c_yt_course/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/rogerio/CLionProjects/c_yt_course/cmake-build-debug/vars_consts/CMakeFiles/condic.c.dir
-/home/rogerio/CLionProjects/c_yt_course/cmake-build-debug/vars_consts/CMakeFiles/edit_cache.dir
-/home/rogerio/CLionProjects/c_yt_course/cmake-build-debug/vars_consts/CMakeFiles/rebuild_cache.dir

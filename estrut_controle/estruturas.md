@@ -120,4 +120,4 @@ Caso se deseje aninhar um caso para obrigatóriamente após a execução do seu 
 
 > Porque a condição do switch-case usa uma variável char ao inves de inteiro (como havia sido falado na aula)?
 
-> RESPOSTA: Veja na página 58 do livro: [Linguagem C Completa e Descomplicada](../books/pt-br/andré-backes-linguagem-c-completa-e-descomplicada-2022.pdf)
+> RESPOSTA: Veja na página 58 do livro: [Linguagem C Completa e Descomplicada](../_books/pt-br/andré-backes-linguagem-c-completa-e-descomplicada-2022.pdf)

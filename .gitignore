@@ -31,5 +31,5 @@
 *.out
 *.app
 
-/vars_consts/cmake-build-debug/
+/tipos_vars_consts/cmake-build-debug/
 
