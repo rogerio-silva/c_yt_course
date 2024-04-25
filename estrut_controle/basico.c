@@ -1,5 +1,4 @@
 /**
-/**
  *  Exemplo básico de programa em linguagem C
  *  Autor: Prof. Rogério Silva
  *  Curso: Programação em Linguagem C/C++
@@ -12,7 +11,7 @@
 #include <stdio.h>
 
 // Cláusulas para definição de constantes
-#define PI 3.14159
+#define PI 3.141594
 
 // Função principal
 int main() {

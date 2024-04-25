@@ -44,7 +44,7 @@ int main(void) {
         printf("3. Candidato Bode Ioiô\n");
         printf("4. Nulo\n");
         printf("5. Branco\n");
-        printf("6. Sair\n")
+        printf("6. Sair\n");
         printf("Entre com o seu voto: ");
         scanf("%d", &voto);
         // Contabilização dos votos

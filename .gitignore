@@ -33,3 +33,5 @@
 
 /tipos_vars_consts/cmake-build-debug/
 
+# ignore executable (binary) files
+/bin/
