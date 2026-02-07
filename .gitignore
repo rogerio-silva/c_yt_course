@@ -32,8 +32,6 @@
 *.app
 
 /tipos_vars_consts/cmake-build-debug/
-/ed_grafos/cmake-build-debug
-
-# ignore executable (binary) files
+/ed_grafos/cmake-build-debug/
 /bin/
 /cmake-build-debug/
