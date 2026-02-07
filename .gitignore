@@ -36,3 +36,4 @@
 
 # ignore executable (binary) files
 /bin/
+/cmake-build-debug/
