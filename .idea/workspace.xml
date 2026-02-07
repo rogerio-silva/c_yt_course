@@ -34,51 +34,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cc5b092-0025-4866-9340-38bfebf0d9e3" name="Changes" comment="Adição de operadores, expressões, repetições">
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-5270e398f8a27bacc429.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2026-02-07T16-18-02-0941.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-bee_1029_fibonacci-Debug-58f955e786930c0be0fb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-bee_1119_fila_desempregados-Debug-376f2bb945543ac77662.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ed_grafos/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ed_grafos/bee_1191_recuperacao_arvore.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ed_grafos/bee_1194_prefixa_infixa_posfixa.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ed_grafos/bee_1195_arvore_binaria_busca.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ed_grafos/bee_1200_operacoes_abp_i.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ed_grafos/grafos.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estrut_repeticao/bee_1029_fibonacci.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estrut_repeticao/bee_1119_fila_desempregados.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/c_yt_course.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/c_yt_course.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-cba7b150ccc53c2bacff.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-expressoes-Debug-abb74ac6a7c670aa3a10.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-repeticao_do.c-Debug-da72554ef166be5c1a92.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-repeticao_for-Debug-a3d9b88b53373230a556.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-repeticao_while-Debug-00c91dcc05d4c926cc3c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-vars_complexas-Debug-81881711f906eb601636.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-vars_inteiras-Debug-c4b1dab8c2d1cbfc89c2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-vars_logicas-Debug-713dc723243fc523a4d2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-vars_reais-Debug-c3f0f5f1e4e6c2bd6f87.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-ab6bc179ddbddbdb0d31.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/estrut_controle/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/estrut_controle/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/estrut_repeticao/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/estrut_repeticao/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/operadores_expressoes/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/operadores_expressoes/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tipos_vars_consts/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tipos_vars_consts/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/estrut_repeticao/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/estrut_repeticao/CMakeLists.txt" afterDir="false" />
+    <list default="true" id="4cc5b092-0025-4866-9340-38bfebf0d9e3" name="Changes" comment="Adição de novos códigos de exemplos para grafos, remoção de arquivos de cache e configurações do compilador gerados pelo CMake">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -339,7 +296,7 @@
       <workItem from="1714085116893" duration="2579000" />
       <workItem from="1770475534335" duration="48000" />
       <workItem from="1770475592526" duration="2915000" />
-      <workItem from="1770480861187" duration="1291000" />
+      <workItem from="1770480861187" duration="1540000" />
     </task>
     <task id="LOCAL-00001" summary="Tipos, Constantes e Variáveis">
       <option name="closed" value="true" />
@@ -413,7 +370,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714010061340</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Adição de novos códigos de exemplos para grafos, remoção de arquivos de cache e configurações do compilador gerados pelo CMake">
+      <option name="closed" value="true" />
+      <created>1770482344709</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1770482344709</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,7 +435,10 @@
     <MESSAGE value="Adição do tipo de dados lógico" />
     <MESSAGE value="Adição de conteúdo e exercícios resolvidos" />
     <MESSAGE value="Adição de operadores, expressões, repetições" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adição de operadores, expressões, repetições" />
+    <MESSAGE value="Remoção de arquivos gerados pela IDE" />
+    <MESSAGE value="Remoção de arquivos de cache e configurações CMake gerados automaticamente" />
+    <MESSAGE value="Adição de novos códigos de exemplos para grafos, remoção de arquivos de cache e configurações do compilador gerados pelo CMake" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adição de novos códigos de exemplos para grafos, remoção de arquivos de cache e configurações do compilador gerados pelo CMake" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
