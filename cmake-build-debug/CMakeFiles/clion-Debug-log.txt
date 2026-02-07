@@ -1,4 +1,4 @@
-/snap/clion/275/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/275/bin/ninja/linux/x64/ninja -G Ninja -S /home/rogerio/CLionProjects/c_yt_course -B /home/rogerio/CLionProjects/c_yt_course/cmake-build-debug
+/home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -G Ninja -S /home/rogerio/git/c_yt_course -B /home/rogerio/git/c_yt_course/cmake-build-debug
 -- Configuring done (0.0s)
 -- Generating done (0.0s)
--- Build files have been written to: /home/rogerio/CLionProjects/c_yt_course/cmake-build-debug
+-- Build files have been written to: /home/rogerio/git/c_yt_course/cmake-build-debug

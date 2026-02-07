@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "estrut_repeticao/repeticao_while"
+			"path" : "estrut_repeticao/bee_1119_fila_desempregados"
 		}
 	],
 	"backtrace" : 1,
@@ -24,7 +24,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 7,
+				"line" : 10,
 				"parent" : 0
 			}
 		]
@@ -53,7 +53,7 @@
 			]
 		}
 	],
-	"id" : "repeticao_while::@97d03d5e2fbd4f50ab5f",
+	"id" : "bee_1119_fila_desempregados::@97d03d5e2fbd4f50ab5f",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -61,16 +61,12 @@
 			{
 				"fragment" : "-g",
 				"role" : "flags"
-			},
-			{
-				"fragment" : "",
-				"role" : "flags"
 			}
 		],
 		"language" : "C"
 	},
-	"name" : "repeticao_while",
-	"nameOnDisk" : "repeticao_while",
+	"name" : "bee_1119_fila_desempregados",
+	"nameOnDisk" : "bee_1119_fila_desempregados",
 	"paths" : 
 	{
 		"build" : "estrut_repeticao",
@@ -91,7 +87,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "estrut_repeticao/repeticao_while.c",
+			"path" : "estrut_repeticao/bee_1119_fila_desempregados.c",
 			"sourceGroupIndex" : 0
 		}
 	],

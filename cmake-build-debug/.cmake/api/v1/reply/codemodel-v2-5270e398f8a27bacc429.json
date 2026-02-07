@@ -1,0 +1,268 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "estrut_controle",
+					"jsonFile" : "directory-estrut_controle-Debug-d0ba738d59b3aa3f5ce4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "estrut_controle",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						4,
+						5,
+						6,
+						7,
+						12
+					]
+				},
+				{
+					"build" : "tipos_vars_consts",
+					"jsonFile" : "directory-tipos_vars_consts-Debug-5f6acb82db59a9659882.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tipos_vars_consts",
+					"targetIndexes" : 
+					[
+						13,
+						14,
+						15,
+						16
+					]
+				},
+				{
+					"build" : "estrut_repeticao",
+					"jsonFile" : "directory-estrut_repeticao-Debug-45c6c686f4f1ee961bd3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "estrut_repeticao",
+					"targetIndexes" : 
+					[
+						1,
+						3,
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"build" : "operadores_expressoes",
+					"jsonFile" : "directory-operadores_expressoes-Debug-381ddb580023a7cd8cda.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "operadores_expressoes",
+					"targetIndexes" : 
+					[
+						8
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "c_yt_course",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "basico::@54d1468ae42a44edd0f9",
+					"jsonFile" : "target-basico-Debug-699cf55125ee73482172.json",
+					"name" : "basico",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "bee_1029_fibonacci::@97d03d5e2fbd4f50ab5f",
+					"jsonFile" : "target-bee_1029_fibonacci-Debug-58f955e786930c0be0fb.json",
+					"name" : "bee_1029_fibonacci",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "bee_1045_triangulos_if::@54d1468ae42a44edd0f9",
+					"jsonFile" : "target-bee_1045_triangulos_if-Debug-2f11be6fc967e381623f.json",
+					"name" : "bee_1045_triangulos_if",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "bee_1119_fila_desempregados::@97d03d5e2fbd4f50ab5f",
+					"jsonFile" : "target-bee_1119_fila_desempregados-Debug-376f2bb945543ac77662.json",
+					"name" : "bee_1119_fila_desempregados",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "bee_1906_romanos_seq::@54d1468ae42a44edd0f9",
+					"jsonFile" : "target-bee_1906_romanos_seq-Debug-37361ba745ac5a69cb2d.json",
+					"name" : "bee_1906_romanos_seq",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "condic::@54d1468ae42a44edd0f9",
+					"jsonFile" : "target-condic-Debug-77cf4e9da421cb9ce7ed.json",
+					"name" : "condic",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ex_resolvido_if::@54d1468ae42a44edd0f9",
+					"jsonFile" : "target-ex_resolvido_if-Debug-575867a08ea9f0f366e2.json",
+					"name" : "ex_resolvido_if",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ex_resolvido_switch::@54d1468ae42a44edd0f9",
+					"jsonFile" : "target-ex_resolvido_switch-Debug-0e015f64057a148201f1.json",
+					"name" : "ex_resolvido_switch",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "expressoes::@5c243e1b042b2cf42323",
+					"jsonFile" : "target-expressoes-Debug-905d9a3756888fc06b67.json",
+					"name" : "expressoes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "repeticao_do.c::@97d03d5e2fbd4f50ab5f",
+					"jsonFile" : "target-repeticao_do.c-Debug-456b19af817324dbccb4.json",
+					"name" : "repeticao_do.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "repeticao_for::@97d03d5e2fbd4f50ab5f",
+					"jsonFile" : "target-repeticao_for-Debug-a3c074aafb6bf80b1883.json",
+					"name" : "repeticao_for",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "repeticao_while::@97d03d5e2fbd4f50ab5f",
+					"jsonFile" : "target-repeticao_while-Debug-fd19b91760c138e413f6.json",
+					"name" : "repeticao_while",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "selecao::@54d1468ae42a44edd0f9",
+					"jsonFile" : "target-selecao-Debug-f1ff244b085c68211372.json",
+					"name" : "selecao",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "vars_complexas::@0440fbc165377184c8e0",
+					"jsonFile" : "target-vars_complexas-Debug-9e0af8911c6c71b95734.json",
+					"name" : "vars_complexas",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "vars_inteiras::@0440fbc165377184c8e0",
+					"jsonFile" : "target-vars_inteiras-Debug-9481370e486a6ac74b0a.json",
+					"name" : "vars_inteiras",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "vars_logicas::@0440fbc165377184c8e0",
+					"jsonFile" : "target-vars_logicas-Debug-f526ab127391df9c1049.json",
+					"name" : "vars_logicas",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "vars_reais::@0440fbc165377184c8e0",
+					"jsonFile" : "target-vars_reais-Debug-4062782d4027ffe6acaa.json",
+					"name" : "vars_reais",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rogerio/git/c_yt_course/cmake-build-debug",
+		"source" : "/home/rogerio/git/c_yt_course"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

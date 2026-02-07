@@ -1,9 +1,13 @@
-# ninja log v5
-1	16	1714067594361213355	estrut_repeticao/CMakeFiles/repeticao_for.dir/repeticao_for.c.o	7f1e5e88be9a36d1
-18	32	1714068167208216842	estrut_repeticao/repeticao_do.c	e6f297c912478724
-1	22	1714065267235414320	operadores_expressoes/CMakeFiles/expressoes.dir/expressoes.c.o	a8f19009c094c458
-16	30	1714067594373213817	estrut_repeticao/repeticao_for	1bf8d59afe3de0c4
-22	36	1714065267247414785	operadores_expressoes/expressoes	1cb840efcad394d
-1	18	1714068167192216316	estrut_repeticao/CMakeFiles/repeticao_do.c.dir/repeticao_do.c.o	b202568ec4a3799
-16	29	1714067374980788486	estrut_repeticao/repeticao_while	164f88e88d4348a2
-1	16	1714067374968788024	estrut_repeticao/CMakeFiles/repeticao_while.dir/repeticao_while.c.o	d16f352493023713
+# ninja log v6
+1	30	1770481082927116092	/home/rogerio/git/c_yt_course/cmake-build-debug/estrut_controle/cmake_install.cmake	e866542ea762fd03
+20	36	1770480959539735317	estrut_repeticao/bee_1191_recuperacao_arvore	9969d94183c8b39b
+1	30	1770481082930116174	/home/rogerio/git/c_yt_course/cmake-build-debug/operadores_expressoes/cmake_install.cmake	e866542ea762fd03
+1	30	1770481082926334870	/home/rogerio/git/c_yt_course/cmake-build-debug/cmake_install.cmake	e866542ea762fd03
+20	33	1770476204038107002	estrut_controle/bee_1119_fila_desempregados	6d7ed7fccfeaa0ea
+1	20	1770476204019106489	estrut_controle/CMakeFiles/bee_1119_fila_desempregados.dir/bee_1119_fila_desempregados.c.o	8aea3d95b1399756
+1	18	1770477355422017313	estrut_controle/CMakeFiles/bee_1029_fibonacci.dir/bee_1029_fibonacci.c.o	b583f6f51da24163
+1	20	1770480959520734797	estrut_repeticao/CMakeFiles/bee_1191_recuperacao_arvore.dir/bee_1191_recuperacao_arvore.c.o	7f6cbadb81f562c
+1	30	1770481082931116202	build.ninja	e866542ea762fd03
+18	32	1770477355439017756	estrut_controle/bee_1029_fibonacci	56e9303e04608eec
+1	30	1770481082930116174	/home/rogerio/git/c_yt_course/cmake-build-debug/estrut_repeticao/cmake_install.cmake	e866542ea762fd03
+1	30	1770481082929116147	/home/rogerio/git/c_yt_course/cmake-build-debug/tipos_vars_consts/cmake_install.cmake	e866542ea762fd03
