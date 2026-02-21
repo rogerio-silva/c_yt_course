@@ -84,13 +84,6 @@ build estrut_controle/CMakeFiles/basico.dir/basico.c.o: C_COMPILER__basico_unsca
   OBJECT_DIR = estrut_controle/CMakeFiles/basico.dir
   OBJECT_FILE_DIR = estrut_controle/CMakeFiles/basico.dir
 
-build estrut_controle/CMakeFiles/basico.dir/__/temp/teste.c.o: C_COMPILER__basico_unscanned_Debug /home/rogerio/git/c_yt_course/temp/teste.c || cmake_object_order_depends_target_basico
-  CONFIG = Debug
-  DEP_FILE = estrut_controle/CMakeFiles/basico.dir/__/temp/teste.c.o.d
-  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
-  OBJECT_DIR = estrut_controle/CMakeFiles/basico.dir
-  OBJECT_FILE_DIR = estrut_controle/CMakeFiles/basico.dir/__/temp
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target basico
@@ -99,7 +92,7 @@ build estrut_controle/CMakeFiles/basico.dir/__/temp/teste.c.o: C_COMPILER__basic
 #############################################
 # Link the executable estrut_controle/basico
 
-build estrut_controle/basico: C_EXECUTABLE_LINKER__basico_Debug estrut_controle/CMakeFiles/basico.dir/basico.c.o estrut_controle/CMakeFiles/basico.dir/__/temp/teste.c.o
+build estrut_controle/basico: C_EXECUTABLE_LINKER__basico_Debug estrut_controle/CMakeFiles/basico.dir/basico.c.o
   CONFIG = Debug
   DEP_FILE = estrut_controle/CMakeFiles/basico.dir/link.d
   FLAGS = -g
@@ -488,6 +481,41 @@ build tipos_vars_consts/vars_logicas: C_EXECUTABLE_LINKER__vars_logicas_Debug ti
   TARGET_FILE = tipos_vars_consts/vars_logicas
   TARGET_PDB = vars_logicas.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target bee_2760_entrada_saida_string
+
+
+#############################################
+# Order-only phony target for bee_2760_entrada_saida_string
+
+build cmake_object_order_depends_target_bee_2760_entrada_saida_string: phony || .
+
+build tipos_vars_consts/CMakeFiles/bee_2760_entrada_saida_string.dir/bee_2760_entrada_saida_string.c.o: C_COMPILER__bee_2760_entrada_saida_string_unscanned_Debug /home/rogerio/git/c_yt_course/tipos_vars_consts/bee_2760_entrada_saida_string.c || cmake_object_order_depends_target_bee_2760_entrada_saida_string
+  CONFIG = Debug
+  DEP_FILE = tipos_vars_consts/CMakeFiles/bee_2760_entrada_saida_string.dir/bee_2760_entrada_saida_string.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = tipos_vars_consts/CMakeFiles/bee_2760_entrada_saida_string.dir
+  OBJECT_FILE_DIR = tipos_vars_consts/CMakeFiles/bee_2760_entrada_saida_string.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bee_2760_entrada_saida_string
+
+
+#############################################
+# Link the executable tipos_vars_consts/bee_2760_entrada_saida_string
+
+build tipos_vars_consts/bee_2760_entrada_saida_string: C_EXECUTABLE_LINKER__bee_2760_entrada_saida_string_Debug tipos_vars_consts/CMakeFiles/bee_2760_entrada_saida_string.dir/bee_2760_entrada_saida_string.c.o
+  CONFIG = Debug
+  DEP_FILE = tipos_vars_consts/CMakeFiles/bee_2760_entrada_saida_string.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=tipos_vars_consts/CMakeFiles/bee_2760_entrada_saida_string.dir/link.d
+  OBJECT_DIR = tipos_vars_consts/CMakeFiles/bee_2760_entrada_saida_string.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = tipos_vars_consts/bee_2760_entrada_saida_string
+  TARGET_PDB = bee_2760_entrada_saida_string.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -691,6 +719,251 @@ build estrut_repeticao/bee_1119_fila_desempregados: C_EXECUTABLE_LINKER__bee_111
   TARGET_FILE = estrut_repeticao/bee_1119_fila_desempregados
   TARGET_PDB = bee_1119_fila_desempregados.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target bee_1542_lendo_livros
+
+
+#############################################
+# Order-only phony target for bee_1542_lendo_livros
+
+build cmake_object_order_depends_target_bee_1542_lendo_livros: phony || .
+
+build estrut_repeticao/CMakeFiles/bee_1542_lendo_livros.dir/bee_1542_lendo_livros.c.o: C_COMPILER__bee_1542_lendo_livros_unscanned_Debug /home/rogerio/git/c_yt_course/estrut_repeticao/bee_1542_lendo_livros.c || cmake_object_order_depends_target_bee_1542_lendo_livros
+  CONFIG = Debug
+  DEP_FILE = estrut_repeticao/CMakeFiles/bee_1542_lendo_livros.dir/bee_1542_lendo_livros.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = estrut_repeticao/CMakeFiles/bee_1542_lendo_livros.dir
+  OBJECT_FILE_DIR = estrut_repeticao/CMakeFiles/bee_1542_lendo_livros.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bee_1542_lendo_livros
+
+
+#############################################
+# Link the executable estrut_repeticao/bee_1542_lendo_livros
+
+build estrut_repeticao/bee_1542_lendo_livros: C_EXECUTABLE_LINKER__bee_1542_lendo_livros_Debug estrut_repeticao/CMakeFiles/bee_1542_lendo_livros.dir/bee_1542_lendo_livros.c.o
+  CONFIG = Debug
+  DEP_FILE = estrut_repeticao/CMakeFiles/bee_1542_lendo_livros.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=estrut_repeticao/CMakeFiles/bee_1542_lendo_livros.dir/link.d
+  OBJECT_DIR = estrut_repeticao/CMakeFiles/bee_1542_lendo_livros.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = estrut_repeticao/bee_1542_lendo_livros
+  TARGET_PDB = bee_1542_lendo_livros.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bee_2721_indecisao_renas
+
+
+#############################################
+# Order-only phony target for bee_2721_indecisao_renas
+
+build cmake_object_order_depends_target_bee_2721_indecisao_renas: phony || .
+
+build estrut_repeticao/CMakeFiles/bee_2721_indecisao_renas.dir/bee_2721_indecisao_renas.c.o: C_COMPILER__bee_2721_indecisao_renas_unscanned_Debug /home/rogerio/git/c_yt_course/estrut_repeticao/bee_2721_indecisao_renas.c || cmake_object_order_depends_target_bee_2721_indecisao_renas
+  CONFIG = Debug
+  DEP_FILE = estrut_repeticao/CMakeFiles/bee_2721_indecisao_renas.dir/bee_2721_indecisao_renas.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = estrut_repeticao/CMakeFiles/bee_2721_indecisao_renas.dir
+  OBJECT_FILE_DIR = estrut_repeticao/CMakeFiles/bee_2721_indecisao_renas.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bee_2721_indecisao_renas
+
+
+#############################################
+# Link the executable estrut_repeticao/bee_2721_indecisao_renas
+
+build estrut_repeticao/bee_2721_indecisao_renas: C_EXECUTABLE_LINKER__bee_2721_indecisao_renas_Debug estrut_repeticao/CMakeFiles/bee_2721_indecisao_renas.dir/bee_2721_indecisao_renas.c.o
+  CONFIG = Debug
+  DEP_FILE = estrut_repeticao/CMakeFiles/bee_2721_indecisao_renas.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=estrut_repeticao/CMakeFiles/bee_2721_indecisao_renas.dir/link.d
+  OBJECT_DIR = estrut_repeticao/CMakeFiles/bee_2721_indecisao_renas.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = estrut_repeticao/bee_2721_indecisao_renas
+  TARGET_PDB = bee_2721_indecisao_renas.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bee_1033_fib_chamadas_recursivas
+
+
+#############################################
+# Order-only phony target for bee_1033_fib_chamadas_recursivas
+
+build cmake_object_order_depends_target_bee_1033_fib_chamadas_recursivas: phony || .
+
+build estrut_repeticao/CMakeFiles/bee_1033_fib_chamadas_recursivas.dir/bee_1033_fib_chamadas_recursivas.c.o: C_COMPILER__bee_1033_fib_chamadas_recursivas_unscanned_Debug /home/rogerio/git/c_yt_course/estrut_repeticao/bee_1033_fib_chamadas_recursivas.c || cmake_object_order_depends_target_bee_1033_fib_chamadas_recursivas
+  CONFIG = Debug
+  DEP_FILE = estrut_repeticao/CMakeFiles/bee_1033_fib_chamadas_recursivas.dir/bee_1033_fib_chamadas_recursivas.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = estrut_repeticao/CMakeFiles/bee_1033_fib_chamadas_recursivas.dir
+  OBJECT_FILE_DIR = estrut_repeticao/CMakeFiles/bee_1033_fib_chamadas_recursivas.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bee_1033_fib_chamadas_recursivas
+
+
+#############################################
+# Link the executable estrut_repeticao/bee_1033_fib_chamadas_recursivas
+
+build estrut_repeticao/bee_1033_fib_chamadas_recursivas: C_EXECUTABLE_LINKER__bee_1033_fib_chamadas_recursivas_Debug estrut_repeticao/CMakeFiles/bee_1033_fib_chamadas_recursivas.dir/bee_1033_fib_chamadas_recursivas.c.o
+  CONFIG = Debug
+  DEP_FILE = estrut_repeticao/CMakeFiles/bee_1033_fib_chamadas_recursivas.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=estrut_repeticao/CMakeFiles/bee_1033_fib_chamadas_recursivas.dir/link.d
+  OBJECT_DIR = estrut_repeticao/CMakeFiles/bee_1033_fib_chamadas_recursivas.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = estrut_repeticao/bee_1033_fib_chamadas_recursivas
+  TARGET_PDB = bee_1033_fib_chamadas_recursivas.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bee_2547_montanha_russa
+
+
+#############################################
+# Order-only phony target for bee_2547_montanha_russa
+
+build cmake_object_order_depends_target_bee_2547_montanha_russa: phony || .
+
+build estrut_repeticao/CMakeFiles/bee_2547_montanha_russa.dir/bee_2547_montanha_russa.c.o: C_COMPILER__bee_2547_montanha_russa_unscanned_Debug /home/rogerio/git/c_yt_course/estrut_repeticao/bee_2547_montanha_russa.c || cmake_object_order_depends_target_bee_2547_montanha_russa
+  CONFIG = Debug
+  DEP_FILE = estrut_repeticao/CMakeFiles/bee_2547_montanha_russa.dir/bee_2547_montanha_russa.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = estrut_repeticao/CMakeFiles/bee_2547_montanha_russa.dir
+  OBJECT_FILE_DIR = estrut_repeticao/CMakeFiles/bee_2547_montanha_russa.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bee_2547_montanha_russa
+
+
+#############################################
+# Link the executable estrut_repeticao/bee_2547_montanha_russa
+
+build estrut_repeticao/bee_2547_montanha_russa: C_EXECUTABLE_LINKER__bee_2547_montanha_russa_Debug estrut_repeticao/CMakeFiles/bee_2547_montanha_russa.dir/bee_2547_montanha_russa.c.o
+  CONFIG = Debug
+  DEP_FILE = estrut_repeticao/CMakeFiles/bee_2547_montanha_russa.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=estrut_repeticao/CMakeFiles/bee_2547_montanha_russa.dir/link.d
+  OBJECT_DIR = estrut_repeticao/CMakeFiles/bee_2547_montanha_russa.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = estrut_repeticao/bee_2547_montanha_russa
+  TARGET_PDB = bee_2547_montanha_russa.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bee_2547_montanha_russa_limite_peso
+
+
+#############################################
+# Order-only phony target for bee_2547_montanha_russa_limite_peso
+
+build cmake_object_order_depends_target_bee_2547_montanha_russa_limite_peso: phony || .
+
+build estrut_repeticao/CMakeFiles/bee_2547_montanha_russa_limite_peso.dir/bee_2547_montanha_russa_limite_peso.c.o: C_COMPILER__bee_2547_montanha_russa_limite_peso_unscanned_Debug /home/rogerio/git/c_yt_course/estrut_repeticao/bee_2547_montanha_russa_limite_peso.c || cmake_object_order_depends_target_bee_2547_montanha_russa_limite_peso
+  CONFIG = Debug
+  DEP_FILE = estrut_repeticao/CMakeFiles/bee_2547_montanha_russa_limite_peso.dir/bee_2547_montanha_russa_limite_peso.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = estrut_repeticao/CMakeFiles/bee_2547_montanha_russa_limite_peso.dir
+  OBJECT_FILE_DIR = estrut_repeticao/CMakeFiles/bee_2547_montanha_russa_limite_peso.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bee_2547_montanha_russa_limite_peso
+
+
+#############################################
+# Link the executable estrut_repeticao/bee_2547_montanha_russa_limite_peso
+
+build estrut_repeticao/bee_2547_montanha_russa_limite_peso: C_EXECUTABLE_LINKER__bee_2547_montanha_russa_limite_peso_Debug estrut_repeticao/CMakeFiles/bee_2547_montanha_russa_limite_peso.dir/bee_2547_montanha_russa_limite_peso.c.o
+  CONFIG = Debug
+  DEP_FILE = estrut_repeticao/CMakeFiles/bee_2547_montanha_russa_limite_peso.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=estrut_repeticao/CMakeFiles/bee_2547_montanha_russa_limite_peso.dir/link.d
+  OBJECT_DIR = estrut_repeticao/CMakeFiles/bee_2547_montanha_russa_limite_peso.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = estrut_repeticao/bee_2547_montanha_russa_limite_peso
+  TARGET_PDB = bee_2547_montanha_russa_limite_peso.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bee_2540_impeachment_do_lider
+
+
+#############################################
+# Order-only phony target for bee_2540_impeachment_do_lider
+
+build cmake_object_order_depends_target_bee_2540_impeachment_do_lider: phony || .
+
+build estrut_repeticao/CMakeFiles/bee_2540_impeachment_do_lider.dir/bee_2540_impeachment_do_lider.c.o: C_COMPILER__bee_2540_impeachment_do_lider_unscanned_Debug /home/rogerio/git/c_yt_course/estrut_repeticao/bee_2540_impeachment_do_lider.c || cmake_object_order_depends_target_bee_2540_impeachment_do_lider
+  CONFIG = Debug
+  DEP_FILE = estrut_repeticao/CMakeFiles/bee_2540_impeachment_do_lider.dir/bee_2540_impeachment_do_lider.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = estrut_repeticao/CMakeFiles/bee_2540_impeachment_do_lider.dir
+  OBJECT_FILE_DIR = estrut_repeticao/CMakeFiles/bee_2540_impeachment_do_lider.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bee_2540_impeachment_do_lider
+
+
+#############################################
+# Link the executable estrut_repeticao/bee_2540_impeachment_do_lider
+
+build estrut_repeticao/bee_2540_impeachment_do_lider: C_EXECUTABLE_LINKER__bee_2540_impeachment_do_lider_Debug estrut_repeticao/CMakeFiles/bee_2540_impeachment_do_lider.dir/bee_2540_impeachment_do_lider.c.o
+  CONFIG = Debug
+  DEP_FILE = estrut_repeticao/CMakeFiles/bee_2540_impeachment_do_lider.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=estrut_repeticao/CMakeFiles/bee_2540_impeachment_do_lider.dir/link.d
+  OBJECT_DIR = estrut_repeticao/CMakeFiles/bee_2540_impeachment_do_lider.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = estrut_repeticao/bee_2540_impeachment_do_lider
+  TARGET_PDB = bee_2540_impeachment_do_lider.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bee_1103_alarme_despertador
+
+
+#############################################
+# Order-only phony target for bee_1103_alarme_despertador
+
+build cmake_object_order_depends_target_bee_1103_alarme_despertador: phony || .
+
+build estrut_repeticao/CMakeFiles/bee_1103_alarme_despertador.dir/bee_1103_alarme_despertador.c.o: C_COMPILER__bee_1103_alarme_despertador_unscanned_Debug /home/rogerio/git/c_yt_course/estrut_repeticao/bee_1103_alarme_despertador.c || cmake_object_order_depends_target_bee_1103_alarme_despertador
+  CONFIG = Debug
+  DEP_FILE = estrut_repeticao/CMakeFiles/bee_1103_alarme_despertador.dir/bee_1103_alarme_despertador.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = estrut_repeticao/CMakeFiles/bee_1103_alarme_despertador.dir
+  OBJECT_FILE_DIR = estrut_repeticao/CMakeFiles/bee_1103_alarme_despertador.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bee_1103_alarme_despertador
+
+
+#############################################
+# Link the executable estrut_repeticao/bee_1103_alarme_despertador
+
+build estrut_repeticao/bee_1103_alarme_despertador: C_EXECUTABLE_LINKER__bee_1103_alarme_despertador_Debug estrut_repeticao/CMakeFiles/bee_1103_alarme_despertador.dir/bee_1103_alarme_despertador.c.o
+  CONFIG = Debug
+  DEP_FILE = estrut_repeticao/CMakeFiles/bee_1103_alarme_despertador.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=estrut_repeticao/CMakeFiles/bee_1103_alarme_despertador.dir/link.d
+  OBJECT_DIR = estrut_repeticao/CMakeFiles/bee_1103_alarme_despertador.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = estrut_repeticao/bee_1103_alarme_despertador
+  TARGET_PDB = bee_1103_alarme_despertador.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -784,11 +1057,27 @@ build basico: phony estrut_controle/basico
 
 build bee_1029_fibonacci: phony estrut_repeticao/bee_1029_fibonacci
 
+build bee_1033_fib_chamadas_recursivas: phony estrut_repeticao/bee_1033_fib_chamadas_recursivas
+
 build bee_1045_triangulos_if: phony estrut_controle/bee_1045_triangulos_if
+
+build bee_1103_alarme_despertador: phony estrut_repeticao/bee_1103_alarme_despertador
 
 build bee_1119_fila_desempregados: phony estrut_repeticao/bee_1119_fila_desempregados
 
+build bee_1542_lendo_livros: phony estrut_repeticao/bee_1542_lendo_livros
+
 build bee_1906_romanos_seq: phony estrut_controle/bee_1906_romanos_seq
+
+build bee_2540_impeachment_do_lider: phony estrut_repeticao/bee_2540_impeachment_do_lider
+
+build bee_2547_montanha_russa: phony estrut_repeticao/bee_2547_montanha_russa
+
+build bee_2547_montanha_russa_limite_peso: phony estrut_repeticao/bee_2547_montanha_russa_limite_peso
+
+build bee_2721_indecisao_renas: phony estrut_repeticao/bee_2721_indecisao_renas
+
+build bee_2760_entrada_saida_string: phony tipos_vars_consts/bee_2760_entrada_saida_string
 
 build condic: phony estrut_controle/condic
 
@@ -836,7 +1125,7 @@ build estrut_controle/all: phony estrut_controle/basico estrut_controle/condic e
 #############################################
 # Folder: /home/rogerio/git/c_yt_course/cmake-build-debug/estrut_repeticao
 
-build estrut_repeticao/all: phony estrut_repeticao/repeticao_for estrut_repeticao/repeticao_while estrut_repeticao/repeticao_do.c estrut_repeticao/bee_1029_fibonacci estrut_repeticao/bee_1119_fila_desempregados
+build estrut_repeticao/all: phony estrut_repeticao/repeticao_for estrut_repeticao/repeticao_while estrut_repeticao/repeticao_do.c estrut_repeticao/bee_1029_fibonacci estrut_repeticao/bee_1119_fila_desempregados estrut_repeticao/bee_1542_lendo_livros estrut_repeticao/bee_2721_indecisao_renas estrut_repeticao/bee_1033_fib_chamadas_recursivas estrut_repeticao/bee_2547_montanha_russa estrut_repeticao/bee_2547_montanha_russa_limite_peso estrut_repeticao/bee_2540_impeachment_do_lider estrut_repeticao/bee_1103_alarme_despertador
 
 # =============================================================================
 
@@ -850,7 +1139,7 @@ build operadores_expressoes/all: phony operadores_expressoes/expressoes
 #############################################
 # Folder: /home/rogerio/git/c_yt_course/cmake-build-debug/tipos_vars_consts
 
-build tipos_vars_consts/all: phony tipos_vars_consts/vars_complexas tipos_vars_consts/vars_reais tipos_vars_consts/vars_inteiras tipos_vars_consts/vars_logicas
+build tipos_vars_consts/all: phony tipos_vars_consts/vars_complexas tipos_vars_consts/vars_reais tipos_vars_consts/vars_inteiras tipos_vars_consts/vars_logicas tipos_vars_consts/bee_2760_entrada_saida_string
 
 # =============================================================================
 # Built-in targets

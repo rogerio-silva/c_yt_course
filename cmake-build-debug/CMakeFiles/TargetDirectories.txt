@@ -13,6 +13,7 @@
 /home/rogerio/git/c_yt_course/cmake-build-debug/tipos_vars_consts/CMakeFiles/vars_reais.dir
 /home/rogerio/git/c_yt_course/cmake-build-debug/tipos_vars_consts/CMakeFiles/vars_inteiras.dir
 /home/rogerio/git/c_yt_course/cmake-build-debug/tipos_vars_consts/CMakeFiles/vars_logicas.dir
+/home/rogerio/git/c_yt_course/cmake-build-debug/tipos_vars_consts/CMakeFiles/bee_2760_entrada_saida_string.dir
 /home/rogerio/git/c_yt_course/cmake-build-debug/tipos_vars_consts/CMakeFiles/edit_cache.dir
 /home/rogerio/git/c_yt_course/cmake-build-debug/tipos_vars_consts/CMakeFiles/rebuild_cache.dir
 /home/rogerio/git/c_yt_course/cmake-build-debug/estrut_repeticao/CMakeFiles/repeticao_for.dir
@@ -20,6 +21,13 @@
 /home/rogerio/git/c_yt_course/cmake-build-debug/estrut_repeticao/CMakeFiles/repeticao_do.c.dir
 /home/rogerio/git/c_yt_course/cmake-build-debug/estrut_repeticao/CMakeFiles/bee_1029_fibonacci.dir
 /home/rogerio/git/c_yt_course/cmake-build-debug/estrut_repeticao/CMakeFiles/bee_1119_fila_desempregados.dir
+/home/rogerio/git/c_yt_course/cmake-build-debug/estrut_repeticao/CMakeFiles/bee_1542_lendo_livros.dir
+/home/rogerio/git/c_yt_course/cmake-build-debug/estrut_repeticao/CMakeFiles/bee_2721_indecisao_renas.dir
+/home/rogerio/git/c_yt_course/cmake-build-debug/estrut_repeticao/CMakeFiles/bee_1033_fib_chamadas_recursivas.dir
+/home/rogerio/git/c_yt_course/cmake-build-debug/estrut_repeticao/CMakeFiles/bee_2547_montanha_russa.dir
+/home/rogerio/git/c_yt_course/cmake-build-debug/estrut_repeticao/CMakeFiles/bee_2547_montanha_russa_limite_peso.dir
+/home/rogerio/git/c_yt_course/cmake-build-debug/estrut_repeticao/CMakeFiles/bee_2540_impeachment_do_lider.dir
+/home/rogerio/git/c_yt_course/cmake-build-debug/estrut_repeticao/CMakeFiles/bee_1103_alarme_despertador.dir
 /home/rogerio/git/c_yt_course/cmake-build-debug/estrut_repeticao/CMakeFiles/edit_cache.dir
 /home/rogerio/git/c_yt_course/cmake-build-debug/estrut_repeticao/CMakeFiles/rebuild_cache.dir
 /home/rogerio/git/c_yt_course/cmake-build-debug/operadores_expressoes/CMakeFiles/expressoes.dir
