@@ -705,6 +705,111 @@ build beecrowd/atp_sequenciais/bee_2761_entrada_e_saida: C_EXECUTABLE_LINKER__be
   TARGET_FILE = beecrowd/atp_sequenciais/bee_2761_entrada_e_saida
   TARGET_PDB = bee_2761_entrada_e_saida.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target bee_3055_nota_esquecida
+
+
+#############################################
+# Order-only phony target for bee_3055_nota_esquecida
+
+build cmake_object_order_depends_target_bee_3055_nota_esquecida: phony || .
+
+build beecrowd/atp_sequenciais/CMakeFiles/bee_3055_nota_esquecida.dir/bee_3055_nota_esquecida.c.o: C_COMPILER__bee_3055_nota_esquecida_unscanned_Debug /home/rogerio/git/c_yt_course/beecrowd/atp_sequenciais/bee_3055_nota_esquecida.c || cmake_object_order_depends_target_bee_3055_nota_esquecida
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_sequenciais/CMakeFiles/bee_3055_nota_esquecida.dir/bee_3055_nota_esquecida.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = beecrowd/atp_sequenciais/CMakeFiles/bee_3055_nota_esquecida.dir
+  OBJECT_FILE_DIR = beecrowd/atp_sequenciais/CMakeFiles/bee_3055_nota_esquecida.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bee_3055_nota_esquecida
+
+
+#############################################
+# Link the executable beecrowd/atp_sequenciais/bee_3055_nota_esquecida
+
+build beecrowd/atp_sequenciais/bee_3055_nota_esquecida: C_EXECUTABLE_LINKER__bee_3055_nota_esquecida_Debug beecrowd/atp_sequenciais/CMakeFiles/bee_3055_nota_esquecida.dir/bee_3055_nota_esquecida.c.o
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_sequenciais/CMakeFiles/bee_3055_nota_esquecida.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=beecrowd/atp_sequenciais/CMakeFiles/bee_3055_nota_esquecida.dir/link.d
+  OBJECT_DIR = beecrowd/atp_sequenciais/CMakeFiles/bee_3055_nota_esquecida.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = beecrowd/atp_sequenciais/bee_3055_nota_esquecida
+  TARGET_PDB = bee_3055_nota_esquecida.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bee_3091_resta_um
+
+
+#############################################
+# Order-only phony target for bee_3091_resta_um
+
+build cmake_object_order_depends_target_bee_3091_resta_um: phony || .
+
+build beecrowd/atp_sequenciais/CMakeFiles/bee_3091_resta_um.dir/bee_3091_resta_um.c.o: C_COMPILER__bee_3091_resta_um_unscanned_Debug /home/rogerio/git/c_yt_course/beecrowd/atp_sequenciais/bee_3091_resta_um.c || cmake_object_order_depends_target_bee_3091_resta_um
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_sequenciais/CMakeFiles/bee_3091_resta_um.dir/bee_3091_resta_um.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = beecrowd/atp_sequenciais/CMakeFiles/bee_3091_resta_um.dir
+  OBJECT_FILE_DIR = beecrowd/atp_sequenciais/CMakeFiles/bee_3091_resta_um.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bee_3091_resta_um
+
+
+#############################################
+# Link the executable beecrowd/atp_sequenciais/bee_3091_resta_um
+
+build beecrowd/atp_sequenciais/bee_3091_resta_um: C_EXECUTABLE_LINKER__bee_3091_resta_um_Debug beecrowd/atp_sequenciais/CMakeFiles/bee_3091_resta_um.dir/bee_3091_resta_um.c.o
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_sequenciais/CMakeFiles/bee_3091_resta_um.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=beecrowd/atp_sequenciais/CMakeFiles/bee_3091_resta_um.dir/link.d
+  OBJECT_DIR = beecrowd/atp_sequenciais/CMakeFiles/bee_3091_resta_um.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = beecrowd/atp_sequenciais/bee_3091_resta_um
+  TARGET_PDB = bee_3091_resta_um.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bee_3161_frutas_esquecidas
+
+
+#############################################
+# Order-only phony target for bee_3161_frutas_esquecidas
+
+build cmake_object_order_depends_target_bee_3161_frutas_esquecidas: phony || .
+
+build beecrowd/atp_sequenciais/CMakeFiles/bee_3161_frutas_esquecidas.dir/bee_3161_frutas_esquecidas.c.o: C_COMPILER__bee_3161_frutas_esquecidas_unscanned_Debug /home/rogerio/git/c_yt_course/beecrowd/atp_sequenciais/bee_3161_frutas_esquecidas.c || cmake_object_order_depends_target_bee_3161_frutas_esquecidas
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_sequenciais/CMakeFiles/bee_3161_frutas_esquecidas.dir/bee_3161_frutas_esquecidas.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = beecrowd/atp_sequenciais/CMakeFiles/bee_3161_frutas_esquecidas.dir
+  OBJECT_FILE_DIR = beecrowd/atp_sequenciais/CMakeFiles/bee_3161_frutas_esquecidas.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bee_3161_frutas_esquecidas
+
+
+#############################################
+# Link the executable beecrowd/atp_sequenciais/bee_3161_frutas_esquecidas
+
+build beecrowd/atp_sequenciais/bee_3161_frutas_esquecidas: C_EXECUTABLE_LINKER__bee_3161_frutas_esquecidas_Debug beecrowd/atp_sequenciais/CMakeFiles/bee_3161_frutas_esquecidas.dir/bee_3161_frutas_esquecidas.c.o
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_sequenciais/CMakeFiles/bee_3161_frutas_esquecidas.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=beecrowd/atp_sequenciais/CMakeFiles/bee_3161_frutas_esquecidas.dir/link.d
+  OBJECT_DIR = beecrowd/atp_sequenciais/CMakeFiles/bee_3161_frutas_esquecidas.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = beecrowd/atp_sequenciais/bee_3161_frutas_esquecidas
+  TARGET_PDB = bee_3161_frutas_esquecidas.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -802,6 +907,181 @@ build beecrowd/atp_condicionais/bee_1906_romanos_seq: C_EXECUTABLE_LINKER__bee_1
   PRE_LINK = :
   TARGET_FILE = beecrowd/atp_condicionais/bee_1906_romanos_seq
   TARGET_PDB = bee_1906_romanos_seq.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bee_3145_jornada_inesperada
+
+
+#############################################
+# Order-only phony target for bee_3145_jornada_inesperada
+
+build cmake_object_order_depends_target_bee_3145_jornada_inesperada: phony || .
+
+build beecrowd/atp_condicionais/CMakeFiles/bee_3145_jornada_inesperada.dir/bee_3145_jornada_inesperada.c.o: C_COMPILER__bee_3145_jornada_inesperada_unscanned_Debug /home/rogerio/git/c_yt_course/beecrowd/atp_condicionais/bee_3145_jornada_inesperada.c || cmake_object_order_depends_target_bee_3145_jornada_inesperada
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_condicionais/CMakeFiles/bee_3145_jornada_inesperada.dir/bee_3145_jornada_inesperada.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = beecrowd/atp_condicionais/CMakeFiles/bee_3145_jornada_inesperada.dir
+  OBJECT_FILE_DIR = beecrowd/atp_condicionais/CMakeFiles/bee_3145_jornada_inesperada.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bee_3145_jornada_inesperada
+
+
+#############################################
+# Link the executable beecrowd/atp_condicionais/bee_3145_jornada_inesperada
+
+build beecrowd/atp_condicionais/bee_3145_jornada_inesperada: C_EXECUTABLE_LINKER__bee_3145_jornada_inesperada_Debug beecrowd/atp_condicionais/CMakeFiles/bee_3145_jornada_inesperada.dir/bee_3145_jornada_inesperada.c.o
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_condicionais/CMakeFiles/bee_3145_jornada_inesperada.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=beecrowd/atp_condicionais/CMakeFiles/bee_3145_jornada_inesperada.dir/link.d
+  OBJECT_DIR = beecrowd/atp_condicionais/CMakeFiles/bee_3145_jornada_inesperada.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = beecrowd/atp_condicionais/bee_3145_jornada_inesperada
+  TARGET_PDB = bee_3145_jornada_inesperada.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bee_3146_charadas_no_escuro
+
+
+#############################################
+# Order-only phony target for bee_3146_charadas_no_escuro
+
+build cmake_object_order_depends_target_bee_3146_charadas_no_escuro: phony || .
+
+build beecrowd/atp_condicionais/CMakeFiles/bee_3146_charadas_no_escuro.dir/bee_3146_charadas_no_escuro.c.o: C_COMPILER__bee_3146_charadas_no_escuro_unscanned_Debug /home/rogerio/git/c_yt_course/beecrowd/atp_condicionais/bee_3146_charadas_no_escuro.c || cmake_object_order_depends_target_bee_3146_charadas_no_escuro
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_condicionais/CMakeFiles/bee_3146_charadas_no_escuro.dir/bee_3146_charadas_no_escuro.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = beecrowd/atp_condicionais/CMakeFiles/bee_3146_charadas_no_escuro.dir
+  OBJECT_FILE_DIR = beecrowd/atp_condicionais/CMakeFiles/bee_3146_charadas_no_escuro.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bee_3146_charadas_no_escuro
+
+
+#############################################
+# Link the executable beecrowd/atp_condicionais/bee_3146_charadas_no_escuro
+
+build beecrowd/atp_condicionais/bee_3146_charadas_no_escuro: C_EXECUTABLE_LINKER__bee_3146_charadas_no_escuro_Debug beecrowd/atp_condicionais/CMakeFiles/bee_3146_charadas_no_escuro.dir/bee_3146_charadas_no_escuro.c.o
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_condicionais/CMakeFiles/bee_3146_charadas_no_escuro.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=beecrowd/atp_condicionais/CMakeFiles/bee_3146_charadas_no_escuro.dir/link.d
+  OBJECT_DIR = beecrowd/atp_condicionais/CMakeFiles/bee_3146_charadas_no_escuro.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = beecrowd/atp_condicionais/bee_3146_charadas_no_escuro
+  TARGET_PDB = bee_3146_charadas_no_escuro.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bee_3147_batalha_cinco_exercitos
+
+
+#############################################
+# Order-only phony target for bee_3147_batalha_cinco_exercitos
+
+build cmake_object_order_depends_target_bee_3147_batalha_cinco_exercitos: phony || .
+
+build beecrowd/atp_condicionais/CMakeFiles/bee_3147_batalha_cinco_exercitos.dir/bee_3147_batalha_cinco_exercitos.c.o: C_COMPILER__bee_3147_batalha_cinco_exercitos_unscanned_Debug /home/rogerio/git/c_yt_course/beecrowd/atp_condicionais/bee_3147_batalha_cinco_exercitos.c || cmake_object_order_depends_target_bee_3147_batalha_cinco_exercitos
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_condicionais/CMakeFiles/bee_3147_batalha_cinco_exercitos.dir/bee_3147_batalha_cinco_exercitos.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = beecrowd/atp_condicionais/CMakeFiles/bee_3147_batalha_cinco_exercitos.dir
+  OBJECT_FILE_DIR = beecrowd/atp_condicionais/CMakeFiles/bee_3147_batalha_cinco_exercitos.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bee_3147_batalha_cinco_exercitos
+
+
+#############################################
+# Link the executable beecrowd/atp_condicionais/bee_3147_batalha_cinco_exercitos
+
+build beecrowd/atp_condicionais/bee_3147_batalha_cinco_exercitos: C_EXECUTABLE_LINKER__bee_3147_batalha_cinco_exercitos_Debug beecrowd/atp_condicionais/CMakeFiles/bee_3147_batalha_cinco_exercitos.dir/bee_3147_batalha_cinco_exercitos.c.o
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_condicionais/CMakeFiles/bee_3147_batalha_cinco_exercitos.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=beecrowd/atp_condicionais/CMakeFiles/bee_3147_batalha_cinco_exercitos.dir/link.d
+  OBJECT_DIR = beecrowd/atp_condicionais/CMakeFiles/bee_3147_batalha_cinco_exercitos.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = beecrowd/atp_condicionais/bee_3147_batalha_cinco_exercitos
+  TARGET_PDB = bee_3147_batalha_cinco_exercitos.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bee_3047_idade_dona_monica
+
+
+#############################################
+# Order-only phony target for bee_3047_idade_dona_monica
+
+build cmake_object_order_depends_target_bee_3047_idade_dona_monica: phony || .
+
+build beecrowd/atp_condicionais/CMakeFiles/bee_3047_idade_dona_monica.dir/bee_3047_idade_dona_monica.c.o: C_COMPILER__bee_3047_idade_dona_monica_unscanned_Debug /home/rogerio/git/c_yt_course/beecrowd/atp_condicionais/bee_3047_idade_dona_monica.c || cmake_object_order_depends_target_bee_3047_idade_dona_monica
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_condicionais/CMakeFiles/bee_3047_idade_dona_monica.dir/bee_3047_idade_dona_monica.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = beecrowd/atp_condicionais/CMakeFiles/bee_3047_idade_dona_monica.dir
+  OBJECT_FILE_DIR = beecrowd/atp_condicionais/CMakeFiles/bee_3047_idade_dona_monica.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bee_3047_idade_dona_monica
+
+
+#############################################
+# Link the executable beecrowd/atp_condicionais/bee_3047_idade_dona_monica
+
+build beecrowd/atp_condicionais/bee_3047_idade_dona_monica: C_EXECUTABLE_LINKER__bee_3047_idade_dona_monica_Debug beecrowd/atp_condicionais/CMakeFiles/bee_3047_idade_dona_monica.dir/bee_3047_idade_dona_monica.c.o
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_condicionais/CMakeFiles/bee_3047_idade_dona_monica.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=beecrowd/atp_condicionais/CMakeFiles/bee_3047_idade_dona_monica.dir/link.d
+  OBJECT_DIR = beecrowd/atp_condicionais/CMakeFiles/bee_3047_idade_dona_monica.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = beecrowd/atp_condicionais/bee_3047_idade_dona_monica
+  TARGET_PDB = bee_3047_idade_dona_monica.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bee_3157_viva_a_ciencia
+
+
+#############################################
+# Order-only phony target for bee_3157_viva_a_ciencia
+
+build cmake_object_order_depends_target_bee_3157_viva_a_ciencia: phony || .
+
+build beecrowd/atp_condicionais/CMakeFiles/bee_3157_viva_a_ciencia.dir/bee_3157_viva_a_ciencia.c.o: C_COMPILER__bee_3157_viva_a_ciencia_unscanned_Debug /home/rogerio/git/c_yt_course/beecrowd/atp_condicionais/bee_3157_viva_a_ciencia.c || cmake_object_order_depends_target_bee_3157_viva_a_ciencia
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_condicionais/CMakeFiles/bee_3157_viva_a_ciencia.dir/bee_3157_viva_a_ciencia.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = beecrowd/atp_condicionais/CMakeFiles/bee_3157_viva_a_ciencia.dir
+  OBJECT_FILE_DIR = beecrowd/atp_condicionais/CMakeFiles/bee_3157_viva_a_ciencia.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bee_3157_viva_a_ciencia
+
+
+#############################################
+# Link the executable beecrowd/atp_condicionais/bee_3157_viva_a_ciencia
+
+build beecrowd/atp_condicionais/bee_3157_viva_a_ciencia: C_EXECUTABLE_LINKER__bee_3157_viva_a_ciencia_Debug beecrowd/atp_condicionais/CMakeFiles/bee_3157_viva_a_ciencia.dir/bee_3157_viva_a_ciencia.c.o
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_condicionais/CMakeFiles/bee_3157_viva_a_ciencia.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=beecrowd/atp_condicionais/CMakeFiles/bee_3157_viva_a_ciencia.dir/link.d
+  OBJECT_DIR = beecrowd/atp_condicionais/CMakeFiles/bee_3157_viva_a_ciencia.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = beecrowd/atp_condicionais/bee_3157_viva_a_ciencia
+  TARGET_PDB = bee_3157_viva_a_ciencia.dbg
 
 
 #############################################
@@ -1216,6 +1496,111 @@ build beecrowd/atp_repeticoes/bee_3142_excel_bugado: CXX_EXECUTABLE_LINKER__bee_
   TARGET_FILE = beecrowd/atp_repeticoes/bee_3142_excel_bugado
   TARGET_PDB = bee_3142_excel_bugado.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target bee_3037_jogando_dardos
+
+
+#############################################
+# Order-only phony target for bee_3037_jogando_dardos
+
+build cmake_object_order_depends_target_bee_3037_jogando_dardos: phony || .
+
+build beecrowd/atp_repeticoes/CMakeFiles/bee_3037_jogando_dardos.dir/bee_3037_jogando_dardos.cpp.o: CXX_COMPILER__bee_3037_jogando_dardos_unscanned_Debug /home/rogerio/git/c_yt_course/beecrowd/atp_repeticoes/bee_3037_jogando_dardos.cpp || cmake_object_order_depends_target_bee_3037_jogando_dardos
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_repeticoes/CMakeFiles/bee_3037_jogando_dardos.dir/bee_3037_jogando_dardos.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = beecrowd/atp_repeticoes/CMakeFiles/bee_3037_jogando_dardos.dir
+  OBJECT_FILE_DIR = beecrowd/atp_repeticoes/CMakeFiles/bee_3037_jogando_dardos.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bee_3037_jogando_dardos
+
+
+#############################################
+# Link the executable beecrowd/atp_repeticoes/bee_3037_jogando_dardos
+
+build beecrowd/atp_repeticoes/bee_3037_jogando_dardos: CXX_EXECUTABLE_LINKER__bee_3037_jogando_dardos_Debug beecrowd/atp_repeticoes/CMakeFiles/bee_3037_jogando_dardos.dir/bee_3037_jogando_dardos.cpp.o
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_repeticoes/CMakeFiles/bee_3037_jogando_dardos.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=beecrowd/atp_repeticoes/CMakeFiles/bee_3037_jogando_dardos.dir/link.d
+  OBJECT_DIR = beecrowd/atp_repeticoes/CMakeFiles/bee_3037_jogando_dardos.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = beecrowd/atp_repeticoes/bee_3037_jogando_dardos
+  TARGET_PDB = bee_3037_jogando_dardos.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bee_3039_brinquedos_papai_noel
+
+
+#############################################
+# Order-only phony target for bee_3039_brinquedos_papai_noel
+
+build cmake_object_order_depends_target_bee_3039_brinquedos_papai_noel: phony || .
+
+build beecrowd/atp_repeticoes/CMakeFiles/bee_3039_brinquedos_papai_noel.dir/bee_3039_brinquedos_papai_noel.cpp.o: CXX_COMPILER__bee_3039_brinquedos_papai_noel_unscanned_Debug /home/rogerio/git/c_yt_course/beecrowd/atp_repeticoes/bee_3039_brinquedos_papai_noel.cpp || cmake_object_order_depends_target_bee_3039_brinquedos_papai_noel
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_repeticoes/CMakeFiles/bee_3039_brinquedos_papai_noel.dir/bee_3039_brinquedos_papai_noel.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = beecrowd/atp_repeticoes/CMakeFiles/bee_3039_brinquedos_papai_noel.dir
+  OBJECT_FILE_DIR = beecrowd/atp_repeticoes/CMakeFiles/bee_3039_brinquedos_papai_noel.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bee_3039_brinquedos_papai_noel
+
+
+#############################################
+# Link the executable beecrowd/atp_repeticoes/bee_3039_brinquedos_papai_noel
+
+build beecrowd/atp_repeticoes/bee_3039_brinquedos_papai_noel: CXX_EXECUTABLE_LINKER__bee_3039_brinquedos_papai_noel_Debug beecrowd/atp_repeticoes/CMakeFiles/bee_3039_brinquedos_papai_noel.dir/bee_3039_brinquedos_papai_noel.cpp.o
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_repeticoes/CMakeFiles/bee_3039_brinquedos_papai_noel.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=beecrowd/atp_repeticoes/CMakeFiles/bee_3039_brinquedos_papai_noel.dir/link.d
+  OBJECT_DIR = beecrowd/atp_repeticoes/CMakeFiles/bee_3039_brinquedos_papai_noel.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = beecrowd/atp_repeticoes/bee_3039_brinquedos_papai_noel
+  TARGET_PDB = bee_3039_brinquedos_papai_noel.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bee_3040_arvore_natal
+
+
+#############################################
+# Order-only phony target for bee_3040_arvore_natal
+
+build cmake_object_order_depends_target_bee_3040_arvore_natal: phony || .
+
+build beecrowd/atp_repeticoes/CMakeFiles/bee_3040_arvore_natal.dir/bee_3040_arvore_natal.c.o: C_COMPILER__bee_3040_arvore_natal_unscanned_Debug /home/rogerio/git/c_yt_course/beecrowd/atp_repeticoes/bee_3040_arvore_natal.c || cmake_object_order_depends_target_bee_3040_arvore_natal
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_repeticoes/CMakeFiles/bee_3040_arvore_natal.dir/bee_3040_arvore_natal.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = beecrowd/atp_repeticoes/CMakeFiles/bee_3040_arvore_natal.dir
+  OBJECT_FILE_DIR = beecrowd/atp_repeticoes/CMakeFiles/bee_3040_arvore_natal.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bee_3040_arvore_natal
+
+
+#############################################
+# Link the executable beecrowd/atp_repeticoes/bee_3040_arvore_natal
+
+build beecrowd/atp_repeticoes/bee_3040_arvore_natal: C_EXECUTABLE_LINKER__bee_3040_arvore_natal_Debug beecrowd/atp_repeticoes/CMakeFiles/bee_3040_arvore_natal.dir/bee_3040_arvore_natal.c.o
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_repeticoes/CMakeFiles/bee_3040_arvore_natal.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=beecrowd/atp_repeticoes/CMakeFiles/bee_3040_arvore_natal.dir/link.d
+  OBJECT_DIR = beecrowd/atp_repeticoes/CMakeFiles/bee_3040_arvore_natal.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = beecrowd/atp_repeticoes/bee_3040_arvore_natal
+  TARGET_PDB = bee_3040_arvore_natal.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1483,9 +1868,31 @@ build bee_2760_entrada_saida_string: phony beecrowd/atp_sequenciais/bee_2760_ent
 
 build bee_2761_entrada_e_saida: phony beecrowd/atp_sequenciais/bee_2761_entrada_e_saida
 
+build bee_3037_jogando_dardos: phony beecrowd/atp_repeticoes/bee_3037_jogando_dardos
+
+build bee_3039_brinquedos_papai_noel: phony beecrowd/atp_repeticoes/bee_3039_brinquedos_papai_noel
+
+build bee_3040_arvore_natal: phony beecrowd/atp_repeticoes/bee_3040_arvore_natal
+
+build bee_3047_idade_dona_monica: phony beecrowd/atp_condicionais/bee_3047_idade_dona_monica
+
+build bee_3055_nota_esquecida: phony beecrowd/atp_sequenciais/bee_3055_nota_esquecida
+
+build bee_3091_resta_um: phony beecrowd/atp_sequenciais/bee_3091_resta_um
+
 build bee_3140_ctrl_c_ctrl_v: phony beecrowd/atp_repeticoes/bee_3140_ctrl_c_ctrl_v
 
 build bee_3142_excel_bugado: phony beecrowd/atp_repeticoes/bee_3142_excel_bugado
+
+build bee_3145_jornada_inesperada: phony beecrowd/atp_condicionais/bee_3145_jornada_inesperada
+
+build bee_3146_charadas_no_escuro: phony beecrowd/atp_condicionais/bee_3146_charadas_no_escuro
+
+build bee_3147_batalha_cinco_exercitos: phony beecrowd/atp_condicionais/bee_3147_batalha_cinco_exercitos
+
+build bee_3157_viva_a_ciencia: phony beecrowd/atp_condicionais/bee_3157_viva_a_ciencia
+
+build bee_3161_frutas_esquecidas: phony beecrowd/atp_sequenciais/bee_3161_frutas_esquecidas
 
 build condic: phony estrut_controle/condic
 
@@ -1526,21 +1933,21 @@ build all: phony estrut_controle/all tipos_vars_consts/all estrut_repeticao/all 
 #############################################
 # Folder: /home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_condicionais
 
-build beecrowd/atp_condicionais/all: phony beecrowd/atp_condicionais/bee_1045_triangulos_if beecrowd/atp_condicionais/bee_1906_romanos_seq
+build beecrowd/atp_condicionais/all: phony beecrowd/atp_condicionais/bee_1045_triangulos_if beecrowd/atp_condicionais/bee_1906_romanos_seq beecrowd/atp_condicionais/bee_3145_jornada_inesperada beecrowd/atp_condicionais/bee_3146_charadas_no_escuro beecrowd/atp_condicionais/bee_3147_batalha_cinco_exercitos beecrowd/atp_condicionais/bee_3047_idade_dona_monica beecrowd/atp_condicionais/bee_3157_viva_a_ciencia
 
 # =============================================================================
 
 #############################################
 # Folder: /home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_repeticoes
 
-build beecrowd/atp_repeticoes/all: phony beecrowd/atp_repeticoes/bee_1029_fibonacci beecrowd/atp_repeticoes/bee_1119_fila_desempregados beecrowd/atp_repeticoes/bee_1542_lendo_livros beecrowd/atp_repeticoes/bee_2721_indecisao_renas beecrowd/atp_repeticoes/bee_1033_fib_chamadas_recursivas beecrowd/atp_repeticoes/bee_2547_montanha_russa beecrowd/atp_repeticoes/bee_2547_montanha_russa_limite_peso beecrowd/atp_repeticoes/bee_2540_impeachment_do_lider beecrowd/atp_repeticoes/bee_1103_alarme_despertador beecrowd/atp_repeticoes/bee_3140_ctrl_c_ctrl_v beecrowd/atp_repeticoes/bee_3142_excel_bugado
+build beecrowd/atp_repeticoes/all: phony beecrowd/atp_repeticoes/bee_1029_fibonacci beecrowd/atp_repeticoes/bee_1119_fila_desempregados beecrowd/atp_repeticoes/bee_1542_lendo_livros beecrowd/atp_repeticoes/bee_2721_indecisao_renas beecrowd/atp_repeticoes/bee_1033_fib_chamadas_recursivas beecrowd/atp_repeticoes/bee_2547_montanha_russa beecrowd/atp_repeticoes/bee_2547_montanha_russa_limite_peso beecrowd/atp_repeticoes/bee_2540_impeachment_do_lider beecrowd/atp_repeticoes/bee_1103_alarme_despertador beecrowd/atp_repeticoes/bee_3140_ctrl_c_ctrl_v beecrowd/atp_repeticoes/bee_3142_excel_bugado beecrowd/atp_repeticoes/bee_3037_jogando_dardos beecrowd/atp_repeticoes/bee_3039_brinquedos_papai_noel beecrowd/atp_repeticoes/bee_3040_arvore_natal
 
 # =============================================================================
 
 #############################################
 # Folder: /home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_sequenciais
 
-build beecrowd/atp_sequenciais/all: phony beecrowd/atp_sequenciais/bee_2760_entrada_saida_string beecrowd/atp_sequenciais/bee_2761_entrada_e_saida
+build beecrowd/atp_sequenciais/all: phony beecrowd/atp_sequenciais/bee_2760_entrada_saida_string beecrowd/atp_sequenciais/bee_2761_entrada_e_saida beecrowd/atp_sequenciais/bee_3055_nota_esquecida beecrowd/atp_sequenciais/bee_3091_resta_um beecrowd/atp_sequenciais/bee_3161_frutas_esquecidas
 
 # =============================================================================
 

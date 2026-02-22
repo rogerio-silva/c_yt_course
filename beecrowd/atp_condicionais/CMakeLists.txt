@@ -5,4 +5,10 @@ set(CMAKE_C_STANDARD 99)
 
 add_executable(bee_1045_triangulos_if bee_1045_triangulos_if.c)
 add_executable(bee_1906_romanos_seq bee_1906_romanos_seq.c)
+add_executable(bee_3145_jornada_inesperada bee_3145_jornada_inesperada.c)
+add_executable(bee_3146_charadas_no_escuro bee_3146_charadas_no_escuro.c)
+add_executable(bee_3147_batalha_cinco_exercitos bee_3147_batalha_cinco_exercitos.c)
+add_executable(bee_3047_idade_dona_monica bee_3047_idade_dona_monica.c)
+add_executable(bee_3157_viva_a_ciencia bee_3157_viva_a_ciencia.c)
+
 
