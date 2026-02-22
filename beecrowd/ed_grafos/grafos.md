@@ -68,17 +68,17 @@ Node* insert(Node *root, int value) {
 
 ## Exercícios Resolvidos (Beecrowd)
 
-### [Beecrowd 1191 - Recuperação da Árvore](./bee_1191_recuperacao_arvore.c)
+### [Beecrowd 1191 - Recuperação da Árvore](bee_1191_recuperacao_arvore.c)
 Reconstrução de uma árvore a partir dos percursos prefixo e infixo para gerar o posfixo.
 
-### [Beecrowd 1194 - Prefixa, Infixa e Posfixa](./bee_1194_prefixa_infixa_posfixa.c)
+### [Beecrowd 1194 - Prefixa, Infixa e Posfixa](bee_1194_prefixa_infixa_posfixa.c)
 Similar ao 1191, focado na geração do percurso posfixo dados os outros dois.
 
-### [Beecrowd 1195 - Árvore Binária de Busca](./bee_1195_arvore_binaria_busca.c)
+### [Beecrowd 1195 - Árvore Binária de Busca](bee_1195_arvore_binaria_busca.c)
 Construção de uma BST e exibição dos três percursos clássicos.
 
-### [Beecrowd 1200 - Operações em ABP I](./bee_1200_operacoes_abp_i.c)
+### [Beecrowd 1200 - Operações em ABP I](bee_1200_operacoes_abp_i.c)
 Implementação de comandos para inserção, busca e exibição de percursos em uma ABP de caracteres.
 
-### [Beecrowd 1201 - Operações em ABP II](./bee_1201_operacoes_abp_ii.c)
+### [Beecrowd 1201 - Operações em ABP II](bee_1201_operacoes_abp_ii.c)
 Evolução do problema 1200, agora com números inteiros e operação de remoção de nós.

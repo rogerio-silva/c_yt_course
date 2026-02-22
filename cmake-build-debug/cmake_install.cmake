@@ -62,6 +62,26 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/rogerio/git/c_yt_course/cmake-build-debug/operadores_expressoes/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_sequenciais/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_condicionais/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_repeticoes/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/ed_grafos/cmake_install.cmake")
+endif()
+
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)

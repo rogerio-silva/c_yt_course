@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.28)
+project(c_yt_course C CXX)
+
+set(CMAKE_C_STANDARD 99)
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(bee_1029_fibonacci bee_1029_fibonacci.c)
+add_executable(bee_1119_fila_desempregados bee_1119_fila_desempregados.c)
+add_executable(bee_1542_lendo_livros bee_1542_lendo_livros.c)
+add_executable(bee_2721_indecisao_renas bee_2721_indecisao_renas.c)
+add_executable(bee_1033_fib_chamadas_recursivas bee_1033_fib_chamadas_recursivas.c)
+add_executable(bee_2547_montanha_russa bee_2547_montanha_russa.c)
+add_executable(bee_2547_montanha_russa_limite_peso bee_2547_montanha_russa_limite_peso.c)
+add_executable(bee_2540_impeachment_do_lider bee_2540_impeachment_do_lider.c)
+add_executable(bee_1103_alarme_despertador bee_1103_alarme_despertador.c)
+add_executable(bee_3140_ctrl_c_ctrl_v bee_3140_ctrl_c_ctrl_v.cpp)
+add_executable(bee_3142_excel_bugado bee_3142_excel_bugado.cpp)

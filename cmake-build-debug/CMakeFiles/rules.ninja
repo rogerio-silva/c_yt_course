@@ -106,27 +106,6 @@ rule C_EXECUTABLE_LINKER__ex_resolvido_if_Debug
 #############################################
 # Rule for compiling C files.
 
-rule C_COMPILER__bee_1045_triangulos_if_unscanned_Debug
-  depfile = $DEP_FILE
-  deps = gcc
-  command = ${LAUNCHER}${CODE_CHECK}/usr/bin/cc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
-  description = Building C object $out
-
-
-#############################################
-# Rule for linking C executable.
-
-rule C_EXECUTABLE_LINKER__bee_1045_triangulos_if_Debug
-  depfile = $DEP_FILE
-  deps = gcc
-  command = $PRE_LINK && /usr/bin/cc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
-  description = Linking C executable $TARGET_FILE
-  restat = $RESTAT
-
-
-#############################################
-# Rule for compiling C files.
-
 rule C_COMPILER__ex_resolvido_switch_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
@@ -138,27 +117,6 @@ rule C_COMPILER__ex_resolvido_switch_unscanned_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__ex_resolvido_switch_Debug
-  depfile = $DEP_FILE
-  deps = gcc
-  command = $PRE_LINK && /usr/bin/cc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
-  description = Linking C executable $TARGET_FILE
-  restat = $RESTAT
-
-
-#############################################
-# Rule for compiling C files.
-
-rule C_COMPILER__bee_1906_romanos_seq_unscanned_Debug
-  depfile = $DEP_FILE
-  deps = gcc
-  command = ${LAUNCHER}${CODE_CHECK}/usr/bin/cc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
-  description = Building C object $out
-
-
-#############################################
-# Rule for linking C executable.
-
-rule C_EXECUTABLE_LINKER__bee_1906_romanos_seq_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = $PRE_LINK && /usr/bin/cc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
@@ -253,27 +211,6 @@ rule C_EXECUTABLE_LINKER__vars_logicas_Debug
 #############################################
 # Rule for compiling C files.
 
-rule C_COMPILER__bee_2760_entrada_saida_string_unscanned_Debug
-  depfile = $DEP_FILE
-  deps = gcc
-  command = ${LAUNCHER}${CODE_CHECK}/usr/bin/cc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
-  description = Building C object $out
-
-
-#############################################
-# Rule for linking C executable.
-
-rule C_EXECUTABLE_LINKER__bee_2760_entrada_saida_string_Debug
-  depfile = $DEP_FILE
-  deps = gcc
-  command = $PRE_LINK && /usr/bin/cc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
-  description = Linking C executable $TARGET_FILE
-  restat = $RESTAT
-
-
-#############################################
-# Rule for compiling C files.
-
 rule C_COMPILER__repeticao_for_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
@@ -327,6 +264,111 @@ rule C_COMPILER__repeticao_do.2ec_unscanned_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__repeticao_do.2ec_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = $PRE_LINK && /usr/bin/cc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking C executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling C files.
+
+rule C_COMPILER__expressoes_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = ${LAUNCHER}${CODE_CHECK}/usr/bin/cc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C executable.
+
+rule C_EXECUTABLE_LINKER__expressoes_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = $PRE_LINK && /usr/bin/cc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking C executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling C files.
+
+rule C_COMPILER__bee_2760_entrada_saida_string_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = ${LAUNCHER}${CODE_CHECK}/usr/bin/cc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C executable.
+
+rule C_EXECUTABLE_LINKER__bee_2760_entrada_saida_string_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = $PRE_LINK && /usr/bin/cc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking C executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling C files.
+
+rule C_COMPILER__bee_2761_entrada_e_saida_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = ${LAUNCHER}${CODE_CHECK}/usr/bin/cc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C executable.
+
+rule C_EXECUTABLE_LINKER__bee_2761_entrada_e_saida_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = $PRE_LINK && /usr/bin/cc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking C executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling C files.
+
+rule C_COMPILER__bee_1045_triangulos_if_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = ${LAUNCHER}${CODE_CHECK}/usr/bin/cc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C executable.
+
+rule C_EXECUTABLE_LINKER__bee_1045_triangulos_if_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = $PRE_LINK && /usr/bin/cc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking C executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling C files.
+
+rule C_COMPILER__bee_1906_romanos_seq_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = ${LAUNCHER}${CODE_CHECK}/usr/bin/cc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C executable.
+
+rule C_EXECUTABLE_LINKER__bee_1906_romanos_seq_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = $PRE_LINK && /usr/bin/cc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
@@ -524,9 +566,51 @@ rule C_EXECUTABLE_LINKER__bee_1103_alarme_despertador_Debug
 
 
 #############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__bee_3140_ctrl_c_ctrl_v_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = ${LAUNCHER}${CODE_CHECK}/usr/bin/c++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__bee_3140_ctrl_c_ctrl_v_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = $PRE_LINK && /usr/bin/c++ $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__bee_3142_excel_bugado_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = ${LAUNCHER}${CODE_CHECK}/usr/bin/c++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__bee_3142_excel_bugado_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = $PRE_LINK && /usr/bin/c++ $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
 # Rule for compiling C files.
 
-rule C_COMPILER__expressoes_unscanned_Debug
+rule C_COMPILER__bee_1191_recuperacao_arvore_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}/usr/bin/cc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -536,7 +620,91 @@ rule C_COMPILER__expressoes_unscanned_Debug
 #############################################
 # Rule for linking C executable.
 
-rule C_EXECUTABLE_LINKER__expressoes_Debug
+rule C_EXECUTABLE_LINKER__bee_1191_recuperacao_arvore_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = $PRE_LINK && /usr/bin/cc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking C executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling C files.
+
+rule C_COMPILER__bee_1194_prefixa_infixa_posfixa_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = ${LAUNCHER}${CODE_CHECK}/usr/bin/cc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C executable.
+
+rule C_EXECUTABLE_LINKER__bee_1194_prefixa_infixa_posfixa_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = $PRE_LINK && /usr/bin/cc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking C executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling C files.
+
+rule C_COMPILER__bee_1195_arvore_binaria_busca_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = ${LAUNCHER}${CODE_CHECK}/usr/bin/cc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C executable.
+
+rule C_EXECUTABLE_LINKER__bee_1195_arvore_binaria_busca_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = $PRE_LINK && /usr/bin/cc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking C executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling C files.
+
+rule C_COMPILER__bee_1200_operacoes_abp_i_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = ${LAUNCHER}${CODE_CHECK}/usr/bin/cc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C executable.
+
+rule C_EXECUTABLE_LINKER__bee_1200_operacoes_abp_i_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = $PRE_LINK && /usr/bin/cc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking C executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling C files.
+
+rule C_COMPILER__bee_1201_operacoes_abp_ii_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = ${LAUNCHER}${CODE_CHECK}/usr/bin/cc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C executable.
+
+rule C_EXECUTABLE_LINKER__bee_1201_operacoes_abp_ii_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = $PRE_LINK && /usr/bin/cc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD

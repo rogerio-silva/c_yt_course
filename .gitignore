@@ -32,6 +32,6 @@
 *.app
 
 /tipos_vars_consts/cmake-build-debug/
-/ed_grafos/cmake-build-debug/
+/beecrowd/ed_grafos/cmake-build-debug/
 /bin/
 /cmake-build-debug/

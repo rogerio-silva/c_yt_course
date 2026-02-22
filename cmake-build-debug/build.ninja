@@ -209,41 +209,6 @@ build estrut_controle/ex_resolvido_if: C_EXECUTABLE_LINKER__ex_resolvido_if_Debu
   TARGET_PDB = ex_resolvido_if.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target bee_1045_triangulos_if
-
-
-#############################################
-# Order-only phony target for bee_1045_triangulos_if
-
-build cmake_object_order_depends_target_bee_1045_triangulos_if: phony || .
-
-build estrut_controle/CMakeFiles/bee_1045_triangulos_if.dir/bee_1045_triangulos_if.c.o: C_COMPILER__bee_1045_triangulos_if_unscanned_Debug /home/rogerio/git/c_yt_course/estrut_controle/bee_1045_triangulos_if.c || cmake_object_order_depends_target_bee_1045_triangulos_if
-  CONFIG = Debug
-  DEP_FILE = estrut_controle/CMakeFiles/bee_1045_triangulos_if.dir/bee_1045_triangulos_if.c.o.d
-  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
-  OBJECT_DIR = estrut_controle/CMakeFiles/bee_1045_triangulos_if.dir
-  OBJECT_FILE_DIR = estrut_controle/CMakeFiles/bee_1045_triangulos_if.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target bee_1045_triangulos_if
-
-
-#############################################
-# Link the executable estrut_controle/bee_1045_triangulos_if
-
-build estrut_controle/bee_1045_triangulos_if: C_EXECUTABLE_LINKER__bee_1045_triangulos_if_Debug estrut_controle/CMakeFiles/bee_1045_triangulos_if.dir/bee_1045_triangulos_if.c.o
-  CONFIG = Debug
-  DEP_FILE = estrut_controle/CMakeFiles/bee_1045_triangulos_if.dir/link.d
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--dependency-file=estrut_controle/CMakeFiles/bee_1045_triangulos_if.dir/link.d
-  OBJECT_DIR = estrut_controle/CMakeFiles/bee_1045_triangulos_if.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = estrut_controle/bee_1045_triangulos_if
-  TARGET_PDB = bee_1045_triangulos_if.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target ex_resolvido_switch
 
 
@@ -277,41 +242,6 @@ build estrut_controle/ex_resolvido_switch: C_EXECUTABLE_LINKER__ex_resolvido_swi
   PRE_LINK = :
   TARGET_FILE = estrut_controle/ex_resolvido_switch
   TARGET_PDB = ex_resolvido_switch.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target bee_1906_romanos_seq
-
-
-#############################################
-# Order-only phony target for bee_1906_romanos_seq
-
-build cmake_object_order_depends_target_bee_1906_romanos_seq: phony || .
-
-build estrut_controle/CMakeFiles/bee_1906_romanos_seq.dir/bee_1906_romanos_seq.c.o: C_COMPILER__bee_1906_romanos_seq_unscanned_Debug /home/rogerio/git/c_yt_course/estrut_controle/bee_1906_romanos_seq.c || cmake_object_order_depends_target_bee_1906_romanos_seq
-  CONFIG = Debug
-  DEP_FILE = estrut_controle/CMakeFiles/bee_1906_romanos_seq.dir/bee_1906_romanos_seq.c.o.d
-  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
-  OBJECT_DIR = estrut_controle/CMakeFiles/bee_1906_romanos_seq.dir
-  OBJECT_FILE_DIR = estrut_controle/CMakeFiles/bee_1906_romanos_seq.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target bee_1906_romanos_seq
-
-
-#############################################
-# Link the executable estrut_controle/bee_1906_romanos_seq
-
-build estrut_controle/bee_1906_romanos_seq: C_EXECUTABLE_LINKER__bee_1906_romanos_seq_Debug estrut_controle/CMakeFiles/bee_1906_romanos_seq.dir/bee_1906_romanos_seq.c.o
-  CONFIG = Debug
-  DEP_FILE = estrut_controle/CMakeFiles/bee_1906_romanos_seq.dir/link.d
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--dependency-file=estrut_controle/CMakeFiles/bee_1906_romanos_seq.dir/link.d
-  OBJECT_DIR = estrut_controle/CMakeFiles/bee_1906_romanos_seq.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = estrut_controle/bee_1906_romanos_seq
-  TARGET_PDB = bee_1906_romanos_seq.dbg
 
 
 #############################################
@@ -481,41 +411,6 @@ build tipos_vars_consts/vars_logicas: C_EXECUTABLE_LINKER__vars_logicas_Debug ti
   TARGET_FILE = tipos_vars_consts/vars_logicas
   TARGET_PDB = vars_logicas.dbg
 
-# =============================================================================
-# Object build statements for EXECUTABLE target bee_2760_entrada_saida_string
-
-
-#############################################
-# Order-only phony target for bee_2760_entrada_saida_string
-
-build cmake_object_order_depends_target_bee_2760_entrada_saida_string: phony || .
-
-build tipos_vars_consts/CMakeFiles/bee_2760_entrada_saida_string.dir/bee_2760_entrada_saida_string.c.o: C_COMPILER__bee_2760_entrada_saida_string_unscanned_Debug /home/rogerio/git/c_yt_course/tipos_vars_consts/bee_2760_entrada_saida_string.c || cmake_object_order_depends_target_bee_2760_entrada_saida_string
-  CONFIG = Debug
-  DEP_FILE = tipos_vars_consts/CMakeFiles/bee_2760_entrada_saida_string.dir/bee_2760_entrada_saida_string.c.o.d
-  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
-  OBJECT_DIR = tipos_vars_consts/CMakeFiles/bee_2760_entrada_saida_string.dir
-  OBJECT_FILE_DIR = tipos_vars_consts/CMakeFiles/bee_2760_entrada_saida_string.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target bee_2760_entrada_saida_string
-
-
-#############################################
-# Link the executable tipos_vars_consts/bee_2760_entrada_saida_string
-
-build tipos_vars_consts/bee_2760_entrada_saida_string: C_EXECUTABLE_LINKER__bee_2760_entrada_saida_string_Debug tipos_vars_consts/CMakeFiles/bee_2760_entrada_saida_string.dir/bee_2760_entrada_saida_string.c.o
-  CONFIG = Debug
-  DEP_FILE = tipos_vars_consts/CMakeFiles/bee_2760_entrada_saida_string.dir/link.d
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--dependency-file=tipos_vars_consts/CMakeFiles/bee_2760_entrada_saida_string.dir/link.d
-  OBJECT_DIR = tipos_vars_consts/CMakeFiles/bee_2760_entrada_saida_string.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = tipos_vars_consts/bee_2760_entrada_saida_string
-  TARGET_PDB = bee_2760_entrada_saida_string.dbg
-
 
 #############################################
 # Utility command for edit_cache
@@ -649,321 +544,6 @@ build estrut_repeticao/repeticao_do.c: C_EXECUTABLE_LINKER__repeticao_do.2ec_Deb
   TARGET_FILE = estrut_repeticao/repeticao_do.c
   TARGET_PDB = repeticao_do.c.dbg
 
-# =============================================================================
-# Object build statements for EXECUTABLE target bee_1029_fibonacci
-
-
-#############################################
-# Order-only phony target for bee_1029_fibonacci
-
-build cmake_object_order_depends_target_bee_1029_fibonacci: phony || .
-
-build estrut_repeticao/CMakeFiles/bee_1029_fibonacci.dir/bee_1029_fibonacci.c.o: C_COMPILER__bee_1029_fibonacci_unscanned_Debug /home/rogerio/git/c_yt_course/estrut_repeticao/bee_1029_fibonacci.c || cmake_object_order_depends_target_bee_1029_fibonacci
-  CONFIG = Debug
-  DEP_FILE = estrut_repeticao/CMakeFiles/bee_1029_fibonacci.dir/bee_1029_fibonacci.c.o.d
-  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
-  OBJECT_DIR = estrut_repeticao/CMakeFiles/bee_1029_fibonacci.dir
-  OBJECT_FILE_DIR = estrut_repeticao/CMakeFiles/bee_1029_fibonacci.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target bee_1029_fibonacci
-
-
-#############################################
-# Link the executable estrut_repeticao/bee_1029_fibonacci
-
-build estrut_repeticao/bee_1029_fibonacci: C_EXECUTABLE_LINKER__bee_1029_fibonacci_Debug estrut_repeticao/CMakeFiles/bee_1029_fibonacci.dir/bee_1029_fibonacci.c.o
-  CONFIG = Debug
-  DEP_FILE = estrut_repeticao/CMakeFiles/bee_1029_fibonacci.dir/link.d
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--dependency-file=estrut_repeticao/CMakeFiles/bee_1029_fibonacci.dir/link.d
-  OBJECT_DIR = estrut_repeticao/CMakeFiles/bee_1029_fibonacci.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = estrut_repeticao/bee_1029_fibonacci
-  TARGET_PDB = bee_1029_fibonacci.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target bee_1119_fila_desempregados
-
-
-#############################################
-# Order-only phony target for bee_1119_fila_desempregados
-
-build cmake_object_order_depends_target_bee_1119_fila_desempregados: phony || .
-
-build estrut_repeticao/CMakeFiles/bee_1119_fila_desempregados.dir/bee_1119_fila_desempregados.c.o: C_COMPILER__bee_1119_fila_desempregados_unscanned_Debug /home/rogerio/git/c_yt_course/estrut_repeticao/bee_1119_fila_desempregados.c || cmake_object_order_depends_target_bee_1119_fila_desempregados
-  CONFIG = Debug
-  DEP_FILE = estrut_repeticao/CMakeFiles/bee_1119_fila_desempregados.dir/bee_1119_fila_desempregados.c.o.d
-  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
-  OBJECT_DIR = estrut_repeticao/CMakeFiles/bee_1119_fila_desempregados.dir
-  OBJECT_FILE_DIR = estrut_repeticao/CMakeFiles/bee_1119_fila_desempregados.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target bee_1119_fila_desempregados
-
-
-#############################################
-# Link the executable estrut_repeticao/bee_1119_fila_desempregados
-
-build estrut_repeticao/bee_1119_fila_desempregados: C_EXECUTABLE_LINKER__bee_1119_fila_desempregados_Debug estrut_repeticao/CMakeFiles/bee_1119_fila_desempregados.dir/bee_1119_fila_desempregados.c.o
-  CONFIG = Debug
-  DEP_FILE = estrut_repeticao/CMakeFiles/bee_1119_fila_desempregados.dir/link.d
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--dependency-file=estrut_repeticao/CMakeFiles/bee_1119_fila_desempregados.dir/link.d
-  OBJECT_DIR = estrut_repeticao/CMakeFiles/bee_1119_fila_desempregados.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = estrut_repeticao/bee_1119_fila_desempregados
-  TARGET_PDB = bee_1119_fila_desempregados.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target bee_1542_lendo_livros
-
-
-#############################################
-# Order-only phony target for bee_1542_lendo_livros
-
-build cmake_object_order_depends_target_bee_1542_lendo_livros: phony || .
-
-build estrut_repeticao/CMakeFiles/bee_1542_lendo_livros.dir/bee_1542_lendo_livros.c.o: C_COMPILER__bee_1542_lendo_livros_unscanned_Debug /home/rogerio/git/c_yt_course/estrut_repeticao/bee_1542_lendo_livros.c || cmake_object_order_depends_target_bee_1542_lendo_livros
-  CONFIG = Debug
-  DEP_FILE = estrut_repeticao/CMakeFiles/bee_1542_lendo_livros.dir/bee_1542_lendo_livros.c.o.d
-  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
-  OBJECT_DIR = estrut_repeticao/CMakeFiles/bee_1542_lendo_livros.dir
-  OBJECT_FILE_DIR = estrut_repeticao/CMakeFiles/bee_1542_lendo_livros.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target bee_1542_lendo_livros
-
-
-#############################################
-# Link the executable estrut_repeticao/bee_1542_lendo_livros
-
-build estrut_repeticao/bee_1542_lendo_livros: C_EXECUTABLE_LINKER__bee_1542_lendo_livros_Debug estrut_repeticao/CMakeFiles/bee_1542_lendo_livros.dir/bee_1542_lendo_livros.c.o
-  CONFIG = Debug
-  DEP_FILE = estrut_repeticao/CMakeFiles/bee_1542_lendo_livros.dir/link.d
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--dependency-file=estrut_repeticao/CMakeFiles/bee_1542_lendo_livros.dir/link.d
-  OBJECT_DIR = estrut_repeticao/CMakeFiles/bee_1542_lendo_livros.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = estrut_repeticao/bee_1542_lendo_livros
-  TARGET_PDB = bee_1542_lendo_livros.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target bee_2721_indecisao_renas
-
-
-#############################################
-# Order-only phony target for bee_2721_indecisao_renas
-
-build cmake_object_order_depends_target_bee_2721_indecisao_renas: phony || .
-
-build estrut_repeticao/CMakeFiles/bee_2721_indecisao_renas.dir/bee_2721_indecisao_renas.c.o: C_COMPILER__bee_2721_indecisao_renas_unscanned_Debug /home/rogerio/git/c_yt_course/estrut_repeticao/bee_2721_indecisao_renas.c || cmake_object_order_depends_target_bee_2721_indecisao_renas
-  CONFIG = Debug
-  DEP_FILE = estrut_repeticao/CMakeFiles/bee_2721_indecisao_renas.dir/bee_2721_indecisao_renas.c.o.d
-  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
-  OBJECT_DIR = estrut_repeticao/CMakeFiles/bee_2721_indecisao_renas.dir
-  OBJECT_FILE_DIR = estrut_repeticao/CMakeFiles/bee_2721_indecisao_renas.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target bee_2721_indecisao_renas
-
-
-#############################################
-# Link the executable estrut_repeticao/bee_2721_indecisao_renas
-
-build estrut_repeticao/bee_2721_indecisao_renas: C_EXECUTABLE_LINKER__bee_2721_indecisao_renas_Debug estrut_repeticao/CMakeFiles/bee_2721_indecisao_renas.dir/bee_2721_indecisao_renas.c.o
-  CONFIG = Debug
-  DEP_FILE = estrut_repeticao/CMakeFiles/bee_2721_indecisao_renas.dir/link.d
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--dependency-file=estrut_repeticao/CMakeFiles/bee_2721_indecisao_renas.dir/link.d
-  OBJECT_DIR = estrut_repeticao/CMakeFiles/bee_2721_indecisao_renas.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = estrut_repeticao/bee_2721_indecisao_renas
-  TARGET_PDB = bee_2721_indecisao_renas.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target bee_1033_fib_chamadas_recursivas
-
-
-#############################################
-# Order-only phony target for bee_1033_fib_chamadas_recursivas
-
-build cmake_object_order_depends_target_bee_1033_fib_chamadas_recursivas: phony || .
-
-build estrut_repeticao/CMakeFiles/bee_1033_fib_chamadas_recursivas.dir/bee_1033_fib_chamadas_recursivas.c.o: C_COMPILER__bee_1033_fib_chamadas_recursivas_unscanned_Debug /home/rogerio/git/c_yt_course/estrut_repeticao/bee_1033_fib_chamadas_recursivas.c || cmake_object_order_depends_target_bee_1033_fib_chamadas_recursivas
-  CONFIG = Debug
-  DEP_FILE = estrut_repeticao/CMakeFiles/bee_1033_fib_chamadas_recursivas.dir/bee_1033_fib_chamadas_recursivas.c.o.d
-  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
-  OBJECT_DIR = estrut_repeticao/CMakeFiles/bee_1033_fib_chamadas_recursivas.dir
-  OBJECT_FILE_DIR = estrut_repeticao/CMakeFiles/bee_1033_fib_chamadas_recursivas.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target bee_1033_fib_chamadas_recursivas
-
-
-#############################################
-# Link the executable estrut_repeticao/bee_1033_fib_chamadas_recursivas
-
-build estrut_repeticao/bee_1033_fib_chamadas_recursivas: C_EXECUTABLE_LINKER__bee_1033_fib_chamadas_recursivas_Debug estrut_repeticao/CMakeFiles/bee_1033_fib_chamadas_recursivas.dir/bee_1033_fib_chamadas_recursivas.c.o
-  CONFIG = Debug
-  DEP_FILE = estrut_repeticao/CMakeFiles/bee_1033_fib_chamadas_recursivas.dir/link.d
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--dependency-file=estrut_repeticao/CMakeFiles/bee_1033_fib_chamadas_recursivas.dir/link.d
-  OBJECT_DIR = estrut_repeticao/CMakeFiles/bee_1033_fib_chamadas_recursivas.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = estrut_repeticao/bee_1033_fib_chamadas_recursivas
-  TARGET_PDB = bee_1033_fib_chamadas_recursivas.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target bee_2547_montanha_russa
-
-
-#############################################
-# Order-only phony target for bee_2547_montanha_russa
-
-build cmake_object_order_depends_target_bee_2547_montanha_russa: phony || .
-
-build estrut_repeticao/CMakeFiles/bee_2547_montanha_russa.dir/bee_2547_montanha_russa.c.o: C_COMPILER__bee_2547_montanha_russa_unscanned_Debug /home/rogerio/git/c_yt_course/estrut_repeticao/bee_2547_montanha_russa.c || cmake_object_order_depends_target_bee_2547_montanha_russa
-  CONFIG = Debug
-  DEP_FILE = estrut_repeticao/CMakeFiles/bee_2547_montanha_russa.dir/bee_2547_montanha_russa.c.o.d
-  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
-  OBJECT_DIR = estrut_repeticao/CMakeFiles/bee_2547_montanha_russa.dir
-  OBJECT_FILE_DIR = estrut_repeticao/CMakeFiles/bee_2547_montanha_russa.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target bee_2547_montanha_russa
-
-
-#############################################
-# Link the executable estrut_repeticao/bee_2547_montanha_russa
-
-build estrut_repeticao/bee_2547_montanha_russa: C_EXECUTABLE_LINKER__bee_2547_montanha_russa_Debug estrut_repeticao/CMakeFiles/bee_2547_montanha_russa.dir/bee_2547_montanha_russa.c.o
-  CONFIG = Debug
-  DEP_FILE = estrut_repeticao/CMakeFiles/bee_2547_montanha_russa.dir/link.d
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--dependency-file=estrut_repeticao/CMakeFiles/bee_2547_montanha_russa.dir/link.d
-  OBJECT_DIR = estrut_repeticao/CMakeFiles/bee_2547_montanha_russa.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = estrut_repeticao/bee_2547_montanha_russa
-  TARGET_PDB = bee_2547_montanha_russa.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target bee_2547_montanha_russa_limite_peso
-
-
-#############################################
-# Order-only phony target for bee_2547_montanha_russa_limite_peso
-
-build cmake_object_order_depends_target_bee_2547_montanha_russa_limite_peso: phony || .
-
-build estrut_repeticao/CMakeFiles/bee_2547_montanha_russa_limite_peso.dir/bee_2547_montanha_russa_limite_peso.c.o: C_COMPILER__bee_2547_montanha_russa_limite_peso_unscanned_Debug /home/rogerio/git/c_yt_course/estrut_repeticao/bee_2547_montanha_russa_limite_peso.c || cmake_object_order_depends_target_bee_2547_montanha_russa_limite_peso
-  CONFIG = Debug
-  DEP_FILE = estrut_repeticao/CMakeFiles/bee_2547_montanha_russa_limite_peso.dir/bee_2547_montanha_russa_limite_peso.c.o.d
-  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
-  OBJECT_DIR = estrut_repeticao/CMakeFiles/bee_2547_montanha_russa_limite_peso.dir
-  OBJECT_FILE_DIR = estrut_repeticao/CMakeFiles/bee_2547_montanha_russa_limite_peso.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target bee_2547_montanha_russa_limite_peso
-
-
-#############################################
-# Link the executable estrut_repeticao/bee_2547_montanha_russa_limite_peso
-
-build estrut_repeticao/bee_2547_montanha_russa_limite_peso: C_EXECUTABLE_LINKER__bee_2547_montanha_russa_limite_peso_Debug estrut_repeticao/CMakeFiles/bee_2547_montanha_russa_limite_peso.dir/bee_2547_montanha_russa_limite_peso.c.o
-  CONFIG = Debug
-  DEP_FILE = estrut_repeticao/CMakeFiles/bee_2547_montanha_russa_limite_peso.dir/link.d
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--dependency-file=estrut_repeticao/CMakeFiles/bee_2547_montanha_russa_limite_peso.dir/link.d
-  OBJECT_DIR = estrut_repeticao/CMakeFiles/bee_2547_montanha_russa_limite_peso.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = estrut_repeticao/bee_2547_montanha_russa_limite_peso
-  TARGET_PDB = bee_2547_montanha_russa_limite_peso.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target bee_2540_impeachment_do_lider
-
-
-#############################################
-# Order-only phony target for bee_2540_impeachment_do_lider
-
-build cmake_object_order_depends_target_bee_2540_impeachment_do_lider: phony || .
-
-build estrut_repeticao/CMakeFiles/bee_2540_impeachment_do_lider.dir/bee_2540_impeachment_do_lider.c.o: C_COMPILER__bee_2540_impeachment_do_lider_unscanned_Debug /home/rogerio/git/c_yt_course/estrut_repeticao/bee_2540_impeachment_do_lider.c || cmake_object_order_depends_target_bee_2540_impeachment_do_lider
-  CONFIG = Debug
-  DEP_FILE = estrut_repeticao/CMakeFiles/bee_2540_impeachment_do_lider.dir/bee_2540_impeachment_do_lider.c.o.d
-  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
-  OBJECT_DIR = estrut_repeticao/CMakeFiles/bee_2540_impeachment_do_lider.dir
-  OBJECT_FILE_DIR = estrut_repeticao/CMakeFiles/bee_2540_impeachment_do_lider.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target bee_2540_impeachment_do_lider
-
-
-#############################################
-# Link the executable estrut_repeticao/bee_2540_impeachment_do_lider
-
-build estrut_repeticao/bee_2540_impeachment_do_lider: C_EXECUTABLE_LINKER__bee_2540_impeachment_do_lider_Debug estrut_repeticao/CMakeFiles/bee_2540_impeachment_do_lider.dir/bee_2540_impeachment_do_lider.c.o
-  CONFIG = Debug
-  DEP_FILE = estrut_repeticao/CMakeFiles/bee_2540_impeachment_do_lider.dir/link.d
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--dependency-file=estrut_repeticao/CMakeFiles/bee_2540_impeachment_do_lider.dir/link.d
-  OBJECT_DIR = estrut_repeticao/CMakeFiles/bee_2540_impeachment_do_lider.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = estrut_repeticao/bee_2540_impeachment_do_lider
-  TARGET_PDB = bee_2540_impeachment_do_lider.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target bee_1103_alarme_despertador
-
-
-#############################################
-# Order-only phony target for bee_1103_alarme_despertador
-
-build cmake_object_order_depends_target_bee_1103_alarme_despertador: phony || .
-
-build estrut_repeticao/CMakeFiles/bee_1103_alarme_despertador.dir/bee_1103_alarme_despertador.c.o: C_COMPILER__bee_1103_alarme_despertador_unscanned_Debug /home/rogerio/git/c_yt_course/estrut_repeticao/bee_1103_alarme_despertador.c || cmake_object_order_depends_target_bee_1103_alarme_despertador
-  CONFIG = Debug
-  DEP_FILE = estrut_repeticao/CMakeFiles/bee_1103_alarme_despertador.dir/bee_1103_alarme_despertador.c.o.d
-  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
-  OBJECT_DIR = estrut_repeticao/CMakeFiles/bee_1103_alarme_despertador.dir
-  OBJECT_FILE_DIR = estrut_repeticao/CMakeFiles/bee_1103_alarme_despertador.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target bee_1103_alarme_despertador
-
-
-#############################################
-# Link the executable estrut_repeticao/bee_1103_alarme_despertador
-
-build estrut_repeticao/bee_1103_alarme_despertador: C_EXECUTABLE_LINKER__bee_1103_alarme_despertador_Debug estrut_repeticao/CMakeFiles/bee_1103_alarme_despertador.dir/bee_1103_alarme_despertador.c.o
-  CONFIG = Debug
-  DEP_FILE = estrut_repeticao/CMakeFiles/bee_1103_alarme_despertador.dir/link.d
-  FLAGS = -g
-  LINK_FLAGS = -Wl,--dependency-file=estrut_repeticao/CMakeFiles/bee_1103_alarme_despertador.dir/link.d
-  OBJECT_DIR = estrut_repeticao/CMakeFiles/bee_1103_alarme_despertador.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = estrut_repeticao/bee_1103_alarme_despertador
-  TARGET_PDB = bee_1103_alarme_despertador.dbg
-
 
 #############################################
 # Utility command for edit_cache
@@ -1051,33 +631,861 @@ build operadores_expressoes/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build operadores_expressoes/rebuild_cache: phony operadores_expressoes/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /home/rogerio/git/c_yt_course/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bee_2760_entrada_saida_string
+
+
+#############################################
+# Order-only phony target for bee_2760_entrada_saida_string
+
+build cmake_object_order_depends_target_bee_2760_entrada_saida_string: phony || .
+
+build beecrowd/atp_sequenciais/CMakeFiles/bee_2760_entrada_saida_string.dir/bee_2760_entrada_saida_string.c.o: C_COMPILER__bee_2760_entrada_saida_string_unscanned_Debug /home/rogerio/git/c_yt_course/beecrowd/atp_sequenciais/bee_2760_entrada_saida_string.c || cmake_object_order_depends_target_bee_2760_entrada_saida_string
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_sequenciais/CMakeFiles/bee_2760_entrada_saida_string.dir/bee_2760_entrada_saida_string.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = beecrowd/atp_sequenciais/CMakeFiles/bee_2760_entrada_saida_string.dir
+  OBJECT_FILE_DIR = beecrowd/atp_sequenciais/CMakeFiles/bee_2760_entrada_saida_string.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bee_2760_entrada_saida_string
+
+
+#############################################
+# Link the executable beecrowd/atp_sequenciais/bee_2760_entrada_saida_string
+
+build beecrowd/atp_sequenciais/bee_2760_entrada_saida_string: C_EXECUTABLE_LINKER__bee_2760_entrada_saida_string_Debug beecrowd/atp_sequenciais/CMakeFiles/bee_2760_entrada_saida_string.dir/bee_2760_entrada_saida_string.c.o
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_sequenciais/CMakeFiles/bee_2760_entrada_saida_string.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=beecrowd/atp_sequenciais/CMakeFiles/bee_2760_entrada_saida_string.dir/link.d
+  OBJECT_DIR = beecrowd/atp_sequenciais/CMakeFiles/bee_2760_entrada_saida_string.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = beecrowd/atp_sequenciais/bee_2760_entrada_saida_string
+  TARGET_PDB = bee_2760_entrada_saida_string.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bee_2761_entrada_e_saida
+
+
+#############################################
+# Order-only phony target for bee_2761_entrada_e_saida
+
+build cmake_object_order_depends_target_bee_2761_entrada_e_saida: phony || .
+
+build beecrowd/atp_sequenciais/CMakeFiles/bee_2761_entrada_e_saida.dir/bee_2761_entrada_e_saida.c.o: C_COMPILER__bee_2761_entrada_e_saida_unscanned_Debug /home/rogerio/git/c_yt_course/beecrowd/atp_sequenciais/bee_2761_entrada_e_saida.c || cmake_object_order_depends_target_bee_2761_entrada_e_saida
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_sequenciais/CMakeFiles/bee_2761_entrada_e_saida.dir/bee_2761_entrada_e_saida.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = beecrowd/atp_sequenciais/CMakeFiles/bee_2761_entrada_e_saida.dir
+  OBJECT_FILE_DIR = beecrowd/atp_sequenciais/CMakeFiles/bee_2761_entrada_e_saida.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bee_2761_entrada_e_saida
+
+
+#############################################
+# Link the executable beecrowd/atp_sequenciais/bee_2761_entrada_e_saida
+
+build beecrowd/atp_sequenciais/bee_2761_entrada_e_saida: C_EXECUTABLE_LINKER__bee_2761_entrada_e_saida_Debug beecrowd/atp_sequenciais/CMakeFiles/bee_2761_entrada_e_saida.dir/bee_2761_entrada_e_saida.c.o
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_sequenciais/CMakeFiles/bee_2761_entrada_e_saida.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=beecrowd/atp_sequenciais/CMakeFiles/bee_2761_entrada_e_saida.dir/link.d
+  OBJECT_DIR = beecrowd/atp_sequenciais/CMakeFiles/bee_2761_entrada_e_saida.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = beecrowd/atp_sequenciais/bee_2761_entrada_e_saida
+  TARGET_PDB = bee_2761_entrada_e_saida.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build beecrowd/atp_sequenciais/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_sequenciais && /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build beecrowd/atp_sequenciais/edit_cache: phony beecrowd/atp_sequenciais/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build beecrowd/atp_sequenciais/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_sequenciais && /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/rogerio/git/c_yt_course -B/home/rogerio/git/c_yt_course/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build beecrowd/atp_sequenciais/rebuild_cache: phony beecrowd/atp_sequenciais/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /home/rogerio/git/c_yt_course/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bee_1045_triangulos_if
+
+
+#############################################
+# Order-only phony target for bee_1045_triangulos_if
+
+build cmake_object_order_depends_target_bee_1045_triangulos_if: phony || .
+
+build beecrowd/atp_condicionais/CMakeFiles/bee_1045_triangulos_if.dir/bee_1045_triangulos_if.c.o: C_COMPILER__bee_1045_triangulos_if_unscanned_Debug /home/rogerio/git/c_yt_course/beecrowd/atp_condicionais/bee_1045_triangulos_if.c || cmake_object_order_depends_target_bee_1045_triangulos_if
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_condicionais/CMakeFiles/bee_1045_triangulos_if.dir/bee_1045_triangulos_if.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = beecrowd/atp_condicionais/CMakeFiles/bee_1045_triangulos_if.dir
+  OBJECT_FILE_DIR = beecrowd/atp_condicionais/CMakeFiles/bee_1045_triangulos_if.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bee_1045_triangulos_if
+
+
+#############################################
+# Link the executable beecrowd/atp_condicionais/bee_1045_triangulos_if
+
+build beecrowd/atp_condicionais/bee_1045_triangulos_if: C_EXECUTABLE_LINKER__bee_1045_triangulos_if_Debug beecrowd/atp_condicionais/CMakeFiles/bee_1045_triangulos_if.dir/bee_1045_triangulos_if.c.o
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_condicionais/CMakeFiles/bee_1045_triangulos_if.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=beecrowd/atp_condicionais/CMakeFiles/bee_1045_triangulos_if.dir/link.d
+  OBJECT_DIR = beecrowd/atp_condicionais/CMakeFiles/bee_1045_triangulos_if.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = beecrowd/atp_condicionais/bee_1045_triangulos_if
+  TARGET_PDB = bee_1045_triangulos_if.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bee_1906_romanos_seq
+
+
+#############################################
+# Order-only phony target for bee_1906_romanos_seq
+
+build cmake_object_order_depends_target_bee_1906_romanos_seq: phony || .
+
+build beecrowd/atp_condicionais/CMakeFiles/bee_1906_romanos_seq.dir/bee_1906_romanos_seq.c.o: C_COMPILER__bee_1906_romanos_seq_unscanned_Debug /home/rogerio/git/c_yt_course/beecrowd/atp_condicionais/bee_1906_romanos_seq.c || cmake_object_order_depends_target_bee_1906_romanos_seq
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_condicionais/CMakeFiles/bee_1906_romanos_seq.dir/bee_1906_romanos_seq.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = beecrowd/atp_condicionais/CMakeFiles/bee_1906_romanos_seq.dir
+  OBJECT_FILE_DIR = beecrowd/atp_condicionais/CMakeFiles/bee_1906_romanos_seq.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bee_1906_romanos_seq
+
+
+#############################################
+# Link the executable beecrowd/atp_condicionais/bee_1906_romanos_seq
+
+build beecrowd/atp_condicionais/bee_1906_romanos_seq: C_EXECUTABLE_LINKER__bee_1906_romanos_seq_Debug beecrowd/atp_condicionais/CMakeFiles/bee_1906_romanos_seq.dir/bee_1906_romanos_seq.c.o
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_condicionais/CMakeFiles/bee_1906_romanos_seq.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=beecrowd/atp_condicionais/CMakeFiles/bee_1906_romanos_seq.dir/link.d
+  OBJECT_DIR = beecrowd/atp_condicionais/CMakeFiles/bee_1906_romanos_seq.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = beecrowd/atp_condicionais/bee_1906_romanos_seq
+  TARGET_PDB = bee_1906_romanos_seq.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build beecrowd/atp_condicionais/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_condicionais && /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build beecrowd/atp_condicionais/edit_cache: phony beecrowd/atp_condicionais/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build beecrowd/atp_condicionais/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_condicionais && /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/rogerio/git/c_yt_course -B/home/rogerio/git/c_yt_course/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build beecrowd/atp_condicionais/rebuild_cache: phony beecrowd/atp_condicionais/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /home/rogerio/git/c_yt_course/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bee_1029_fibonacci
+
+
+#############################################
+# Order-only phony target for bee_1029_fibonacci
+
+build cmake_object_order_depends_target_bee_1029_fibonacci: phony || .
+
+build beecrowd/atp_repeticoes/CMakeFiles/bee_1029_fibonacci.dir/bee_1029_fibonacci.c.o: C_COMPILER__bee_1029_fibonacci_unscanned_Debug /home/rogerio/git/c_yt_course/beecrowd/atp_repeticoes/bee_1029_fibonacci.c || cmake_object_order_depends_target_bee_1029_fibonacci
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_repeticoes/CMakeFiles/bee_1029_fibonacci.dir/bee_1029_fibonacci.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = beecrowd/atp_repeticoes/CMakeFiles/bee_1029_fibonacci.dir
+  OBJECT_FILE_DIR = beecrowd/atp_repeticoes/CMakeFiles/bee_1029_fibonacci.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bee_1029_fibonacci
+
+
+#############################################
+# Link the executable beecrowd/atp_repeticoes/bee_1029_fibonacci
+
+build beecrowd/atp_repeticoes/bee_1029_fibonacci: C_EXECUTABLE_LINKER__bee_1029_fibonacci_Debug beecrowd/atp_repeticoes/CMakeFiles/bee_1029_fibonacci.dir/bee_1029_fibonacci.c.o
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_repeticoes/CMakeFiles/bee_1029_fibonacci.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=beecrowd/atp_repeticoes/CMakeFiles/bee_1029_fibonacci.dir/link.d
+  OBJECT_DIR = beecrowd/atp_repeticoes/CMakeFiles/bee_1029_fibonacci.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = beecrowd/atp_repeticoes/bee_1029_fibonacci
+  TARGET_PDB = bee_1029_fibonacci.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bee_1119_fila_desempregados
+
+
+#############################################
+# Order-only phony target for bee_1119_fila_desempregados
+
+build cmake_object_order_depends_target_bee_1119_fila_desempregados: phony || .
+
+build beecrowd/atp_repeticoes/CMakeFiles/bee_1119_fila_desempregados.dir/bee_1119_fila_desempregados.c.o: C_COMPILER__bee_1119_fila_desempregados_unscanned_Debug /home/rogerio/git/c_yt_course/beecrowd/atp_repeticoes/bee_1119_fila_desempregados.c || cmake_object_order_depends_target_bee_1119_fila_desempregados
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_repeticoes/CMakeFiles/bee_1119_fila_desempregados.dir/bee_1119_fila_desempregados.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = beecrowd/atp_repeticoes/CMakeFiles/bee_1119_fila_desempregados.dir
+  OBJECT_FILE_DIR = beecrowd/atp_repeticoes/CMakeFiles/bee_1119_fila_desempregados.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bee_1119_fila_desempregados
+
+
+#############################################
+# Link the executable beecrowd/atp_repeticoes/bee_1119_fila_desempregados
+
+build beecrowd/atp_repeticoes/bee_1119_fila_desempregados: C_EXECUTABLE_LINKER__bee_1119_fila_desempregados_Debug beecrowd/atp_repeticoes/CMakeFiles/bee_1119_fila_desempregados.dir/bee_1119_fila_desempregados.c.o
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_repeticoes/CMakeFiles/bee_1119_fila_desempregados.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=beecrowd/atp_repeticoes/CMakeFiles/bee_1119_fila_desempregados.dir/link.d
+  OBJECT_DIR = beecrowd/atp_repeticoes/CMakeFiles/bee_1119_fila_desempregados.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = beecrowd/atp_repeticoes/bee_1119_fila_desempregados
+  TARGET_PDB = bee_1119_fila_desempregados.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bee_1542_lendo_livros
+
+
+#############################################
+# Order-only phony target for bee_1542_lendo_livros
+
+build cmake_object_order_depends_target_bee_1542_lendo_livros: phony || .
+
+build beecrowd/atp_repeticoes/CMakeFiles/bee_1542_lendo_livros.dir/bee_1542_lendo_livros.c.o: C_COMPILER__bee_1542_lendo_livros_unscanned_Debug /home/rogerio/git/c_yt_course/beecrowd/atp_repeticoes/bee_1542_lendo_livros.c || cmake_object_order_depends_target_bee_1542_lendo_livros
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_repeticoes/CMakeFiles/bee_1542_lendo_livros.dir/bee_1542_lendo_livros.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = beecrowd/atp_repeticoes/CMakeFiles/bee_1542_lendo_livros.dir
+  OBJECT_FILE_DIR = beecrowd/atp_repeticoes/CMakeFiles/bee_1542_lendo_livros.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bee_1542_lendo_livros
+
+
+#############################################
+# Link the executable beecrowd/atp_repeticoes/bee_1542_lendo_livros
+
+build beecrowd/atp_repeticoes/bee_1542_lendo_livros: C_EXECUTABLE_LINKER__bee_1542_lendo_livros_Debug beecrowd/atp_repeticoes/CMakeFiles/bee_1542_lendo_livros.dir/bee_1542_lendo_livros.c.o
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_repeticoes/CMakeFiles/bee_1542_lendo_livros.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=beecrowd/atp_repeticoes/CMakeFiles/bee_1542_lendo_livros.dir/link.d
+  OBJECT_DIR = beecrowd/atp_repeticoes/CMakeFiles/bee_1542_lendo_livros.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = beecrowd/atp_repeticoes/bee_1542_lendo_livros
+  TARGET_PDB = bee_1542_lendo_livros.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bee_2721_indecisao_renas
+
+
+#############################################
+# Order-only phony target for bee_2721_indecisao_renas
+
+build cmake_object_order_depends_target_bee_2721_indecisao_renas: phony || .
+
+build beecrowd/atp_repeticoes/CMakeFiles/bee_2721_indecisao_renas.dir/bee_2721_indecisao_renas.c.o: C_COMPILER__bee_2721_indecisao_renas_unscanned_Debug /home/rogerio/git/c_yt_course/beecrowd/atp_repeticoes/bee_2721_indecisao_renas.c || cmake_object_order_depends_target_bee_2721_indecisao_renas
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_repeticoes/CMakeFiles/bee_2721_indecisao_renas.dir/bee_2721_indecisao_renas.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = beecrowd/atp_repeticoes/CMakeFiles/bee_2721_indecisao_renas.dir
+  OBJECT_FILE_DIR = beecrowd/atp_repeticoes/CMakeFiles/bee_2721_indecisao_renas.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bee_2721_indecisao_renas
+
+
+#############################################
+# Link the executable beecrowd/atp_repeticoes/bee_2721_indecisao_renas
+
+build beecrowd/atp_repeticoes/bee_2721_indecisao_renas: C_EXECUTABLE_LINKER__bee_2721_indecisao_renas_Debug beecrowd/atp_repeticoes/CMakeFiles/bee_2721_indecisao_renas.dir/bee_2721_indecisao_renas.c.o
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_repeticoes/CMakeFiles/bee_2721_indecisao_renas.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=beecrowd/atp_repeticoes/CMakeFiles/bee_2721_indecisao_renas.dir/link.d
+  OBJECT_DIR = beecrowd/atp_repeticoes/CMakeFiles/bee_2721_indecisao_renas.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = beecrowd/atp_repeticoes/bee_2721_indecisao_renas
+  TARGET_PDB = bee_2721_indecisao_renas.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bee_1033_fib_chamadas_recursivas
+
+
+#############################################
+# Order-only phony target for bee_1033_fib_chamadas_recursivas
+
+build cmake_object_order_depends_target_bee_1033_fib_chamadas_recursivas: phony || .
+
+build beecrowd/atp_repeticoes/CMakeFiles/bee_1033_fib_chamadas_recursivas.dir/bee_1033_fib_chamadas_recursivas.c.o: C_COMPILER__bee_1033_fib_chamadas_recursivas_unscanned_Debug /home/rogerio/git/c_yt_course/beecrowd/atp_repeticoes/bee_1033_fib_chamadas_recursivas.c || cmake_object_order_depends_target_bee_1033_fib_chamadas_recursivas
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_repeticoes/CMakeFiles/bee_1033_fib_chamadas_recursivas.dir/bee_1033_fib_chamadas_recursivas.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = beecrowd/atp_repeticoes/CMakeFiles/bee_1033_fib_chamadas_recursivas.dir
+  OBJECT_FILE_DIR = beecrowd/atp_repeticoes/CMakeFiles/bee_1033_fib_chamadas_recursivas.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bee_1033_fib_chamadas_recursivas
+
+
+#############################################
+# Link the executable beecrowd/atp_repeticoes/bee_1033_fib_chamadas_recursivas
+
+build beecrowd/atp_repeticoes/bee_1033_fib_chamadas_recursivas: C_EXECUTABLE_LINKER__bee_1033_fib_chamadas_recursivas_Debug beecrowd/atp_repeticoes/CMakeFiles/bee_1033_fib_chamadas_recursivas.dir/bee_1033_fib_chamadas_recursivas.c.o
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_repeticoes/CMakeFiles/bee_1033_fib_chamadas_recursivas.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=beecrowd/atp_repeticoes/CMakeFiles/bee_1033_fib_chamadas_recursivas.dir/link.d
+  OBJECT_DIR = beecrowd/atp_repeticoes/CMakeFiles/bee_1033_fib_chamadas_recursivas.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = beecrowd/atp_repeticoes/bee_1033_fib_chamadas_recursivas
+  TARGET_PDB = bee_1033_fib_chamadas_recursivas.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bee_2547_montanha_russa
+
+
+#############################################
+# Order-only phony target for bee_2547_montanha_russa
+
+build cmake_object_order_depends_target_bee_2547_montanha_russa: phony || .
+
+build beecrowd/atp_repeticoes/CMakeFiles/bee_2547_montanha_russa.dir/bee_2547_montanha_russa.c.o: C_COMPILER__bee_2547_montanha_russa_unscanned_Debug /home/rogerio/git/c_yt_course/beecrowd/atp_repeticoes/bee_2547_montanha_russa.c || cmake_object_order_depends_target_bee_2547_montanha_russa
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_repeticoes/CMakeFiles/bee_2547_montanha_russa.dir/bee_2547_montanha_russa.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = beecrowd/atp_repeticoes/CMakeFiles/bee_2547_montanha_russa.dir
+  OBJECT_FILE_DIR = beecrowd/atp_repeticoes/CMakeFiles/bee_2547_montanha_russa.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bee_2547_montanha_russa
+
+
+#############################################
+# Link the executable beecrowd/atp_repeticoes/bee_2547_montanha_russa
+
+build beecrowd/atp_repeticoes/bee_2547_montanha_russa: C_EXECUTABLE_LINKER__bee_2547_montanha_russa_Debug beecrowd/atp_repeticoes/CMakeFiles/bee_2547_montanha_russa.dir/bee_2547_montanha_russa.c.o
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_repeticoes/CMakeFiles/bee_2547_montanha_russa.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=beecrowd/atp_repeticoes/CMakeFiles/bee_2547_montanha_russa.dir/link.d
+  OBJECT_DIR = beecrowd/atp_repeticoes/CMakeFiles/bee_2547_montanha_russa.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = beecrowd/atp_repeticoes/bee_2547_montanha_russa
+  TARGET_PDB = bee_2547_montanha_russa.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bee_2547_montanha_russa_limite_peso
+
+
+#############################################
+# Order-only phony target for bee_2547_montanha_russa_limite_peso
+
+build cmake_object_order_depends_target_bee_2547_montanha_russa_limite_peso: phony || .
+
+build beecrowd/atp_repeticoes/CMakeFiles/bee_2547_montanha_russa_limite_peso.dir/bee_2547_montanha_russa_limite_peso.c.o: C_COMPILER__bee_2547_montanha_russa_limite_peso_unscanned_Debug /home/rogerio/git/c_yt_course/beecrowd/atp_repeticoes/bee_2547_montanha_russa_limite_peso.c || cmake_object_order_depends_target_bee_2547_montanha_russa_limite_peso
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_repeticoes/CMakeFiles/bee_2547_montanha_russa_limite_peso.dir/bee_2547_montanha_russa_limite_peso.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = beecrowd/atp_repeticoes/CMakeFiles/bee_2547_montanha_russa_limite_peso.dir
+  OBJECT_FILE_DIR = beecrowd/atp_repeticoes/CMakeFiles/bee_2547_montanha_russa_limite_peso.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bee_2547_montanha_russa_limite_peso
+
+
+#############################################
+# Link the executable beecrowd/atp_repeticoes/bee_2547_montanha_russa_limite_peso
+
+build beecrowd/atp_repeticoes/bee_2547_montanha_russa_limite_peso: C_EXECUTABLE_LINKER__bee_2547_montanha_russa_limite_peso_Debug beecrowd/atp_repeticoes/CMakeFiles/bee_2547_montanha_russa_limite_peso.dir/bee_2547_montanha_russa_limite_peso.c.o
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_repeticoes/CMakeFiles/bee_2547_montanha_russa_limite_peso.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=beecrowd/atp_repeticoes/CMakeFiles/bee_2547_montanha_russa_limite_peso.dir/link.d
+  OBJECT_DIR = beecrowd/atp_repeticoes/CMakeFiles/bee_2547_montanha_russa_limite_peso.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = beecrowd/atp_repeticoes/bee_2547_montanha_russa_limite_peso
+  TARGET_PDB = bee_2547_montanha_russa_limite_peso.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bee_2540_impeachment_do_lider
+
+
+#############################################
+# Order-only phony target for bee_2540_impeachment_do_lider
+
+build cmake_object_order_depends_target_bee_2540_impeachment_do_lider: phony || .
+
+build beecrowd/atp_repeticoes/CMakeFiles/bee_2540_impeachment_do_lider.dir/bee_2540_impeachment_do_lider.c.o: C_COMPILER__bee_2540_impeachment_do_lider_unscanned_Debug /home/rogerio/git/c_yt_course/beecrowd/atp_repeticoes/bee_2540_impeachment_do_lider.c || cmake_object_order_depends_target_bee_2540_impeachment_do_lider
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_repeticoes/CMakeFiles/bee_2540_impeachment_do_lider.dir/bee_2540_impeachment_do_lider.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = beecrowd/atp_repeticoes/CMakeFiles/bee_2540_impeachment_do_lider.dir
+  OBJECT_FILE_DIR = beecrowd/atp_repeticoes/CMakeFiles/bee_2540_impeachment_do_lider.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bee_2540_impeachment_do_lider
+
+
+#############################################
+# Link the executable beecrowd/atp_repeticoes/bee_2540_impeachment_do_lider
+
+build beecrowd/atp_repeticoes/bee_2540_impeachment_do_lider: C_EXECUTABLE_LINKER__bee_2540_impeachment_do_lider_Debug beecrowd/atp_repeticoes/CMakeFiles/bee_2540_impeachment_do_lider.dir/bee_2540_impeachment_do_lider.c.o
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_repeticoes/CMakeFiles/bee_2540_impeachment_do_lider.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=beecrowd/atp_repeticoes/CMakeFiles/bee_2540_impeachment_do_lider.dir/link.d
+  OBJECT_DIR = beecrowd/atp_repeticoes/CMakeFiles/bee_2540_impeachment_do_lider.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = beecrowd/atp_repeticoes/bee_2540_impeachment_do_lider
+  TARGET_PDB = bee_2540_impeachment_do_lider.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bee_1103_alarme_despertador
+
+
+#############################################
+# Order-only phony target for bee_1103_alarme_despertador
+
+build cmake_object_order_depends_target_bee_1103_alarme_despertador: phony || .
+
+build beecrowd/atp_repeticoes/CMakeFiles/bee_1103_alarme_despertador.dir/bee_1103_alarme_despertador.c.o: C_COMPILER__bee_1103_alarme_despertador_unscanned_Debug /home/rogerio/git/c_yt_course/beecrowd/atp_repeticoes/bee_1103_alarme_despertador.c || cmake_object_order_depends_target_bee_1103_alarme_despertador
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_repeticoes/CMakeFiles/bee_1103_alarme_despertador.dir/bee_1103_alarme_despertador.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = beecrowd/atp_repeticoes/CMakeFiles/bee_1103_alarme_despertador.dir
+  OBJECT_FILE_DIR = beecrowd/atp_repeticoes/CMakeFiles/bee_1103_alarme_despertador.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bee_1103_alarme_despertador
+
+
+#############################################
+# Link the executable beecrowd/atp_repeticoes/bee_1103_alarme_despertador
+
+build beecrowd/atp_repeticoes/bee_1103_alarme_despertador: C_EXECUTABLE_LINKER__bee_1103_alarme_despertador_Debug beecrowd/atp_repeticoes/CMakeFiles/bee_1103_alarme_despertador.dir/bee_1103_alarme_despertador.c.o
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_repeticoes/CMakeFiles/bee_1103_alarme_despertador.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=beecrowd/atp_repeticoes/CMakeFiles/bee_1103_alarme_despertador.dir/link.d
+  OBJECT_DIR = beecrowd/atp_repeticoes/CMakeFiles/bee_1103_alarme_despertador.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = beecrowd/atp_repeticoes/bee_1103_alarme_despertador
+  TARGET_PDB = bee_1103_alarme_despertador.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bee_3140_ctrl_c_ctrl_v
+
+
+#############################################
+# Order-only phony target for bee_3140_ctrl_c_ctrl_v
+
+build cmake_object_order_depends_target_bee_3140_ctrl_c_ctrl_v: phony || .
+
+build beecrowd/atp_repeticoes/CMakeFiles/bee_3140_ctrl_c_ctrl_v.dir/bee_3140_ctrl_c_ctrl_v.cpp.o: CXX_COMPILER__bee_3140_ctrl_c_ctrl_v_unscanned_Debug /home/rogerio/git/c_yt_course/beecrowd/atp_repeticoes/bee_3140_ctrl_c_ctrl_v.cpp || cmake_object_order_depends_target_bee_3140_ctrl_c_ctrl_v
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_repeticoes/CMakeFiles/bee_3140_ctrl_c_ctrl_v.dir/bee_3140_ctrl_c_ctrl_v.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = beecrowd/atp_repeticoes/CMakeFiles/bee_3140_ctrl_c_ctrl_v.dir
+  OBJECT_FILE_DIR = beecrowd/atp_repeticoes/CMakeFiles/bee_3140_ctrl_c_ctrl_v.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bee_3140_ctrl_c_ctrl_v
+
+
+#############################################
+# Link the executable beecrowd/atp_repeticoes/bee_3140_ctrl_c_ctrl_v
+
+build beecrowd/atp_repeticoes/bee_3140_ctrl_c_ctrl_v: CXX_EXECUTABLE_LINKER__bee_3140_ctrl_c_ctrl_v_Debug beecrowd/atp_repeticoes/CMakeFiles/bee_3140_ctrl_c_ctrl_v.dir/bee_3140_ctrl_c_ctrl_v.cpp.o
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_repeticoes/CMakeFiles/bee_3140_ctrl_c_ctrl_v.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=beecrowd/atp_repeticoes/CMakeFiles/bee_3140_ctrl_c_ctrl_v.dir/link.d
+  OBJECT_DIR = beecrowd/atp_repeticoes/CMakeFiles/bee_3140_ctrl_c_ctrl_v.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = beecrowd/atp_repeticoes/bee_3140_ctrl_c_ctrl_v
+  TARGET_PDB = bee_3140_ctrl_c_ctrl_v.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bee_3142_excel_bugado
+
+
+#############################################
+# Order-only phony target for bee_3142_excel_bugado
+
+build cmake_object_order_depends_target_bee_3142_excel_bugado: phony || .
+
+build beecrowd/atp_repeticoes/CMakeFiles/bee_3142_excel_bugado.dir/bee_3142_excel_bugado.cpp.o: CXX_COMPILER__bee_3142_excel_bugado_unscanned_Debug /home/rogerio/git/c_yt_course/beecrowd/atp_repeticoes/bee_3142_excel_bugado.cpp || cmake_object_order_depends_target_bee_3142_excel_bugado
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_repeticoes/CMakeFiles/bee_3142_excel_bugado.dir/bee_3142_excel_bugado.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = beecrowd/atp_repeticoes/CMakeFiles/bee_3142_excel_bugado.dir
+  OBJECT_FILE_DIR = beecrowd/atp_repeticoes/CMakeFiles/bee_3142_excel_bugado.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bee_3142_excel_bugado
+
+
+#############################################
+# Link the executable beecrowd/atp_repeticoes/bee_3142_excel_bugado
+
+build beecrowd/atp_repeticoes/bee_3142_excel_bugado: CXX_EXECUTABLE_LINKER__bee_3142_excel_bugado_Debug beecrowd/atp_repeticoes/CMakeFiles/bee_3142_excel_bugado.dir/bee_3142_excel_bugado.cpp.o
+  CONFIG = Debug
+  DEP_FILE = beecrowd/atp_repeticoes/CMakeFiles/bee_3142_excel_bugado.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=beecrowd/atp_repeticoes/CMakeFiles/bee_3142_excel_bugado.dir/link.d
+  OBJECT_DIR = beecrowd/atp_repeticoes/CMakeFiles/bee_3142_excel_bugado.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = beecrowd/atp_repeticoes/bee_3142_excel_bugado
+  TARGET_PDB = bee_3142_excel_bugado.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build beecrowd/atp_repeticoes/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_repeticoes && /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build beecrowd/atp_repeticoes/edit_cache: phony beecrowd/atp_repeticoes/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build beecrowd/atp_repeticoes/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_repeticoes && /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/rogerio/git/c_yt_course -B/home/rogerio/git/c_yt_course/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build beecrowd/atp_repeticoes/rebuild_cache: phony beecrowd/atp_repeticoes/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /home/rogerio/git/c_yt_course/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bee_1191_recuperacao_arvore
+
+
+#############################################
+# Order-only phony target for bee_1191_recuperacao_arvore
+
+build cmake_object_order_depends_target_bee_1191_recuperacao_arvore: phony || .
+
+build beecrowd/ed_grafos/CMakeFiles/bee_1191_recuperacao_arvore.dir/bee_1191_recuperacao_arvore.c.o: C_COMPILER__bee_1191_recuperacao_arvore_unscanned_Debug /home/rogerio/git/c_yt_course/beecrowd/ed_grafos/bee_1191_recuperacao_arvore.c || cmake_object_order_depends_target_bee_1191_recuperacao_arvore
+  CONFIG = Debug
+  DEP_FILE = beecrowd/ed_grafos/CMakeFiles/bee_1191_recuperacao_arvore.dir/bee_1191_recuperacao_arvore.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = beecrowd/ed_grafos/CMakeFiles/bee_1191_recuperacao_arvore.dir
+  OBJECT_FILE_DIR = beecrowd/ed_grafos/CMakeFiles/bee_1191_recuperacao_arvore.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bee_1191_recuperacao_arvore
+
+
+#############################################
+# Link the executable beecrowd/ed_grafos/bee_1191_recuperacao_arvore
+
+build beecrowd/ed_grafos/bee_1191_recuperacao_arvore: C_EXECUTABLE_LINKER__bee_1191_recuperacao_arvore_Debug beecrowd/ed_grafos/CMakeFiles/bee_1191_recuperacao_arvore.dir/bee_1191_recuperacao_arvore.c.o
+  CONFIG = Debug
+  DEP_FILE = beecrowd/ed_grafos/CMakeFiles/bee_1191_recuperacao_arvore.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=beecrowd/ed_grafos/CMakeFiles/bee_1191_recuperacao_arvore.dir/link.d
+  OBJECT_DIR = beecrowd/ed_grafos/CMakeFiles/bee_1191_recuperacao_arvore.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = beecrowd/ed_grafos/bee_1191_recuperacao_arvore
+  TARGET_PDB = bee_1191_recuperacao_arvore.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bee_1194_prefixa_infixa_posfixa
+
+
+#############################################
+# Order-only phony target for bee_1194_prefixa_infixa_posfixa
+
+build cmake_object_order_depends_target_bee_1194_prefixa_infixa_posfixa: phony || .
+
+build beecrowd/ed_grafos/CMakeFiles/bee_1194_prefixa_infixa_posfixa.dir/bee_1194_prefixa_infixa_posfixa.c.o: C_COMPILER__bee_1194_prefixa_infixa_posfixa_unscanned_Debug /home/rogerio/git/c_yt_course/beecrowd/ed_grafos/bee_1194_prefixa_infixa_posfixa.c || cmake_object_order_depends_target_bee_1194_prefixa_infixa_posfixa
+  CONFIG = Debug
+  DEP_FILE = beecrowd/ed_grafos/CMakeFiles/bee_1194_prefixa_infixa_posfixa.dir/bee_1194_prefixa_infixa_posfixa.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = beecrowd/ed_grafos/CMakeFiles/bee_1194_prefixa_infixa_posfixa.dir
+  OBJECT_FILE_DIR = beecrowd/ed_grafos/CMakeFiles/bee_1194_prefixa_infixa_posfixa.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bee_1194_prefixa_infixa_posfixa
+
+
+#############################################
+# Link the executable beecrowd/ed_grafos/bee_1194_prefixa_infixa_posfixa
+
+build beecrowd/ed_grafos/bee_1194_prefixa_infixa_posfixa: C_EXECUTABLE_LINKER__bee_1194_prefixa_infixa_posfixa_Debug beecrowd/ed_grafos/CMakeFiles/bee_1194_prefixa_infixa_posfixa.dir/bee_1194_prefixa_infixa_posfixa.c.o
+  CONFIG = Debug
+  DEP_FILE = beecrowd/ed_grafos/CMakeFiles/bee_1194_prefixa_infixa_posfixa.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=beecrowd/ed_grafos/CMakeFiles/bee_1194_prefixa_infixa_posfixa.dir/link.d
+  OBJECT_DIR = beecrowd/ed_grafos/CMakeFiles/bee_1194_prefixa_infixa_posfixa.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = beecrowd/ed_grafos/bee_1194_prefixa_infixa_posfixa
+  TARGET_PDB = bee_1194_prefixa_infixa_posfixa.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bee_1195_arvore_binaria_busca
+
+
+#############################################
+# Order-only phony target for bee_1195_arvore_binaria_busca
+
+build cmake_object_order_depends_target_bee_1195_arvore_binaria_busca: phony || .
+
+build beecrowd/ed_grafos/CMakeFiles/bee_1195_arvore_binaria_busca.dir/bee_1195_arvore_binaria_busca.c.o: C_COMPILER__bee_1195_arvore_binaria_busca_unscanned_Debug /home/rogerio/git/c_yt_course/beecrowd/ed_grafos/bee_1195_arvore_binaria_busca.c || cmake_object_order_depends_target_bee_1195_arvore_binaria_busca
+  CONFIG = Debug
+  DEP_FILE = beecrowd/ed_grafos/CMakeFiles/bee_1195_arvore_binaria_busca.dir/bee_1195_arvore_binaria_busca.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = beecrowd/ed_grafos/CMakeFiles/bee_1195_arvore_binaria_busca.dir
+  OBJECT_FILE_DIR = beecrowd/ed_grafos/CMakeFiles/bee_1195_arvore_binaria_busca.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bee_1195_arvore_binaria_busca
+
+
+#############################################
+# Link the executable beecrowd/ed_grafos/bee_1195_arvore_binaria_busca
+
+build beecrowd/ed_grafos/bee_1195_arvore_binaria_busca: C_EXECUTABLE_LINKER__bee_1195_arvore_binaria_busca_Debug beecrowd/ed_grafos/CMakeFiles/bee_1195_arvore_binaria_busca.dir/bee_1195_arvore_binaria_busca.c.o
+  CONFIG = Debug
+  DEP_FILE = beecrowd/ed_grafos/CMakeFiles/bee_1195_arvore_binaria_busca.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=beecrowd/ed_grafos/CMakeFiles/bee_1195_arvore_binaria_busca.dir/link.d
+  OBJECT_DIR = beecrowd/ed_grafos/CMakeFiles/bee_1195_arvore_binaria_busca.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = beecrowd/ed_grafos/bee_1195_arvore_binaria_busca
+  TARGET_PDB = bee_1195_arvore_binaria_busca.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bee_1200_operacoes_abp_i
+
+
+#############################################
+# Order-only phony target for bee_1200_operacoes_abp_i
+
+build cmake_object_order_depends_target_bee_1200_operacoes_abp_i: phony || .
+
+build beecrowd/ed_grafos/CMakeFiles/bee_1200_operacoes_abp_i.dir/bee_1200_operacoes_abp_i.c.o: C_COMPILER__bee_1200_operacoes_abp_i_unscanned_Debug /home/rogerio/git/c_yt_course/beecrowd/ed_grafos/bee_1200_operacoes_abp_i.c || cmake_object_order_depends_target_bee_1200_operacoes_abp_i
+  CONFIG = Debug
+  DEP_FILE = beecrowd/ed_grafos/CMakeFiles/bee_1200_operacoes_abp_i.dir/bee_1200_operacoes_abp_i.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = beecrowd/ed_grafos/CMakeFiles/bee_1200_operacoes_abp_i.dir
+  OBJECT_FILE_DIR = beecrowd/ed_grafos/CMakeFiles/bee_1200_operacoes_abp_i.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bee_1200_operacoes_abp_i
+
+
+#############################################
+# Link the executable beecrowd/ed_grafos/bee_1200_operacoes_abp_i
+
+build beecrowd/ed_grafos/bee_1200_operacoes_abp_i: C_EXECUTABLE_LINKER__bee_1200_operacoes_abp_i_Debug beecrowd/ed_grafos/CMakeFiles/bee_1200_operacoes_abp_i.dir/bee_1200_operacoes_abp_i.c.o
+  CONFIG = Debug
+  DEP_FILE = beecrowd/ed_grafos/CMakeFiles/bee_1200_operacoes_abp_i.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=beecrowd/ed_grafos/CMakeFiles/bee_1200_operacoes_abp_i.dir/link.d
+  OBJECT_DIR = beecrowd/ed_grafos/CMakeFiles/bee_1200_operacoes_abp_i.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = beecrowd/ed_grafos/bee_1200_operacoes_abp_i
+  TARGET_PDB = bee_1200_operacoes_abp_i.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bee_1201_operacoes_abp_ii
+
+
+#############################################
+# Order-only phony target for bee_1201_operacoes_abp_ii
+
+build cmake_object_order_depends_target_bee_1201_operacoes_abp_ii: phony || .
+
+build beecrowd/ed_grafos/CMakeFiles/bee_1201_operacoes_abp_ii.dir/bee_1201_operacoes_abp_ii.c.o: C_COMPILER__bee_1201_operacoes_abp_ii_unscanned_Debug /home/rogerio/git/c_yt_course/beecrowd/ed_grafos/bee_1201_operacoes_abp_ii.c || cmake_object_order_depends_target_bee_1201_operacoes_abp_ii
+  CONFIG = Debug
+  DEP_FILE = beecrowd/ed_grafos/CMakeFiles/bee_1201_operacoes_abp_ii.dir/bee_1201_operacoes_abp_ii.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = beecrowd/ed_grafos/CMakeFiles/bee_1201_operacoes_abp_ii.dir
+  OBJECT_FILE_DIR = beecrowd/ed_grafos/CMakeFiles/bee_1201_operacoes_abp_ii.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bee_1201_operacoes_abp_ii
+
+
+#############################################
+# Link the executable beecrowd/ed_grafos/bee_1201_operacoes_abp_ii
+
+build beecrowd/ed_grafos/bee_1201_operacoes_abp_ii: C_EXECUTABLE_LINKER__bee_1201_operacoes_abp_ii_Debug beecrowd/ed_grafos/CMakeFiles/bee_1201_operacoes_abp_ii.dir/bee_1201_operacoes_abp_ii.c.o
+  CONFIG = Debug
+  DEP_FILE = beecrowd/ed_grafos/CMakeFiles/bee_1201_operacoes_abp_ii.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=beecrowd/ed_grafos/CMakeFiles/bee_1201_operacoes_abp_ii.dir/link.d
+  OBJECT_DIR = beecrowd/ed_grafos/CMakeFiles/bee_1201_operacoes_abp_ii.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = beecrowd/ed_grafos/bee_1201_operacoes_abp_ii
+  TARGET_PDB = bee_1201_operacoes_abp_ii.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build beecrowd/ed_grafos/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/ed_grafos && /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build beecrowd/ed_grafos/edit_cache: phony beecrowd/ed_grafos/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build beecrowd/ed_grafos/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/ed_grafos && /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/rogerio/git/c_yt_course -B/home/rogerio/git/c_yt_course/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build beecrowd/ed_grafos/rebuild_cache: phony beecrowd/ed_grafos/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build basico: phony estrut_controle/basico
 
-build bee_1029_fibonacci: phony estrut_repeticao/bee_1029_fibonacci
+build bee_1029_fibonacci: phony beecrowd/atp_repeticoes/bee_1029_fibonacci
 
-build bee_1033_fib_chamadas_recursivas: phony estrut_repeticao/bee_1033_fib_chamadas_recursivas
+build bee_1033_fib_chamadas_recursivas: phony beecrowd/atp_repeticoes/bee_1033_fib_chamadas_recursivas
 
-build bee_1045_triangulos_if: phony estrut_controle/bee_1045_triangulos_if
+build bee_1045_triangulos_if: phony beecrowd/atp_condicionais/bee_1045_triangulos_if
 
-build bee_1103_alarme_despertador: phony estrut_repeticao/bee_1103_alarme_despertador
+build bee_1103_alarme_despertador: phony beecrowd/atp_repeticoes/bee_1103_alarme_despertador
 
-build bee_1119_fila_desempregados: phony estrut_repeticao/bee_1119_fila_desempregados
+build bee_1119_fila_desempregados: phony beecrowd/atp_repeticoes/bee_1119_fila_desempregados
 
-build bee_1542_lendo_livros: phony estrut_repeticao/bee_1542_lendo_livros
+build bee_1191_recuperacao_arvore: phony beecrowd/ed_grafos/bee_1191_recuperacao_arvore
 
-build bee_1906_romanos_seq: phony estrut_controle/bee_1906_romanos_seq
+build bee_1194_prefixa_infixa_posfixa: phony beecrowd/ed_grafos/bee_1194_prefixa_infixa_posfixa
 
-build bee_2540_impeachment_do_lider: phony estrut_repeticao/bee_2540_impeachment_do_lider
+build bee_1195_arvore_binaria_busca: phony beecrowd/ed_grafos/bee_1195_arvore_binaria_busca
 
-build bee_2547_montanha_russa: phony estrut_repeticao/bee_2547_montanha_russa
+build bee_1200_operacoes_abp_i: phony beecrowd/ed_grafos/bee_1200_operacoes_abp_i
 
-build bee_2547_montanha_russa_limite_peso: phony estrut_repeticao/bee_2547_montanha_russa_limite_peso
+build bee_1201_operacoes_abp_ii: phony beecrowd/ed_grafos/bee_1201_operacoes_abp_ii
 
-build bee_2721_indecisao_renas: phony estrut_repeticao/bee_2721_indecisao_renas
+build bee_1542_lendo_livros: phony beecrowd/atp_repeticoes/bee_1542_lendo_livros
 
-build bee_2760_entrada_saida_string: phony tipos_vars_consts/bee_2760_entrada_saida_string
+build bee_1906_romanos_seq: phony beecrowd/atp_condicionais/bee_1906_romanos_seq
+
+build bee_2540_impeachment_do_lider: phony beecrowd/atp_repeticoes/bee_2540_impeachment_do_lider
+
+build bee_2547_montanha_russa: phony beecrowd/atp_repeticoes/bee_2547_montanha_russa
+
+build bee_2547_montanha_russa_limite_peso: phony beecrowd/atp_repeticoes/bee_2547_montanha_russa_limite_peso
+
+build bee_2721_indecisao_renas: phony beecrowd/atp_repeticoes/bee_2721_indecisao_renas
+
+build bee_2760_entrada_saida_string: phony beecrowd/atp_sequenciais/bee_2760_entrada_saida_string
+
+build bee_2761_entrada_e_saida: phony beecrowd/atp_sequenciais/bee_2761_entrada_e_saida
+
+build bee_3140_ctrl_c_ctrl_v: phony beecrowd/atp_repeticoes/bee_3140_ctrl_c_ctrl_v
+
+build bee_3142_excel_bugado: phony beecrowd/atp_repeticoes/bee_3142_excel_bugado
 
 build condic: phony estrut_controle/condic
 
@@ -1111,21 +1519,49 @@ build vars_reais: phony tipos_vars_consts/vars_reais
 #############################################
 # Folder: /home/rogerio/git/c_yt_course/cmake-build-debug
 
-build all: phony estrut_controle/all tipos_vars_consts/all estrut_repeticao/all operadores_expressoes/all
+build all: phony estrut_controle/all tipos_vars_consts/all estrut_repeticao/all operadores_expressoes/all beecrowd/atp_sequenciais/all beecrowd/atp_condicionais/all beecrowd/atp_repeticoes/all beecrowd/ed_grafos/all
+
+# =============================================================================
+
+#############################################
+# Folder: /home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_condicionais
+
+build beecrowd/atp_condicionais/all: phony beecrowd/atp_condicionais/bee_1045_triangulos_if beecrowd/atp_condicionais/bee_1906_romanos_seq
+
+# =============================================================================
+
+#############################################
+# Folder: /home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_repeticoes
+
+build beecrowd/atp_repeticoes/all: phony beecrowd/atp_repeticoes/bee_1029_fibonacci beecrowd/atp_repeticoes/bee_1119_fila_desempregados beecrowd/atp_repeticoes/bee_1542_lendo_livros beecrowd/atp_repeticoes/bee_2721_indecisao_renas beecrowd/atp_repeticoes/bee_1033_fib_chamadas_recursivas beecrowd/atp_repeticoes/bee_2547_montanha_russa beecrowd/atp_repeticoes/bee_2547_montanha_russa_limite_peso beecrowd/atp_repeticoes/bee_2540_impeachment_do_lider beecrowd/atp_repeticoes/bee_1103_alarme_despertador beecrowd/atp_repeticoes/bee_3140_ctrl_c_ctrl_v beecrowd/atp_repeticoes/bee_3142_excel_bugado
+
+# =============================================================================
+
+#############################################
+# Folder: /home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_sequenciais
+
+build beecrowd/atp_sequenciais/all: phony beecrowd/atp_sequenciais/bee_2760_entrada_saida_string beecrowd/atp_sequenciais/bee_2761_entrada_e_saida
+
+# =============================================================================
+
+#############################################
+# Folder: /home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/ed_grafos
+
+build beecrowd/ed_grafos/all: phony beecrowd/ed_grafos/bee_1191_recuperacao_arvore beecrowd/ed_grafos/bee_1194_prefixa_infixa_posfixa beecrowd/ed_grafos/bee_1195_arvore_binaria_busca beecrowd/ed_grafos/bee_1200_operacoes_abp_i beecrowd/ed_grafos/bee_1201_operacoes_abp_ii
 
 # =============================================================================
 
 #############################################
 # Folder: /home/rogerio/git/c_yt_course/cmake-build-debug/estrut_controle
 
-build estrut_controle/all: phony estrut_controle/basico estrut_controle/condic estrut_controle/selecao estrut_controle/ex_resolvido_if estrut_controle/bee_1045_triangulos_if estrut_controle/ex_resolvido_switch estrut_controle/bee_1906_romanos_seq
+build estrut_controle/all: phony estrut_controle/basico estrut_controle/condic estrut_controle/selecao estrut_controle/ex_resolvido_if estrut_controle/ex_resolvido_switch
 
 # =============================================================================
 
 #############################################
 # Folder: /home/rogerio/git/c_yt_course/cmake-build-debug/estrut_repeticao
 
-build estrut_repeticao/all: phony estrut_repeticao/repeticao_for estrut_repeticao/repeticao_while estrut_repeticao/repeticao_do.c estrut_repeticao/bee_1029_fibonacci estrut_repeticao/bee_1119_fila_desempregados estrut_repeticao/bee_1542_lendo_livros estrut_repeticao/bee_2721_indecisao_renas estrut_repeticao/bee_1033_fib_chamadas_recursivas estrut_repeticao/bee_2547_montanha_russa estrut_repeticao/bee_2547_montanha_russa_limite_peso estrut_repeticao/bee_2540_impeachment_do_lider estrut_repeticao/bee_1103_alarme_despertador
+build estrut_repeticao/all: phony estrut_repeticao/repeticao_for estrut_repeticao/repeticao_while estrut_repeticao/repeticao_do.c
 
 # =============================================================================
 
@@ -1139,7 +1575,7 @@ build operadores_expressoes/all: phony operadores_expressoes/expressoes
 #############################################
 # Folder: /home/rogerio/git/c_yt_course/cmake-build-debug/tipos_vars_consts
 
-build tipos_vars_consts/all: phony tipos_vars_consts/vars_complexas tipos_vars_consts/vars_reais tipos_vars_consts/vars_inteiras tipos_vars_consts/vars_logicas tipos_vars_consts/bee_2760_entrada_saida_string
+build tipos_vars_consts/all: phony tipos_vars_consts/vars_complexas tipos_vars_consts/vars_reais tipos_vars_consts/vars_inteiras tipos_vars_consts/vars_logicas
 
 # =============================================================================
 # Built-in targets
@@ -1148,14 +1584,14 @@ build tipos_vars_consts/all: phony tipos_vars_consts/vars_complexas tipos_vars_c
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja /home/rogerio/git/c_yt_course/cmake-build-debug/cmake_install.cmake /home/rogerio/git/c_yt_course/cmake-build-debug/estrut_controle/cmake_install.cmake /home/rogerio/git/c_yt_course/cmake-build-debug/tipos_vars_consts/cmake_install.cmake /home/rogerio/git/c_yt_course/cmake-build-debug/estrut_repeticao/cmake_install.cmake /home/rogerio/git/c_yt_course/cmake-build-debug/operadores_expressoes/cmake_install.cmake: RERUN_CMAKE | /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeCInformation.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeCommonLanguageInclude.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeGenericSystem.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeInitializeConfigs.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeLanguageInformation.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeSystemSpecificInformation.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeSystemSpecificInitialize.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Compiler/GNU-C.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Compiler/GNU.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Internal/CMakeCLinkerInformation.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Linker/GNU-C.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Linker/GNU.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linker/GNU.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linker/Linux-GNU-C.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linker/Linux-GNU.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linux-GNU-C.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linux-GNU.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linux-Initialize.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linux.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/UnixPaths.cmake /home/rogerio/git/c_yt_course/CMakeLists.txt /home/rogerio/git/c_yt_course/estrut_controle/CMakeLists.txt /home/rogerio/git/c_yt_course/estrut_repeticao/CMakeLists.txt /home/rogerio/git/c_yt_course/operadores_expressoes/CMakeLists.txt /home/rogerio/git/c_yt_course/tipos_vars_consts/CMakeLists.txt CMakeCache.txt CMakeFiles/4.1.2/CMakeCCompiler.cmake CMakeFiles/4.1.2/CMakeSystem.cmake
+build build.ninja /home/rogerio/git/c_yt_course/cmake-build-debug/cmake_install.cmake /home/rogerio/git/c_yt_course/cmake-build-debug/estrut_controle/cmake_install.cmake /home/rogerio/git/c_yt_course/cmake-build-debug/tipos_vars_consts/cmake_install.cmake /home/rogerio/git/c_yt_course/cmake-build-debug/estrut_repeticao/cmake_install.cmake /home/rogerio/git/c_yt_course/cmake-build-debug/operadores_expressoes/cmake_install.cmake /home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_sequenciais/cmake_install.cmake /home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_condicionais/cmake_install.cmake /home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_repeticoes/cmake_install.cmake /home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/ed_grafos/cmake_install.cmake: RERUN_CMAKE | /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeCInformation.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeCXXInformation.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeCommonLanguageInclude.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeGenericSystem.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeInitializeConfigs.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeLanguageInformation.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeSystemSpecificInformation.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeSystemSpecificInitialize.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Compiler/GNU-C.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Compiler/GNU-CXX.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Compiler/GNU.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Internal/CMakeCLinkerInformation.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Internal/CMakeCXXLinkerInformation.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Linker/GNU-C.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Linker/GNU-CXX.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Linker/GNU.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linker/GNU.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linker/Linux-GNU-C.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linker/Linux-GNU-CXX.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linker/Linux-GNU.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linux-GNU-C.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linux-GNU-CXX.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linux-GNU.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linux-Initialize.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linux.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/UnixPaths.cmake /home/rogerio/git/c_yt_course/CMakeLists.txt /home/rogerio/git/c_yt_course/beecrowd/atp_condicionais/CMakeLists.txt /home/rogerio/git/c_yt_course/beecrowd/atp_repeticoes/CMakeLists.txt /home/rogerio/git/c_yt_course/beecrowd/atp_sequenciais/CMakeLists.txt /home/rogerio/git/c_yt_course/beecrowd/ed_grafos/CMakeLists.txt /home/rogerio/git/c_yt_course/estrut_controle/CMakeLists.txt /home/rogerio/git/c_yt_course/estrut_repeticao/CMakeLists.txt /home/rogerio/git/c_yt_course/operadores_expressoes/CMakeLists.txt /home/rogerio/git/c_yt_course/tipos_vars_consts/CMakeLists.txt CMakeCache.txt CMakeFiles/4.1.2/CMakeCCompiler.cmake CMakeFiles/4.1.2/CMakeCXXCompiler.cmake CMakeFiles/4.1.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeCInformation.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeCommonLanguageInclude.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeGenericSystem.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeInitializeConfigs.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeLanguageInformation.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeSystemSpecificInformation.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeSystemSpecificInitialize.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Compiler/GNU-C.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Compiler/GNU.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Internal/CMakeCLinkerInformation.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Linker/GNU-C.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Linker/GNU.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linker/GNU.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linker/Linux-GNU-C.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linker/Linux-GNU.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linux-GNU-C.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linux-GNU.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linux-Initialize.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linux.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/UnixPaths.cmake /home/rogerio/git/c_yt_course/CMakeLists.txt /home/rogerio/git/c_yt_course/estrut_controle/CMakeLists.txt /home/rogerio/git/c_yt_course/estrut_repeticao/CMakeLists.txt /home/rogerio/git/c_yt_course/operadores_expressoes/CMakeLists.txt /home/rogerio/git/c_yt_course/tipos_vars_consts/CMakeLists.txt CMakeCache.txt CMakeFiles/4.1.2/CMakeCCompiler.cmake CMakeFiles/4.1.2/CMakeSystem.cmake: phony
+build /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeCInformation.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeCXXInformation.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeCommonLanguageInclude.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeGenericSystem.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeInitializeConfigs.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeLanguageInformation.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeSystemSpecificInformation.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeSystemSpecificInitialize.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Compiler/GNU-C.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Compiler/GNU-CXX.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Compiler/GNU.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Internal/CMakeCLinkerInformation.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Internal/CMakeCXXLinkerInformation.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Linker/GNU-C.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Linker/GNU-CXX.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Linker/GNU.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linker/GNU.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linker/Linux-GNU-C.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linker/Linux-GNU-CXX.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linker/Linux-GNU.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linux-GNU-C.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linux-GNU-CXX.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linux-GNU.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linux-Initialize.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linux.cmake /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/UnixPaths.cmake /home/rogerio/git/c_yt_course/CMakeLists.txt /home/rogerio/git/c_yt_course/beecrowd/atp_condicionais/CMakeLists.txt /home/rogerio/git/c_yt_course/beecrowd/atp_repeticoes/CMakeLists.txt /home/rogerio/git/c_yt_course/beecrowd/atp_sequenciais/CMakeLists.txt /home/rogerio/git/c_yt_course/beecrowd/ed_grafos/CMakeLists.txt /home/rogerio/git/c_yt_course/estrut_controle/CMakeLists.txt /home/rogerio/git/c_yt_course/estrut_repeticao/CMakeLists.txt /home/rogerio/git/c_yt_course/operadores_expressoes/CMakeLists.txt /home/rogerio/git/c_yt_course/tipos_vars_consts/CMakeLists.txt CMakeCache.txt CMakeFiles/4.1.2/CMakeCCompiler.cmake CMakeFiles/4.1.2/CMakeCXXCompiler.cmake CMakeFiles/4.1.2/CMakeSystem.cmake: phony
 
 
 #############################################

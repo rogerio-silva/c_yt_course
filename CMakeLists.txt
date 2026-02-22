@@ -7,4 +7,8 @@ add_subdirectory(estrut_controle)
 add_subdirectory(tipos_vars_consts)
 add_subdirectory(estrut_repeticao)
 add_subdirectory(operadores_expressoes)
+add_subdirectory(beecrowd/atp_sequenciais)
+add_subdirectory(beecrowd/atp_condicionais)
+add_subdirectory(beecrowd/atp_repeticoes)
+add_subdirectory(beecrowd/ed_grafos)
 

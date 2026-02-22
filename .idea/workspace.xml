@@ -19,12 +19,16 @@
   <component name="CMakeRunConfigurationManager">
     <generated>
       <config projectName="c_yt_course" targetName="basico.c" />
+      <config projectName="c_yt_course" targetName="bee_1201_operacoes_abp_ii" />
       <config projectName="c_yt_course" targetName="bee_1906_romanos_seq" />
+      <config projectName="c_yt_course" targetName="bee_1191_recuperacao_arvore" />
       <config projectName="c_yt_course" targetName="bee_1033_fib_chamadas_recursivas" />
       <config projectName="c_yt_course" targetName="repeticao_for.c" />
       <config projectName="c_yt_course" targetName="repeticao_for" />
       <config projectName="c_yt_course" targetName="repeticao_while" />
+      <config projectName="c_yt_course" targetName="bee_3142_excel_bugado" />
       <config projectName="c_yt_course" targetName="repeticao_do.c" />
+      <config projectName="c_yt_course" targetName="bee_1200_operacoes_abp_i" />
       <config projectName="c_yt_course" targetName="selecao" />
       <config projectName="c_yt_course" targetName="ex_resolvido_switch" />
       <config projectName="c_yt_course" targetName="basico" />
@@ -36,11 +40,15 @@
       <config projectName="c_yt_course" targetName="vars_complexas" />
       <config projectName="c_yt_course" targetName="bee_2721_indecisao_renas" />
       <config projectName="c_yt_course" targetName="bee_1542_lendo_livros" />
+      <config projectName="c_yt_course" targetName="bee_1195_arvore_binaria_busca" />
       <config projectName="c_yt_course" targetName="ex_resolvido_if" />
       <config projectName="c_yt_course" targetName="bee_1103_alarme_despertador" />
+      <config projectName="c_yt_course" targetName="bee_3140_ctrl_c_ctrl_v" />
+      <config projectName="c_yt_course" targetName="bee_1194_prefixa_infixa_posfixa" />
       <config projectName="c_yt_course" targetName="bee_1119_fila_desempregados" />
       <config projectName="c_yt_course" targetName="expressoes" />
       <config projectName="c_yt_course" targetName="vars_complexas.c" />
+      <config projectName="c_yt_course" targetName="bee_2761_entrada_e_saida" />
       <config projectName="c_yt_course" targetName="bee_2760_entrada_saida_string" />
       <config projectName="c_yt_course" targetName="bee_1029_fibonacci" />
       <config projectName="c_yt_course" targetName="bee_2540_impeachment_do_lider" />
@@ -54,32 +62,50 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cc5b092-0025-4866-9340-38bfebf0d9e3" name="Changes" comment="Remoção de arquivos e códigos obsoletos, ajuste no .gitignore">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estrut_repeticao/bee_1033_fib_chamadas_recursivas.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estrut_repeticao/bee_1103_alarme_despertador.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estrut_repeticao/bee_1542_lendo_livros.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estrut_repeticao/bee_2540_impeachment_do_lider.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estrut_repeticao/bee_2547_montanha_russa.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estrut_repeticao/bee_2547_montanha_russa_limite_peso.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estrut_repeticao/bee_2721_indecisao_renas.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tipos_vars_consts/bee_2760_entrada_saida_string.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4cc5b092-0025-4866-9340-38bfebf0d9e3" name="Changes" comment="Adição de novos exemplos de códigos para resoluções de exercícios do Beecrowd, remoção de arquivos de cache e configurações gerados pelo CMake">
+      <change afterPath="$PROJECT_DIR$/beecrowd/atp_condicionais/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beecrowd/atp_repeticoes/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beecrowd/atp_repeticoes/bee_3140_ctrl_c_ctrl_v.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beecrowd/atp_repeticoes/bee_3142_excel_bugado.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beecrowd/atp_sequenciais/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beecrowd/atp_sequenciais/bee_2761_entrada_e_saida.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basico" beforeDir="false" afterPath="$PROJECT_DIR$/estrut_repeticao/bee_1542_lendo_livros" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bee_1906_romanos_seq" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-5270e398f8a27bacc429.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2026-02-07T16-18-02-0941.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-bee_1029_fibonacci-Debug-58f955e786930c0be0fb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-bee_1119_fila_desempregados-Debug-376f2bb945543ac77662.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ed_grafos/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/beecrowd/ed_grafos/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ed_grafos/bee_1191_recuperacao_arvore.c" beforeDir="false" afterPath="$PROJECT_DIR$/beecrowd/ed_grafos/bee_1191_recuperacao_arvore.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ed_grafos/bee_1194_prefixa_infixa_posfixa.c" beforeDir="false" afterPath="$PROJECT_DIR$/beecrowd/ed_grafos/bee_1194_prefixa_infixa_posfixa.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ed_grafos/bee_1195_arvore_binaria_busca.c" beforeDir="false" afterPath="$PROJECT_DIR$/beecrowd/ed_grafos/bee_1195_arvore_binaria_busca.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ed_grafos/bee_1200_operacoes_abp_i.c" beforeDir="false" afterPath="$PROJECT_DIR$/beecrowd/ed_grafos/bee_1200_operacoes_abp_i.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ed_grafos/bee_1201_operacoes_abp_ii.c" beforeDir="false" afterPath="$PROJECT_DIR$/beecrowd/ed_grafos/bee_1201_operacoes_abp_ii.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ed_grafos/grafos.md" beforeDir="false" afterPath="$PROJECT_DIR$/beecrowd/ed_grafos/grafos.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/estrut_controle/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/estrut_controle/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estrut_controle/bee_1045_triangulos_if.c" beforeDir="false" afterPath="$PROJECT_DIR$/beecrowd/atp_condicionais/bee_1045_triangulos_if.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estrut_controle/bee_1906_romanos_seq.c" beforeDir="false" afterPath="$PROJECT_DIR$/beecrowd/atp_condicionais/bee_1906_romanos_seq.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/estrut_repeticao/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/estrut_repeticao/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estrut_repeticao/bee_1029_fibonacci.c" beforeDir="false" afterPath="$PROJECT_DIR$/beecrowd/atp_repeticoes/bee_1029_fibonacci.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estrut_repeticao/bee_1033_fib_chamadas_recursivas.c" beforeDir="false" afterPath="$PROJECT_DIR$/beecrowd/atp_repeticoes/bee_1033_fib_chamadas_recursivas.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estrut_repeticao/bee_1103_alarme_despertador.c" beforeDir="false" afterPath="$PROJECT_DIR$/beecrowd/atp_repeticoes/bee_1103_alarme_despertador.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estrut_repeticao/bee_1119_fila_desempregados.c" beforeDir="false" afterPath="$PROJECT_DIR$/beecrowd/atp_repeticoes/bee_1119_fila_desempregados.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estrut_repeticao/bee_1542_lendo_livros" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estrut_repeticao/bee_1542_lendo_livros.c" beforeDir="false" afterPath="$PROJECT_DIR$/beecrowd/atp_repeticoes/bee_1542_lendo_livros.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estrut_repeticao/bee_2540_impeachment_do_lider.c" beforeDir="false" afterPath="$PROJECT_DIR$/beecrowd/atp_repeticoes/bee_2540_impeachment_do_lider.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estrut_repeticao/bee_2547_montanha_russa.c" beforeDir="false" afterPath="$PROJECT_DIR$/beecrowd/atp_repeticoes/bee_2547_montanha_russa.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estrut_repeticao/bee_2547_montanha_russa_limite_peso.c" beforeDir="false" afterPath="$PROJECT_DIR$/beecrowd/atp_repeticoes/bee_2547_montanha_russa_limite_peso.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estrut_repeticao/bee_2721_indecisao_renas.c" beforeDir="false" afterPath="$PROJECT_DIR$/beecrowd/atp_repeticoes/bee_2721_indecisao_renas.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tipos_vars_consts/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tipos_vars_consts/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tipos_vars_consts/bee_2760_entrada_saida_string.c" beforeDir="false" afterPath="$PROJECT_DIR$/beecrowd/atp_sequenciais/bee_2760_entrada_saida_string.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +116,7 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="137" />
+    <option name="cachedIndexableFilesCount" value="147" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
@@ -198,7 +224,7 @@
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/home/rogerio/git/c_yt_course/estrut_repeticao",
+    "last_opened_file_path": "/home/rogerio/git/c_yt_course/beecrowd/atp_sequenciais",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -211,25 +237,28 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/beecrowd/atp_sequenciais" />
+      <recent name="$PROJECT_DIR$/beecrowd/atp_condicionais" />
+      <recent name="$PROJECT_DIR$/beecrowd/atp_repeticoes" />
       <recent name="$PROJECT_DIR$/estrut_repeticao" />
       <recent name="$PROJECT_DIR$/ed_grafos" />
-      <recent name="$PROJECT_DIR$/books/pt-br" />
-      <recent name="$PROJECT_DIR$/estrut_controle" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/beecrowd/atp_sequenciais" />
+      <recent name="$PROJECT_DIR$/beecrowd" />
       <recent name="$PROJECT_DIR$/books/en" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/img" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.bee_2547_montanha_russa_limite_peso">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="CMake Application.bee_2761_entrada_e_saida">
     <configuration name="c_yt_course" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory">
       <method v="2" />
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
     </configuration>
     <configuration name="basico" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="basico" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c_yt_course" RUN_TARGET_NAME="basico">
       <method v="2">
@@ -261,6 +290,31 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="bee_1191_recuperacao_arvore" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="bee_1191_recuperacao_arvore" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c_yt_course" RUN_TARGET_NAME="bee_1191_recuperacao_arvore">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bee_1194_prefixa_infixa_posfixa" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="bee_1194_prefixa_infixa_posfixa" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c_yt_course" RUN_TARGET_NAME="bee_1194_prefixa_infixa_posfixa">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bee_1195_arvore_binaria_busca" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="bee_1195_arvore_binaria_busca" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c_yt_course" RUN_TARGET_NAME="bee_1195_arvore_binaria_busca">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bee_1200_operacoes_abp_i" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="bee_1200_operacoes_abp_i" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c_yt_course" RUN_TARGET_NAME="bee_1200_operacoes_abp_i">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bee_1201_operacoes_abp_ii" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="bee_1201_operacoes_abp_ii" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c_yt_course" RUN_TARGET_NAME="bee_1201_operacoes_abp_ii">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="bee_1542_lendo_livros" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="bee_1542_lendo_livros" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c_yt_course" RUN_TARGET_NAME="bee_1542_lendo_livros">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -287,6 +341,21 @@
       </method>
     </configuration>
     <configuration name="bee_2760_entrada_saida_string" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="bee_2760_entrada_saida_string" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c_yt_course" RUN_TARGET_NAME="bee_2760_entrada_saida_string">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bee_2761_entrada_e_saida" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="bee_2761_entrada_e_saida" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c_yt_course" RUN_TARGET_NAME="bee_2761_entrada_e_saida">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bee_3140_ctrl_c_ctrl_v" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="bee_3140_ctrl_c_ctrl_v" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c_yt_course" RUN_TARGET_NAME="bee_3140_ctrl_c_ctrl_v">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bee_3142_excel_bugado" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="bee_3142_excel_bugado" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c_yt_course" RUN_TARGET_NAME="bee_3142_excel_bugado">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -410,11 +479,19 @@
       <item itemvalue="CMake Application.bee_2547_montanha_russa" />
       <item itemvalue="CMake Application.bee_2547_montanha_russa_limite_peso" />
       <item itemvalue="CMake Application.bee_2721_indecisao_renas" />
+      <item itemvalue="CMake Application.bee_3140_ctrl_c_ctrl_v" />
+      <item itemvalue="CMake Application.bee_3142_excel_bugado" />
       <item itemvalue="CMake Application.repeticao_do.c" />
       <item itemvalue="CMake Application.repeticao_for" />
       <item itemvalue="CMake Application.repeticao_while" />
       <item itemvalue="CMake Application.expressoes" />
       <item itemvalue="CMake Application.bee_2760_entrada_saida_string" />
+      <item itemvalue="CMake Application.bee_2761_entrada_e_saida" />
+      <item itemvalue="CMake Application.bee_1191_recuperacao_arvore" />
+      <item itemvalue="CMake Application.bee_1194_prefixa_infixa_posfixa" />
+      <item itemvalue="CMake Application.bee_1195_arvore_binaria_busca" />
+      <item itemvalue="CMake Application.bee_1200_operacoes_abp_i" />
+      <item itemvalue="CMake Application.bee_1201_operacoes_abp_ii" />
       <item itemvalue="CMake Application.vars_complexas" />
       <item itemvalue="CMake Application.vars_inteiras" />
       <item itemvalue="CMake Application.vars_logicas" />
@@ -465,7 +542,8 @@
       <workItem from="1771592271520" duration="4979000" />
       <workItem from="1771597940986" duration="39000" />
       <workItem from="1771603742430" duration="824000" />
-      <workItem from="1771687652921" duration="6104000" />
+      <workItem from="1771687652921" duration="6150000" />
+      <workItem from="1771771916163" duration="3203000" />
     </task>
     <task id="LOCAL-00001" summary="Tipos, Constantes e Variáveis">
       <option name="closed" value="true" />
@@ -571,7 +649,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770482678367</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Adição de novos exemplos de códigos para resoluções de exercícios do Beecrowd, remoção de arquivos de cache e configurações gerados pelo CMake">
+      <option name="closed" value="true" />
+      <created>1771693794726</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1771693794727</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -633,7 +719,8 @@
     <MESSAGE value="Adição de novos códigos de exemplos para grafos, remoção de arquivos de cache e configurações do compilador gerados pelo CMake" />
     <MESSAGE value="Remoção de arquivos obsoletos e ajustes no .gitignore" />
     <MESSAGE value="Remoção de arquivos e códigos obsoletos, ajuste no .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remoção de arquivos e códigos obsoletos, ajuste no .gitignore" />
+    <MESSAGE value="Adição de novos exemplos de códigos para resoluções de exercícios do Beecrowd, remoção de arquivos de cache e configurações gerados pelo CMake" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adição de novos exemplos de códigos para resoluções de exercícios do Beecrowd, remoção de arquivos de cache e configurações gerados pelo CMake" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
