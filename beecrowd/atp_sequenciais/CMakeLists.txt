@@ -8,5 +8,6 @@ add_executable(bee_2761_entrada_e_saida bee_2761_entrada_e_saida.c)
 add_executable(bee_3055_nota_esquecida bee_3055_nota_esquecida.c)
 add_executable(bee_3091_resta_um bee_3091_resta_um.c)
 add_executable(bee_3161_frutas_esquecidas bee_3161_frutas_esquecidas.c)
+add_executable(bee_2702_escolha_dificil bee_2702_escolha_dificil.c)
 
 

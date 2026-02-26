@@ -22,48 +22,57 @@
       <config projectName="c_yt_course" targetName="basico.c" />
       <config projectName="c_yt_course" targetName="bee_1201_operacoes_abp_ii" />
       <config projectName="c_yt_course" targetName="bee_1906_romanos_seq" />
-      <config projectName="c_yt_course" targetName="bee_1191_recuperacao_arvore" />
-      <config projectName="c_yt_course" targetName="bee_1033_fib_chamadas_recursivas" />
+      <config projectName="c_yt_course" targetName="bee_2770_tamanho_da_placa" />
       <config projectName="c_yt_course" targetName="repeticao_for.c" />
-      <config projectName="c_yt_course" targetName="repeticao_for" />
       <config projectName="c_yt_course" targetName="repeticao_while" />
-      <config projectName="c_yt_course" targetName="bee_3142_excel_bugado" />
       <config projectName="c_yt_course" targetName="bee_3039_brinquedos_papai_noel" />
       <config projectName="c_yt_course" targetName="repeticao_do.c" />
-      <config projectName="c_yt_course" targetName="bee_3047_idade_dona_monica" />
+      <config projectName="c_yt_course" targetName="bee_3170_bolinhas_de_natal" />
       <config projectName="c_yt_course" targetName="bee_1200_operacoes_abp_i" />
       <config projectName="c_yt_course" targetName="bee_3146_charadas_no_escuro" />
       <config projectName="c_yt_course" targetName="bee_3161_frutas_esquecidas" />
-      <config projectName="c_yt_course" targetName="selecao" />
-      <config projectName="c_yt_course" targetName="bee_3157_viva_a_ciencia" />
       <config projectName="c_yt_course" targetName="ex_resolvido_switch" />
-      <config projectName="c_yt_course" targetName="basico" />
-      <config projectName="c_yt_course" targetName="bee_3037_jogando_dardos" />
+      <config projectName="c_yt_course" targetName="bee_2702_escolha_dificil" />
       <config projectName="c_yt_course" targetName="vars_inteiras" />
       <config projectName="c_yt_course" targetName="vars_reais" />
-      <config projectName="c_yt_course" targetName="bee_1045_triangulos_if" />
       <config projectName="c_yt_course" targetName="bee_3055_nota_esquecida" />
       <config projectName="c_yt_course" targetName="vars_logicas" />
+      <config projectName="c_yt_course" targetName="vars_complexas" />
+      <config projectName="c_yt_course" targetName="bee_1542_lendo_livros" />
+      <config projectName="c_yt_course" targetName="bee_1103_alarme_despertador" />
+      <config projectName="c_yt_course" targetName="bee_3147_batalha_cinco_exercitos" />
+      <config projectName="c_yt_course" targetName="expressoes" />
+      <config projectName="c_yt_course" targetName="bee_1029_fibonacci" />
+      <config projectName="c_yt_course" targetName="bee_2540_impeachment_do_lider" />
+      <config projectName="c_yt_course" targetName="bee_1191_recuperacao_arvore" />
+      <config projectName="c_yt_course" targetName="bee_1033_fib_chamadas_recursivas" />
+      <config projectName="c_yt_course" targetName="repeticao_for" />
+      <config projectName="c_yt_course" targetName="bee_3142_excel_bugado" />
+      <config projectName="c_yt_course" targetName="bee_3047_idade_dona_monica" />
+      <config projectName="c_yt_course" targetName="selecao" />
+      <config projectName="c_yt_course" targetName="bee_3157_viva_a_ciencia" />
+      <config projectName="c_yt_course" targetName="basico" />
+      <config projectName="c_yt_course" targetName="bee_3037_jogando_dardos" />
+      <config projectName="c_yt_course" targetName="bee_3089_presentes_de_natal" />
+      <config projectName="c_yt_course" targetName="bee_1083_lexsim" />
+      <config projectName="c_yt_course" targetName="bee_3173_estrela_de_natal" />
+      <config projectName="c_yt_course" targetName="bee_1045_triangulos_if" />
+      <config projectName="c_yt_course" targetName="bee_2717_tempo_do_duende" />
+      <config projectName="c_yt_course" targetName="bee_2708_turistas_no_parque" />
       <config projectName="c_yt_course" targetName="bee_2547_montanha_russa" />
       <config projectName="c_yt_course" targetName="bee_3091_resta_um" />
-      <config projectName="c_yt_course" targetName="vars_complexas" />
+      <config projectName="c_yt_course" targetName="bee_2344_notas_da_prova" />
       <config projectName="c_yt_course" targetName="bee_2721_indecisao_renas" />
       <config projectName="c_yt_course" targetName="bee_3145_jornada_inesperada" />
-      <config projectName="c_yt_course" targetName="bee_1542_lendo_livros" />
       <config projectName="c_yt_course" targetName="bee_1195_arvore_binaria_busca" />
       <config projectName="c_yt_course" targetName="ex_resolvido_if" />
-      <config projectName="c_yt_course" targetName="bee_1103_alarme_despertador" />
       <config projectName="c_yt_course" targetName="bee_3140_ctrl_c_ctrl_v" />
-      <config projectName="c_yt_course" targetName="bee_3147_batalha_cinco_exercitos" />
       <config projectName="c_yt_course" targetName="bee_1194_prefixa_infixa_posfixa" />
       <config projectName="c_yt_course" targetName="bee_1119_fila_desempregados" />
-      <config projectName="c_yt_course" targetName="expressoes" />
       <config projectName="c_yt_course" targetName="vars_complexas.c" />
       <config projectName="c_yt_course" targetName="bee_2761_entrada_e_saida" />
       <config projectName="c_yt_course" targetName="bee_3040_arvore_natal" />
       <config projectName="c_yt_course" targetName="bee_2760_entrada_saida_string" />
-      <config projectName="c_yt_course" targetName="bee_1029_fibonacci" />
-      <config projectName="c_yt_course" targetName="bee_2540_impeachment_do_lider" />
       <config projectName="c_yt_course" targetName="condic" />
       <config projectName="c_yt_course" targetName="bee_2547_montanha_russa_limite_peso" />
     </generated>
@@ -74,26 +83,23 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cc5b092-0025-4866-9340-38bfebf0d9e3" name="Changes" comment="Adição de novos exemplos de códigos para exercícios do Beecrowd, reorganização de diretórios e ajustes no .gitignore">
-      <change afterPath="$PROJECT_DIR$/beecrowd/atp_condicionais/bee_3047_idade_dona_monica.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beecrowd/atp_condicionais/bee_3145_jornada_inesperada.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beecrowd/atp_condicionais/bee_3146_charadas_no_escuro.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beecrowd/atp_condicionais/bee_3147_batalha_cinco_exercitos.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beecrowd/atp_repeticoes/bee_3037_jogando_dardos.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beecrowd/atp_repeticoes/bee_3039_brinquedos_papai_noel.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beecrowd/atp_repeticoes/bee_3040_arvore_natal.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beecrowd/atp_sequenciais/bee_3055_nota_esquecida.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beecrowd/atp_sequenciais/bee_3091_resta_um.c" afterDir="false" />
+    <list default="true" id="4cc5b092-0025-4866-9340-38bfebf0d9e3" name="Changes" comment="Adição de novos exemplos de códigos para exercícios do Beecrowd, incluindo implementações em condicionais, sequenciais e repetições. Atualização do CMakeLists.txt para compilar os novos exemplos.">
+      <change afterPath="$PROJECT_DIR$/beecrowd/atp_condicionais/bee_3170_bolinhas_de_natal.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beecrowd/atp_expressoes/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beecrowd/atp_repeticoes/bee_1138_contagem_digitos.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/beecrowd/atp_condicionais/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/beecrowd/atp_condicionais/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/beecrowd/atp_repeticoes/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/beecrowd/atp_repeticoes/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/beecrowd/atp_sequenciais/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/beecrowd/atp_sequenciais/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +110,7 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="152" />
+    <option name="cachedIndexableFilesCount" value="173" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
@@ -151,82 +157,82 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "C/C++ File.basico.c.executor": "Run",
-    "C/C++ File.bee_1045_triangulos.c.executor": "Run",
-    "C/C++ File.bee_1542_lendo_livros.c.executor": "Debug",
-    "C/C++ File.bee_1906_romanos.c.executor": "Run",
-    "C/C++ File.bee_1906_romanos_seq.c.executor": "Run",
-    "C/C++ File.condic.c.executor": "Run",
-    "C/C++ File.exercicio_resolvido_1.c.executor": "Run",
-    "C/C++ File.expressoes.c.executor": "Run",
-    "C/C++ File.repeticao_do.c.executor": "Run",
-    "C/C++ File.repeticao_for.c.executor": "Run",
-    "C/C++ File.repeticao_while.c.executor": "Run",
-    "C/C++ File.selecao.c.executor": "Run",
-    "C/C++ File.var_logica.c (1).executor": "Run",
-    "C/C++ File.var_logica.c.executor": "Run",
-    "C/C++ File.vars.c.executor": "Run",
-    "C/C++ File.vars_complexas.c.executor": "Run",
-    "C/C++ File.vars_inteiras.c.executor": "Run",
-    "C/C++ File.vars_reais.c.executor": "Run",
-    "CMake Application.basico.c.executor": "Run",
-    "CMake Application.basico.executor": "Run",
-    "CMake Application.bee_1029_fibonacci.executor": "Run",
-    "CMake Application.bee_1033_fib_chamadas_recursivas.executor": "Debug",
-    "CMake Application.bee_1119_fila_desempregados.executor": "Run",
-    "CMake Application.bee_1191_recuperacao_arvore.executor": "Run",
-    "CMake Application.bee_1194_prefixa_infixa_posfixa.executor": "Run",
-    "CMake Application.bee_1195_arvore_binaria_busca.executor": "Run",
-    "CMake Application.bee_1200_operacoes_abp_i.executor": "Run",
-    "CMake Application.bee_1906_romanos_seq.executor": "Run",
-    "CMake Application.bee_2547_montanha_russa.executor": "Run",
-    "CMake Application.bee_2547_montanha_russa_limite_peso.executor": "Run",
-    "CMake Application.bee_3037_jogando_dardos.executor": "Run",
-    "CMake Application.bee_3039_brinquedos_papai_noel.executor": "Run",
-    "CMake Application.bee_3040_arvore_natal.executor": "Run",
-    "CMake Application.bee_3047_idade_dona_monica.executor": "Run",
-    "CMake Application.c_yt_course.executor": "Run",
-    "CMake Application.expressoes.executor": "Run",
-    "CMake Application.repeticao_do.c.executor": "Run",
-    "CMake Application.repeticao_for.c.executor": "Run",
-    "CMake Application.repeticao_for.executor": "Run",
-    "CMake Application.repeticao_while.executor": "Debug",
-    "CMake Application.vars.c.executor": "Run",
-    "CMake Application.vars_complexas.c.executor": "Run",
-    "CMake Debug.c_yt_course.executor": "Debug",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.RadMigrateCodeStyle": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "RunOnceActivity.west.config.association.type.startup.service": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ToolWindowCMake.ShowToolbar": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/home/rogerio/git/c_yt_course/beecrowd/atp_sequenciais",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;C/C++ File.basico.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.bee_1045_triangulos.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.bee_1542_lendo_livros.c.executor&quot;: &quot;Debug&quot;,
+    &quot;C/C++ File.bee_1906_romanos.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.bee_1906_romanos_seq.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.condic.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.exercicio_resolvido_1.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.expressoes.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.repeticao_do.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.repeticao_for.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.repeticao_while.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.selecao.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.var_logica.c (1).executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.var_logica.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.vars.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.vars_complexas.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.vars_inteiras.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.vars_reais.c.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.basico.c.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.basico.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.bee_1029_fibonacci.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.bee_1033_fib_chamadas_recursivas.executor&quot;: &quot;Debug&quot;,
+    &quot;CMake Application.bee_1119_fila_desempregados.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.bee_1191_recuperacao_arvore.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.bee_1194_prefixa_infixa_posfixa.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.bee_1195_arvore_binaria_busca.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.bee_1200_operacoes_abp_i.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.bee_1906_romanos_seq.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.bee_2547_montanha_russa.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.bee_2547_montanha_russa_limite_peso.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.bee_3037_jogando_dardos.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.bee_3039_brinquedos_papai_noel.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.bee_3040_arvore_natal.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.bee_3047_idade_dona_monica.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.c_yt_course.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.expressoes.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.repeticao_do.c.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.repeticao_for.c.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.repeticao_for.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.repeticao_while.executor&quot;: &quot;Debug&quot;,
+    &quot;CMake Application.vars.c.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.vars_complexas.c.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Debug.c_yt_course.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.west.config.association.type.startup.service&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ToolWindowCMake.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/rogerio/git/c_yt_course/beecrowd/atp_sequenciais&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/beecrowd/atp_sequenciais" />
@@ -244,11 +250,6 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.bee_3047_idade_dona_monica">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="c_yt_course" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory">
       <method v="2" />
     </configuration>
@@ -268,6 +269,11 @@
       </method>
     </configuration>
     <configuration name="bee_1045_triangulos_if" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="bee_1045_triangulos_if" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c_yt_course" RUN_TARGET_NAME="bee_1045_triangulos_if">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bee_1083_lexsim" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="bee_1083_lexsim" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c_yt_course" RUN_TARGET_NAME="bee_1083_lexsim">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -312,6 +318,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="bee_2344_notas_da_prova" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="bee_2344_notas_da_prova" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c_yt_course" RUN_TARGET_NAME="bee_2344_notas_da_prova">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="bee_2540_impeachment_do_lider" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="bee_2540_impeachment_do_lider" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c_yt_course" RUN_TARGET_NAME="bee_2540_impeachment_do_lider">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -327,6 +338,21 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="bee_2702_escolha_dificil" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="bee_2702_escolha_dificil" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c_yt_course" RUN_TARGET_NAME="bee_2702_escolha_dificil">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bee_2708_turistas_no_parque" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="bee_2708_turistas_no_parque" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c_yt_course" RUN_TARGET_NAME="bee_2708_turistas_no_parque">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bee_2717_tempo_do_duende" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="bee_2717_tempo_do_duende" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c_yt_course" RUN_TARGET_NAME="bee_2717_tempo_do_duende">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="bee_2721_indecisao_renas" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="bee_2721_indecisao_renas" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c_yt_course" RUN_TARGET_NAME="bee_2721_indecisao_renas">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -338,6 +364,11 @@
       </method>
     </configuration>
     <configuration name="bee_2761_entrada_e_saida" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="bee_2761_entrada_e_saida" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c_yt_course" RUN_TARGET_NAME="bee_2761_entrada_e_saida">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bee_2770_tamanho_da_placa" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="bee_2770_tamanho_da_placa" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c_yt_course" RUN_TARGET_NAME="bee_2770_tamanho_da_placa">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -363,6 +394,11 @@
       </method>
     </configuration>
     <configuration name="bee_3055_nota_esquecida" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="bee_3055_nota_esquecida" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c_yt_course" RUN_TARGET_NAME="bee_3055_nota_esquecida">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bee_3089_presentes_de_natal" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="bee_3089_presentes_de_natal" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c_yt_course" RUN_TARGET_NAME="bee_3089_presentes_de_natal">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -403,6 +439,16 @@
       </method>
     </configuration>
     <configuration name="bee_3161_frutas_esquecidas" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="bee_3161_frutas_esquecidas" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c_yt_course" RUN_TARGET_NAME="bee_3161_frutas_esquecidas">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bee_3170_bolinhas_de_natal" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="bee_3170_bolinhas_de_natal" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c_yt_course" RUN_TARGET_NAME="bee_3170_bolinhas_de_natal">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bee_3173_estrela_de_natal" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="bee_3173_estrela_de_natal" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c_yt_course" RUN_TARGET_NAME="bee_3173_estrela_de_natal">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -513,6 +559,8 @@
       <item itemvalue="C/C++ File.vars_inteiras.c" />
       <item itemvalue="CMake Application.basico" />
       <item itemvalue="CMake Application.bee_1045_triangulos_if" />
+      <item itemvalue="CMake Application.bee_2344_notas_da_prova" />
+      <item itemvalue="CMake Application.bee_2717_tempo_do_duende" />
       <item itemvalue="CMake Application.condic" />
       <item itemvalue="CMake Application.ex_resolvido_if" />
       <item itemvalue="CMake Application.ex_resolvido_switch" />
@@ -525,12 +573,16 @@
       <item itemvalue="CMake Application.bee_2540_impeachment_do_lider" />
       <item itemvalue="CMake Application.bee_2547_montanha_russa" />
       <item itemvalue="CMake Application.bee_2547_montanha_russa_limite_peso" />
+      <item itemvalue="CMake Application.bee_2708_turistas_no_parque" />
       <item itemvalue="CMake Application.bee_2721_indecisao_renas" />
+      <item itemvalue="CMake Application.bee_2770_tamanho_da_placa" />
       <item itemvalue="CMake Application.bee_3037_jogando_dardos" />
       <item itemvalue="CMake Application.bee_3039_brinquedos_papai_noel" />
       <item itemvalue="CMake Application.bee_3040_arvore_natal" />
+      <item itemvalue="CMake Application.bee_3089_presentes_de_natal" />
       <item itemvalue="CMake Application.bee_3140_ctrl_c_ctrl_v" />
       <item itemvalue="CMake Application.bee_3142_excel_bugado" />
+      <item itemvalue="CMake Application.bee_2702_escolha_dificil" />
       <item itemvalue="CMake Application.repeticao_do.c" />
       <item itemvalue="CMake Application.repeticao_for" />
       <item itemvalue="CMake Application.repeticao_while" />
@@ -542,6 +594,9 @@
       <item itemvalue="CMake Application.bee_3146_charadas_no_escuro" />
       <item itemvalue="CMake Application.bee_3147_batalha_cinco_exercitos" />
       <item itemvalue="CMake Application.bee_3157_viva_a_ciencia" />
+      <item itemvalue="CMake Application.bee_3170_bolinhas_de_natal" />
+      <item itemvalue="CMake Application.bee_3173_estrela_de_natal" />
+      <item itemvalue="CMake Application.bee_1083_lexsim" />
       <item itemvalue="CMake Application.bee_3055_nota_esquecida" />
       <item itemvalue="CMake Application.bee_3091_resta_um" />
       <item itemvalue="CMake Application.bee_3161_frutas_esquecidas" />
@@ -602,7 +657,11 @@
       <workItem from="1771603742430" duration="824000" />
       <workItem from="1771687652921" duration="6150000" />
       <workItem from="1771771916163" duration="5705000" />
-      <workItem from="1771786967449" duration="5960000" />
+      <workItem from="1771786967449" duration="5991000" />
+      <workItem from="1771873876532" duration="799000" />
+      <workItem from="1771985702734" duration="307000" />
+      <workItem from="1772053957311" duration="3501000" />
+      <workItem from="1772112252478" duration="967000" />
     </task>
     <task id="LOCAL-00001" summary="Tipos, Constantes e Variáveis">
       <option name="closed" value="true" />
@@ -724,7 +783,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771775272127</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Adição de novos exemplos de códigos para exercícios do Beecrowd, incluindo implementações em condicionais, sequenciais e repetições. Atualização do CMakeLists.txt para compilar os novos exemplos.">
+      <option name="closed" value="true" />
+      <created>1771800838720</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1771800838721</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -788,7 +855,8 @@
     <MESSAGE value="Remoção de arquivos e códigos obsoletos, ajuste no .gitignore" />
     <MESSAGE value="Adição de novos exemplos de códigos para resoluções de exercícios do Beecrowd, remoção de arquivos de cache e configurações gerados pelo CMake" />
     <MESSAGE value="Adição de novos exemplos de códigos para exercícios do Beecrowd, reorganização de diretórios e ajustes no .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adição de novos exemplos de códigos para exercícios do Beecrowd, reorganização de diretórios e ajustes no .gitignore" />
+    <MESSAGE value="Adição de novos exemplos de códigos para exercícios do Beecrowd, incluindo implementações em condicionais, sequenciais e repetições. Atualização do CMakeLists.txt para compilar os novos exemplos." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adição de novos exemplos de códigos para exercícios do Beecrowd, incluindo implementações em condicionais, sequenciais e repetições. Atualização do CMakeLists.txt para compilar os novos exemplos." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

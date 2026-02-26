@@ -26,6 +26,7 @@
 /home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_sequenciais/CMakeFiles/bee_3055_nota_esquecida.dir
 /home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_sequenciais/CMakeFiles/bee_3091_resta_um.dir
 /home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_sequenciais/CMakeFiles/bee_3161_frutas_esquecidas.dir
+/home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_sequenciais/CMakeFiles/bee_2702_escolha_dificil.dir
 /home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_sequenciais/CMakeFiles/edit_cache.dir
 /home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_sequenciais/CMakeFiles/rebuild_cache.dir
 /home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_condicionais/CMakeFiles/bee_1045_triangulos_if.dir
@@ -35,6 +36,10 @@
 /home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_condicionais/CMakeFiles/bee_3147_batalha_cinco_exercitos.dir
 /home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_condicionais/CMakeFiles/bee_3047_idade_dona_monica.dir
 /home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_condicionais/CMakeFiles/bee_3157_viva_a_ciencia.dir
+/home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_condicionais/CMakeFiles/bee_3170_bolinhas_de_natal.dir
+/home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_condicionais/CMakeFiles/bee_3173_estrela_de_natal.dir
+/home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_condicionais/CMakeFiles/bee_2344_notas_da_prova.dir
+/home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_condicionais/CMakeFiles/bee_2717_tempo_do_duende.dir
 /home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_condicionais/CMakeFiles/edit_cache.dir
 /home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_condicionais/CMakeFiles/rebuild_cache.dir
 /home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_repeticoes/CMakeFiles/bee_1029_fibonacci.dir
@@ -51,6 +56,11 @@
 /home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_repeticoes/CMakeFiles/bee_3037_jogando_dardos.dir
 /home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_repeticoes/CMakeFiles/bee_3039_brinquedos_papai_noel.dir
 /home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_repeticoes/CMakeFiles/bee_3040_arvore_natal.dir
+/home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_repeticoes/CMakeFiles/bee_2708_turistas_no_parque.dir
+/home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_repeticoes/CMakeFiles/bee_2770_tamanho_da_placa.dir
+/home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_repeticoes/CMakeFiles/bee_3089_presentes_de_natal.dir
+/home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_repeticoes/CMakeFiles/bee_1138.dir
+/home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_repeticoes/CMakeFiles/bee_1264.dir
 /home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_repeticoes/CMakeFiles/edit_cache.dir
 /home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_repeticoes/CMakeFiles/rebuild_cache.dir
 /home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/ed_grafos/CMakeFiles/bee_1191_recuperacao_arvore.dir
@@ -60,3 +70,6 @@
 /home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/ed_grafos/CMakeFiles/bee_1201_operacoes_abp_ii.dir
 /home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/ed_grafos/CMakeFiles/edit_cache.dir
 /home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/ed_grafos/CMakeFiles/rebuild_cache.dir
+/home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_expressoes/CMakeFiles/bee_1083_lexsim.dir
+/home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_expressoes/CMakeFiles/edit_cache.dir
+/home/rogerio/git/c_yt_course/cmake-build-debug/beecrowd/atp_expressoes/CMakeFiles/rebuild_cache.dir

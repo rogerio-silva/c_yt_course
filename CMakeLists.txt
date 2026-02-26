@@ -12,3 +12,4 @@ add_subdirectory(beecrowd/atp_condicionais)
 add_subdirectory(beecrowd/atp_repeticoes)
 add_subdirectory(beecrowd/ed_grafos)
 
+add_subdirectory(beecrowd/atp_expressoes)

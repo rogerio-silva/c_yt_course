@@ -10,5 +10,8 @@ add_executable(bee_3146_charadas_no_escuro bee_3146_charadas_no_escuro.c)
 add_executable(bee_3147_batalha_cinco_exercitos bee_3147_batalha_cinco_exercitos.c)
 add_executable(bee_3047_idade_dona_monica bee_3047_idade_dona_monica.c)
 add_executable(bee_3157_viva_a_ciencia bee_3157_viva_a_ciencia.c)
-
+add_executable(bee_3170_bolinhas_de_natal bee_3170_bolinhas_de_natal.c)
+add_executable(bee_3173_estrela_de_natal bee_3173_estrela_de_natal.c)
+add_executable(bee_2344_notas_da_prova bee_2344_notas_da_prova.c)
+add_executable(bee_2717_tempo_do_duende bee_2717_tempo_do_duende.c)
 
