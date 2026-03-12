@@ -1,4 +1,13 @@
 /home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -G Ninja -S /home/rogerio/git/c_yt_course -B /home/rogerio/git/c_yt_course/cmake-build-debug
 -- Configuring done (0.0s)
--- Generating done (0.0s)
--- Build files have been written to: /home/rogerio/git/c_yt_course/cmake-build-debug
+CMake Error at beecrowd/atp_repeticoes/CMakeLists.txt:25 (add_executable):
+  Cannot find source file:
+
+    bee_1264.cpp
+
+
+CMake Error at beecrowd/atp_repeticoes/CMakeLists.txt:25 (add_executable):
+  No SOURCES given to target: bee_1264
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

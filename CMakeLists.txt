@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 3.28)
-project(c_yt_course C)
+project(c_yt_course C CXX)
 
 set(CMAKE_C_STANDARD 99)
+set(CMAKE_CXX_STANDARD 17)
 
 add_subdirectory(estrut_controle)
 add_subdirectory(tipos_vars_consts)
@@ -11,5 +12,5 @@ add_subdirectory(beecrowd/atp_sequenciais)
 add_subdirectory(beecrowd/atp_condicionais)
 add_subdirectory(beecrowd/atp_repeticoes)
 add_subdirectory(beecrowd/ed_grafos)
-
 add_subdirectory(beecrowd/atp_expressoes)
+add_subdirectory(beecrowd/atp_vetores)
