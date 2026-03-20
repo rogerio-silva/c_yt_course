@@ -20,11 +20,10 @@
   <component name="CMakeRunConfigurationManager">
     <generated>
       <config projectName="c_yt_course" targetName="basico.c" />
+      <config projectName="c_yt_course" targetName="fatorial_Kaua" />
       <config projectName="c_yt_course" targetName="bee_1906_romanos_seq" />
       <config projectName="c_yt_course" targetName="vars_complexas.c" />
       <config projectName="c_yt_course" targetName="repeticao_for.c" />
-      <config projectName="c_yt_course" targetName="bee_3306_consulta_alteracao" />
-      <config projectName="c_yt_course" targetName="bee_1211_lista_telefonica" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -34,22 +33,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cc5b092-0025-4866-9340-38bfebf0d9e3" name="Changes" comment="Adição de novos exemplos de exercícios do Beecrowd, incluindo implementações de condicionais, repetições e sequenciais, além da atualização dos CMakeLists.txt para compilar os novos códigos.">
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bee_3255_fast" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bee_3255_final" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bee_3255_test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bee_3255_v3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bee_3255_v4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beecrowd/atp_vetores/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beecrowd/atp_vetores/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beecrowd/atp_vetores/bee_1211_lista_telefonica.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beecrowd/atp_vetores/bee_3306_consulta_alteracao.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beecrowd/atp_funcoes/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beecrowd/atp_funcoes/fatorial_Kaua.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +53,7 @@
     </persistenceIdMap>
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="175" />
+    <option name="cachedIndexableFilesCount" value="362" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
@@ -157,6 +145,7 @@
     "CMake Application.bee_3306_consulta_alteracao.executor": "Run",
     "CMake Application.c_yt_course.executor": "Run",
     "CMake Application.expressoes.executor": "Run",
+    "CMake Application.fatorial_Kaua.executor": "Run",
     "CMake Application.repeticao_do.c.executor": "Run",
     "CMake Application.repeticao_for.c.executor": "Run",
     "CMake Application.repeticao_for.executor": "Run",
@@ -181,7 +170,7 @@
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/home/rogerio/git/c_yt_course/beecrowd/atp_vetores",
+    "last_opened_file_path": "/home/rogerio/git/c_yt_course/beecrowd/atp_funcoes",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -194,35 +183,30 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/beecrowd/atp_funcoes" />
       <recent name="$PROJECT_DIR$/beecrowd/atp_vetores" />
       <recent name="$PROJECT_DIR$/beecrowd/atp_sequenciais" />
       <recent name="$PROJECT_DIR$/beecrowd/atp_condicionais" />
       <recent name="$PROJECT_DIR$/beecrowd/atp_repeticoes" />
-      <recent name="$PROJECT_DIR$/estrut_repeticao" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/beecrowd" />
       <recent name="$PROJECT_DIR$/beecrowd/atp_vetores" />
       <recent name="$PROJECT_DIR$/beecrowd/atp_condicionais" />
       <recent name="$PROJECT_DIR$/beecrowd/atp_sequenciais" />
-      <recent name="$PROJECT_DIR$/beecrowd" />
       <recent name="$PROJECT_DIR$/books/en" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.bee_3306_consulta_alteracao">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="CMake Application.fatorial_Kaua">
     <configuration name="c_yt_course" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory">
       <method v="2" />
     </configuration>
-    <configuration name="bee_1211_lista_telefonica" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="bee_1211_lista_telefonica" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c_yt_course" RUN_TARGET_NAME="bee_1211_lista_telefonica">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bee_3306_consulta_alteracao" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="bee_3306_consulta_alteracao" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c_yt_course" RUN_TARGET_NAME="bee_3306_consulta_alteracao">
+    <configuration name="fatorial_Kaua" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="fatorial_Kaua" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c_yt_course" RUN_TARGET_NAME="fatorial_Kaua">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -271,8 +255,7 @@
       <item itemvalue="C/C++ File.bee_1906_romanos_seq.c" />
       <item itemvalue="C/C++ File.repeticao_do.c" />
       <item itemvalue="C/C++ File.vars_inteiras.c" />
-      <item itemvalue="CMake Application.bee_1211_lista_telefonica" />
-      <item itemvalue="CMake Application.bee_3306_consulta_alteracao" />
+      <item itemvalue="CMake Application.fatorial_Kaua" />
       <item itemvalue="CMake Debug.c_yt_course" />
     </list>
     <recent_temporary>
@@ -329,7 +312,8 @@
       <workItem from="1772462698862" duration="129000" />
       <workItem from="1773351718579" duration="287000" />
       <workItem from="1773352015657" duration="47000" />
-      <workItem from="1773352073864" duration="3328000" />
+      <workItem from="1773352073864" duration="3358000" />
+      <workItem from="1774012368602" duration="1023000" />
     </task>
     <task id="LOCAL-00001" summary="Tipos, Constantes e Variáveis">
       <option name="closed" value="true" />
@@ -467,7 +451,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772113250286</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Adição de novos exemplos de exercícios do Beecrowd, incluindo implementações de condicionais, repetições e sequenciais, além da atualização dos CMakeLists.txt para compilar os novos códigos.">
+      <option name="closed" value="true" />
+      <created>1773355420101</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1773355420101</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
