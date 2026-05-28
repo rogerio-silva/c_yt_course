@@ -6,7 +6,7 @@
   <component name="BackendCodeEditorMiscSettings">
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
     <option name="/Default/Housekeeping/LiveTemplatesHousekeeping/HotspotSessionHintIsShown/@EntryValue" value="true" type="bool" />
-    <option name="/Default/Housekeeping/OptionsDialog/SelectedPageId/@EntryValue" value="RiderCppLiveTemplatesSettings" type="string" />
+    <option name="/Default/Housekeeping/OptionsDialog/SelectedPageId/@EntryValue" value="CppIncludesOrderOptions" type="string" />
   </component>
   <component name="CMakePresetLoader">{
   &quot;useNewFormat&quot;: true
@@ -19,11 +19,10 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="c_yt_course" targetName="basico.c" />
-      <config projectName="c_yt_course" targetName="fatorial_Kaua" />
-      <config projectName="c_yt_course" targetName="bee_1906_romanos_seq" />
-      <config projectName="c_yt_course" targetName="vars_complexas.c" />
-      <config projectName="c_yt_course" targetName="repeticao_for.c" />
+      <config projectName="Project" targetName="basico.c" />
+      <config projectName="Project" targetName="bee_1906_romanos_seq" />
+      <config projectName="Project" targetName="repeticao_for.c" />
+      <config projectName="Project" targetName="vars_complexas.c" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -33,11 +32,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cc5b092-0025-4866-9340-38bfebf0d9e3" name="Changes" comment="Adição de novos exemplos de exercícios do Beecrowd, incluindo implementações de condicionais, repetições e sequenciais, além da atualização dos CMakeLists.txt para compilar os novos códigos.">
-      <change afterPath="$PROJECT_DIR$/beecrowd/atp_funcoes/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beecrowd/atp_funcoes/fatorial_Kaua.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex_1.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex_2.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beecrowd/atp_funcoes/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/beecrowd/atp_funcoes/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-estrut_controle-Debug-d0ba738d59b3aa3f5ce4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-estrut_repeticao-Debug-45c6c686f4f1ee961bd3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-operadores_expressoes-Debug-381ddb580023a7cd8cda.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-tipos_vars_consts-Debug-5f6acb82db59a9659882.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +66,7 @@
     </persistenceIdMap>
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="362" />
+    <option name="cachedIndexableFilesCount" value="129" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
@@ -103,84 +116,85 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "C/C++ File.basico.c.executor": "Run",
-    "C/C++ File.bee_1045_triangulos.c.executor": "Run",
-    "C/C++ File.bee_1542_lendo_livros.c.executor": "Debug",
-    "C/C++ File.bee_1906_romanos.c.executor": "Run",
-    "C/C++ File.bee_1906_romanos_seq.c.executor": "Run",
-    "C/C++ File.condic.c.executor": "Run",
-    "C/C++ File.exercicio_resolvido_1.c.executor": "Run",
-    "C/C++ File.expressoes.c.executor": "Run",
-    "C/C++ File.repeticao_do.c.executor": "Run",
-    "C/C++ File.repeticao_for.c.executor": "Run",
-    "C/C++ File.repeticao_while.c.executor": "Run",
-    "C/C++ File.selecao.c.executor": "Run",
-    "C/C++ File.var_logica.c (1).executor": "Run",
-    "C/C++ File.var_logica.c.executor": "Run",
-    "C/C++ File.vars.c.executor": "Run",
-    "C/C++ File.vars_complexas.c.executor": "Run",
-    "C/C++ File.vars_inteiras.c.executor": "Run",
-    "C/C++ File.vars_reais.c.executor": "Run",
-    "CMake Application.basico.c.executor": "Run",
-    "CMake Application.basico.executor": "Run",
-    "CMake Application.bee_1029_fibonacci.executor": "Run",
-    "CMake Application.bee_1033_fib_chamadas_recursivas.executor": "Debug",
-    "CMake Application.bee_1119_fila_desempregados.executor": "Run",
-    "CMake Application.bee_1191_recuperacao_arvore.executor": "Run",
-    "CMake Application.bee_1194_prefixa_infixa_posfixa.executor": "Run",
-    "CMake Application.bee_1195_arvore_binaria_busca.executor": "Run",
-    "CMake Application.bee_1200_operacoes_abp_i.executor": "Run",
-    "CMake Application.bee_1906_romanos_seq.executor": "Run",
-    "CMake Application.bee_2547_montanha_russa.executor": "Run",
-    "CMake Application.bee_2547_montanha_russa_limite_peso.executor": "Run",
-    "CMake Application.bee_3037_jogando_dardos.executor": "Run",
-    "CMake Application.bee_3039_brinquedos_papai_noel.executor": "Run",
-    "CMake Application.bee_3040_arvore_natal.executor": "Run",
-    "CMake Application.bee_3047_idade_dona_monica.executor": "Run",
-    "CMake Application.bee_3306_consulta_alteracao.executor": "Run",
-    "CMake Application.c_yt_course.executor": "Run",
-    "CMake Application.expressoes.executor": "Run",
-    "CMake Application.fatorial_Kaua.executor": "Run",
-    "CMake Application.repeticao_do.c.executor": "Run",
-    "CMake Application.repeticao_for.c.executor": "Run",
-    "CMake Application.repeticao_for.executor": "Run",
-    "CMake Application.repeticao_while.executor": "Debug",
-    "CMake Application.vars.c.executor": "Run",
-    "CMake Application.vars_complexas.c.executor": "Run",
-    "CMake Debug.c_yt_course.executor": "Debug",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.RadMigrateCodeStyle": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "RunOnceActivity.west.config.association.type.startup.service": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ToolWindowCMake.ShowToolbar": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/home/rogerio/git/c_yt_course/beecrowd/atp_funcoes",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.github.copilot.settings.chat.ChatConfigurable",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;C/C++ File.basico.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.bee_1045_triangulos.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.bee_1542_lendo_livros.c.executor&quot;: &quot;Debug&quot;,
+    &quot;C/C++ File.bee_1906_romanos.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.bee_1906_romanos_seq.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.condic.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.exercicio_resolvido_1.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.expressoes.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.repeticao_do.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.repeticao_for.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.repeticao_while.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.selecao.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.var_logica.c (1).executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.var_logica.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.vars.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.vars_complexas.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.vars_inteiras.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.vars_reais.c.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.basico.c.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.basico.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.bee_1029_fibonacci.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.bee_1033_fib_chamadas_recursivas.executor&quot;: &quot;Debug&quot;,
+    &quot;CMake Application.bee_1119_fila_desempregados.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.bee_1191_recuperacao_arvore.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.bee_1194_prefixa_infixa_posfixa.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.bee_1195_arvore_binaria_busca.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.bee_1200_operacoes_abp_i.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.bee_1906_romanos_seq.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.bee_2547_montanha_russa.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.bee_2547_montanha_russa_limite_peso.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.bee_3037_jogando_dardos.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.bee_3039_brinquedos_papai_noel.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.bee_3040_arvore_natal.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.bee_3047_idade_dona_monica.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.bee_3306_consulta_alteracao.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.c_yt_course.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.expressoes.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.fatorial_Kaua.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.repeticao_do.c.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.repeticao_for.c.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.repeticao_for.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.repeticao_while.executor&quot;: &quot;Debug&quot;,
+    &quot;CMake Application.vars.c.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.vars_complexas.c.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Debug.c_yt_course.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.west.config.association.type.startup.service&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ToolWindowCMake.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/rogerio/git/c_yt_course/ex_1.c&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;language.rust.build.tool.cargo&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/beecrowd/atp_funcoes" />
@@ -197,16 +211,11 @@
       <recent name="$PROJECT_DIR$/books/en" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.fatorial_Kaua">
+  <component name="RunManager" selected="C/C++ File.condic.c">
     <configuration name="c_yt_course" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory">
       <method v="2" />
     </configuration>
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="fatorial_Kaua" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="fatorial_Kaua" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c_yt_course" RUN_TARGET_NAME="fatorial_Kaua">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -229,8 +238,8 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="condic.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="condic.c - Default" CONFIG_NAME="condic.c">
-      <option name="sourceFile" value="estrut_controle/condic.c" />
+    <configuration name="condic.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_yt_course" TARGET_NAME="condic.c" CONFIG_NAME="condic.c">
+      <option name="sourceFile" value="$PROJECT_DIR$/ex_1.c" />
       <option name="toolchainName" value="Default" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
@@ -255,7 +264,6 @@
       <item itemvalue="C/C++ File.bee_1906_romanos_seq.c" />
       <item itemvalue="C/C++ File.repeticao_do.c" />
       <item itemvalue="C/C++ File.vars_inteiras.c" />
-      <item itemvalue="CMake Application.fatorial_Kaua" />
       <item itemvalue="CMake Debug.c_yt_course" />
     </list>
     <recent_temporary>
@@ -314,6 +322,8 @@
       <workItem from="1773352015657" duration="47000" />
       <workItem from="1773352073864" duration="3358000" />
       <workItem from="1774012368602" duration="1023000" />
+      <workItem from="1779302104939" duration="1629000" />
+      <workItem from="1779991412051" duration="6000" />
     </task>
     <task id="LOCAL-00001" summary="Tipos, Constantes e Variáveis">
       <option name="closed" value="true" />
@@ -469,6 +479,7 @@
     <isAutomaticCheckingOnLaunch value="false" />
     <isAutomaticFoundErrors value="true" />
     <isAutomaticReloadCMake value="true" />
+    <isAutomaticBootstrapAfterUpdate value="false" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="RECENT_FILTERS">

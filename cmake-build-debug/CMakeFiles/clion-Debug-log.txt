@@ -1,13 +1,11 @@
-/home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/rogerio/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -G Ninja -S /home/rogerio/git/c_yt_course -B /home/rogerio/git/c_yt_course/cmake-build-debug
--- Configuring done (0.0s)
-CMake Error at beecrowd/atp_repeticoes/CMakeLists.txt:25 (add_executable):
-  Cannot find source file:
+/snap/clion/455/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/455/bin/ninja/linux/x64/ninja -G Ninja -S /home/rogerio/git/c_yt_course -B /home/rogerio/git/c_yt_course/cmake-build-debug
+-- The CXX compiler identification is unknown
+CMake Error at CMakeLists.txt:2 (project):
+  No CMAKE_CXX_COMPILER could be found.
 
-    bee_1264.cpp
-
-
-CMake Error at beecrowd/atp_repeticoes/CMakeLists.txt:25 (add_executable):
-  No SOURCES given to target: bee_1264
+  Tell CMake where to find the compiler by setting either the environment
+  variable "CXX" or the CMake cache entry CMAKE_CXX_COMPILER to the full path
+  to the compiler, or to the compiler name if it is in the PATH.
 
 
-CMake Generate step failed.  Build files cannot be regenerated correctly.
+-- Configuring incomplete, errors occurred!
